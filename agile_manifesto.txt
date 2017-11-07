@@ -11,6 +11,7 @@ together daily throughout the project.
 conveying information to and within a development 
 team is face-to-face conversation.
 7) Working software is the primary measure of progress.
-
+9) Continuous attention to technical excellence
+and good design enhances agility. 
 
 The End
