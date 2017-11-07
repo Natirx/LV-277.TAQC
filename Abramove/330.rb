@@ -8,16 +8,10 @@ def dividersSum(num)
     return sum
 end
 
-def isPerfect (num) 
-    digit = 1
-    while (digit <= num)
-        if dividersSum(digit) == digit
-            puts digit
-        end
-        digit += 1
-    end
-end
-
 print "Input numbers count: "
 count = gets.chomp.to_i
-puts isPerfect(count)
+(1..count).each do |digit|
+    if dividersSum(digit) == digit
+        puts digit
+    end
+end

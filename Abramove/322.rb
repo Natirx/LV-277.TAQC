@@ -1,6 +1,3 @@
-$maxDivider = 0
-$maxK = 0
-
 def dividersC(num)
     k = 0
     (1..num).each do |i|
@@ -11,16 +8,17 @@ def dividersC(num)
     return k
 end
 
-def maxDivider()
-    for num in 0..10000 
-        if (dividersC(num) > $maxK)
-            $maxK = dividersC(num)
-            $maxDivider = num
-        end
+puts "Wait a second, i'm compiling :)"
+maxK = 0
+maxDivider = 0
+(0..1000).each do |num|
+    countInNum = dividersC(num)
+    if (countInNum > maxK)
+        maxK = countInNum
+        maxDivider = num
     end
-    return $maxDivider
 end
+puts maxDivider
 
-puts maxDivider()
 
 
