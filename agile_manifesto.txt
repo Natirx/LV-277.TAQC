@@ -7,9 +7,16 @@ Agile processes harness change for the customer's competitive advantage.
 from a couple of weeks to a couple of months.
 4) Business people and developers must work
 together daily throughout the project.
+<<<<<<< HEAD
 5) Build projects around motivated individuals. 
 Give them the environment and support they need, and trust them to get the job done. ------- Danylo
+=======
+6)The most efficient and effective method of 
+conveying information to and within a development 
+team is face-to-face conversation.
+>>>>>>> 5c628e8276cbc960f009092c751508baa64a21ca
 7) Working software is the primary measure of progress.
-
+9) Continuous attention to technical excellence
+and good design enhances agility. 
 
 The End
