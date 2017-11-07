@@ -3,14 +3,12 @@ require 'set'
 class CalculationTask560
   def getSumDevidesOfNumber(number)
     sum = 0
-    (1..number - 1).each do |i|
-      sum += i if (number % i).zero?
-    end
+    (1..number - 1).each { |i| sum += i if (number % i).zero? }
     sum
   end
 
   def initialize
-    @sumOfNumbers = SortedSet.new
+    @sumOfNumbers = []
     @startNumber = 200
     @endNumber = 300
   end
@@ -18,14 +16,12 @@ class CalculationTask560
   def getTask560Result
     puts "Start number = #{@startNumber}\nEnd number = #{@endNumber}"
     puts 'All pairs of friendly numbers:'
-    (@startNumber..@endNumber - 1).each do |i|
-      (i + 1..@endNumber).each do |j|
-        if getSumDevidesOfNumber(i) == j && getSumDevidesOfNumber(j) == i
-          @sumOfNumbers.add([i, j])
-          print "#{i}, #{j}\n"
-        end
-      end
-    end
+    (@startNumber..@endNumber - 1).each { |i|
+      (i + 1..@endNumber).each { |j|
+        @sumOfNumbers << [i, j] if getSumDevidesOfNumber(i) == j && getSumDevidesOfNumber(j) == i
+        }
+      }
+    print "Result: #{@sumOfNumbers}\n"
   end
 end
 

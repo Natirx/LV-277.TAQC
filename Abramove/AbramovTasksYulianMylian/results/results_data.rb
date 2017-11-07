@@ -5,8 +5,6 @@ require '../task323/calculation_task323'
 require '../task182/calculation_task182'
 
 class ResultsData
-  def initialize;
-  end
 
   def getResults
     continue = 'y'
