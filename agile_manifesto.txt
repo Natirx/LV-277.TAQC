@@ -2,7 +2,10 @@
 Agile processes harness change for the customer's competitive advantage.
 3)The working product should be produced as often as possible, at regular intervals
 from a couple of weeks to a couple of months.
+<!-- try to generate conflikt -->
 4) Business people and developers must work
 together daily throughout the project.
+7) Working software is the primary measure of progress.
+
 
 The End
