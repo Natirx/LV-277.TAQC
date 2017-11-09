@@ -3,24 +3,19 @@
 require '../modules/helper.rb'
 
 class CalculationTask323
-  def initialize
-    @sumOfNumbers = []
-  end
-
-  def getNumberDivides(number)
-    data = []
-    (1..number).each { |i| data << i if (number % i).zero? }
-    data
+  def getDivides(number)
+    (1..number).select { |el| (number % el).zero? }
   end
 
   def getTask323Result
+    @resultData = []
     puts 'Enter number n:'
     @number = gets.chomp
     Helper.isNaturalNumber(@number)
     @number = @number.to_i
-    (1..@number - 1).each { |i| @sumOfNumbers << i if (getNumberDivides(i) & getNumberDivides(@number)).max == 1 }
+    @resultData = (1..@number - 1).find_all { |el| (getDivides(el) & getDivides(@number)).max == 1 }
     puts "All mutually simple numbers with #{@number} and smaller than it:"
-    print "#{@sumOfNumbers}\n"
+    print "#{@resultData}\n"
   rescue Exception => e
     puts e.message
     puts 'If you want to try input data one more enter \'y\' else enter any other for exit:'

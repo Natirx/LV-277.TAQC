@@ -3,25 +3,21 @@
 require '../modules/helper.rb'
 
 class CalculationTask182
-
   def getTask183Result
-    @countOfNumbers = 0
-    @sumOfNumbers = 0
+    @numberCount = 0
+    @resultData = 0
     puts 'Enter count numbers in sequence:'
     data = gets.chomp
     Helper.isNaturalNumber(data)
     @nNumber = data.to_i
     puts 'Sequence numbers:'
-    sequenceNumber = Array.new(@nNumber) { rand(1...100) }
-    print sequenceNumber
-    (0..@nNumber - 1).each { |i|
-      if (sequenceNumber[i].to_i % 5).zero? && !(sequenceNumber[i].to_i % 7).zero?
-        @sumOfNumbers += sequenceNumber[i].to_i
-        @countOfNumbers += 1
-      end
-    }
-    puts "\nSum of correct numbers from sequence = #{@sumOfNumbers}"
-    puts "Count of correct numbers from sequence = #{@countOfNumbers}"
+    sequenceNumbers = Array.new(@nNumber) { rand(1...100).to_i }
+    print sequenceNumbers
+    @resultSequence = sequenceNumbers.select{|el| (el % 5).zero? && !(el % 7).zero?}
+    @resultData = @resultSequence.sum
+    @numberCount = @resultSequence.length
+    puts "\nSum of correct numbers from sequence = #{@resultData}"
+    puts "Count of correct numbers from sequence = #{@numberCount}"
   rescue Exception => e
     puts e.message
     puts 'If you want to try input data one more enter \'y\' else enter any other for exit:'

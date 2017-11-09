@@ -1,14 +1,12 @@
 require 'set'
 
 class CalculationTask560
-  def getSumDevidesOfNumber(number)
-    sum = 0
-    (1..number - 1).each { |i| sum += i if (number % i).zero? }
-    sum
+  def getSumDevides(number)
+    (1..number - 1).select { |el| (number % el).zero? }.sum
   end
 
   def initialize
-    @sumOfNumbers = []
+    @resultData = []
     @startNumber = 200
     @endNumber = 300
   end
@@ -18,12 +16,12 @@ class CalculationTask560
     puts 'All pairs of friendly numbers:'
     (@startNumber..@endNumber - 1).each { |i|
       (i + 1..@endNumber).each { |j|
-        @sumOfNumbers << [i, j] if getSumDevidesOfNumber(i) == j && getSumDevidesOfNumber(j) == i
+        @resultData << [i, j] if getSumDevides(i) == j && getSumDevides(j) == i
         }
       }
-    print "Result: #{@sumOfNumbers}\n"
+    print "Result: #{@resultData}\n"
   end
 end
 
-# calculationTask560 = CalculationTask560.new
-# calculationTask560.getTask560Result
+calculationTask560 = CalculationTask560.new
+calculationTask560.getTask560Result
