@@ -1,0 +1,12 @@
+def amount_digits
+  puts 'Input you Numeric'
+  num = gets.chomp.to_i
+  sum = 0
+  while num > 1 do
+    sum += num%10
+    num /= 10
+  end
+  puts sum
+end
+
+amount_digits
