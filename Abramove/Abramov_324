@@ -1,0 +1,17 @@
+def mutuallySimple(p,q,i)
+  (q % i) == 0 && (p % i) != 0 && (i % p) != 0
+end
+
+def getResult
+  puts 'Input p'
+  p = gets.chomp.to_i
+  puts 'Input q'
+  q = gets.chomp.to_i
+  (2..q - 1).each do |i|
+    if mutuallySimple p,q,i
+      puts i
+    end
+  end
+end
+
+getResult

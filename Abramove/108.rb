@@ -1,10 +1,9 @@
 def input_n_result()
 n=gets.chomp.to_i
 i=0
-loop do
-break if 2**i>n
-i+=1
-end
+until 2**i > n 
+		i = i + 1
+	end
 return 2**i
 end
 

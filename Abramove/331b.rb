@@ -3,10 +3,10 @@ def x_y_z(a)
 	tmp=true;
 	loop{
 		res_x = a - x**2;
-		y=x;
+		y=x+1;
 		loop{
 			 res_xy = res_x - y**2; z = Integer(Math.sqrt(res_xy));
-			if z**2 == res_xy  
+			if (z>y && z**2 == res_xy)  
 				tmp = false; puts "\n#{x} #{y} #{z}";
 			end 
 				y = y+1;
