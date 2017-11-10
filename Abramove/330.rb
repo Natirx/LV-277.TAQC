@@ -1,6 +1,6 @@
 def dividersSum(num)
     sum = 0
-    for i in 1...num
+    (1...num).each do |i|
        if num % i == 0
            sum += i
        end
@@ -8,7 +8,7 @@ def dividersSum(num)
     return sum
 end
 
-print "Input numbers count: "
+puts "Input numbers count: "
 count = gets.chomp.to_i
 (1..count).each do |digit|
     if dividersSum(digit) == digit
