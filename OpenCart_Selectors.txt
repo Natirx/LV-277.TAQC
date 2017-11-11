@@ -1,7 +1,7 @@
  
 3). Search, Logo, Shopping Cart selectors (by Yulian): 
 Logo: div#logo img.img-responsive 
-Search button: button.btn.btn-default.btn-lg 
+Search button: button.btn.btn-default.btn-lg  
 Search input: input[name='search'] 
 Items button (black button): button.btn.btn-inverse.btn-block.btn-lg.dropdown-toggle 
 Shopping Cart: ul.list-inline li:nth-child(4) a
