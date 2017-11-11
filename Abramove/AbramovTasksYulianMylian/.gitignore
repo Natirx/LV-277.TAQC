@@ -1,0 +1,4 @@
+#.gitignore
+.idea/
+.ruby-gemset
+.ruby-version
