@@ -1,0 +1,7 @@
+.idea/
+.ruby-gemset
+.ruby-version
+log/
+allure-report/
+gen/
+html-reports/
