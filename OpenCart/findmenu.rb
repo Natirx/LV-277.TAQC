@@ -15,16 +15,8 @@ class LoginClass < Test::Unit::TestCase
   end
  
   def test_menu
-      # desktop = 'Desktops'
-      # desktop = ['Desktops', 'Components']
-      # for desktop in 0..desktop.length
-        # assert(@driver.find_element(:link, desktop).text.include?(desktop),"Assertion Failed")
-      # end 
-      assert(@driver.find_element(:link, 'Desktops').text.include?('Desktops'),"Assertion Failed")
-      assert(@driver.find_element(:link, 'Laptops & Notebooks').text.include?('Laptops & Notebooks'),"Assertion Failed")
-      assert(@driver.find_element(:link, 'Components').text.include?('Components'),"Assertion Failed")
-      assert(@driver.find_element(:link, 'Tablets').text.include?('Tablets'),"Assertion Failed")
-      assert(@driver.find_element(:link, 'Software').text.include?('Software'),"Assertion Failed")
+      desktop = ['Desktops', 'Laptops & Notebooks', 'Components', 'Tablets', 'Software', 'Phones & PDAs', 'Cameras', 'MP3 Players']
+      desktop.each{ |e| assert(@driver.find_element(:link, e).text.include?(e),"Assertion Failed")}
   end
 
 end
