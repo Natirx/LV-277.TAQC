@@ -15,7 +15,9 @@ class RegistrationBO < BusinessObject
     apply_register_account_data(user)
     danger_messages = @registration_page.inputs_text_danger_messages.reject { |item| item.text.to_s.empty? }
     if !danger_messages.size.zero? || !policy_alert_danger?
-      danger_messages.each { |item| @logger.error item.text }
+      unless danger_messages.empty?
+        danger_messages.each { |item| @logger.error item.text }
+      end
       logger.info 'Register new account was unsuccessful'
       return false
     else
@@ -25,7 +27,7 @@ class RegistrationBO < BusinessObject
   end
 
   def policy_alert_danger?
-    policy_alert_danger_message = @registration_page.policy_alert_danger.attribute('innerText').to_s
+    policy_alert_danger_message = @registration_page.policy_alert_danger.text
     logger.error policy_alert_danger_message
     policy_alert_danger_message.empty?
   end
@@ -50,10 +52,10 @@ class RegistrationBO < BusinessObject
     @registration_page.password_confirm.send_keys(user.password)
     @registration_page.radio_yes.click
     @registration_page.checkbox_policy.click
-    @registration_page.button_continue.submit
+    @registration_page.button_continue.click
   end
 
-  def clear_user_data()
+  def clear_user_data
     @registration_page.first_name.clear
     @registration_page.last_name.clear
     @registration_page.email.clear

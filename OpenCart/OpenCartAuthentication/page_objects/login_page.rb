@@ -5,7 +5,6 @@ require 'selenium/webdriver'
 require_relative 'page_object'
 
 class LoginPage < PageObject
-
   def initialize
     super
     @web_driver.get ConfigUtils.config_data('addtional_data')['login_link']
@@ -32,6 +31,13 @@ class LoginPage < PageObject
   end
 
   def invalid_login_alert_danger
-    @web_driver.find_elements(:css, 'div.alert.alert-danger')
+    wait = Selenium::WebDriver::Wait.new(timeout: 2)
+    begin
+      wait.until { @web_driver.find_element(:css, 'div.alert.alert-danger') }
+      return @web_driver.find_element(:css, 'div.alert.alert-danger')
+    rescue Selenium::WebDriver::Error::TimeOutError
+      ConfigUtils.logger.error 'Web element was not found'
+      return nil
+    end
   end
 end

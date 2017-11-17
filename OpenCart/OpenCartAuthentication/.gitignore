@@ -4,3 +4,5 @@
 log/
 allure-report/
 gen/
+run_tests
+rspec-report/
