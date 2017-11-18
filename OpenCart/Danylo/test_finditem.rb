@@ -1,7 +1,7 @@
 require "selenium-webdriver"
 require "test/unit"
  
-class LoginClass < Test::Unit::TestCase
+class FindItem < Test::Unit::TestCase
  
   def setup
       Selenium::WebDriver::Chrome.driver_path="C:/chromedriver_win32/chromedriver.exe"
@@ -18,6 +18,7 @@ class LoginClass < Test::Unit::TestCase
       @driver.find_element(:link, "Desktops").click
       @driver.find_element(:link, "Mac (1)").click
       assert(@driver.find_element(:link, 'iMac').text.include?('iMac'),"Assertion Failed")
+      sleep 2
   end
 
 end
