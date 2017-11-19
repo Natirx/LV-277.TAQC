@@ -2,7 +2,7 @@
 
 require_relative '../../spec/spec_helper'
 
-describe 'TasksCalculation' do
+describe 'TasksCalculation ' do
   before(:all) do
     $logger.info 'Abramov TaskCalculation spec test started'
   end
