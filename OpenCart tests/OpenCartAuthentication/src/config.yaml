@@ -1,7 +1,7 @@
 valid_user_credentials:
   first_name: 'Yulian'
   last_name: 'Mylian'
-  email: 'tuserfirst@gmail.com'
+  email: 'trever.benen@fxe.us'
   telephone: '+38 (063) 874 45 52'
   company: 'SoftServe'
   address_1: 'street Shevchenko 352/32'
@@ -43,6 +43,6 @@ user_login_data:
 
 addtional_data:
   registration_link: "http://oppencart.herokuapp.com/index.php?route=account/register"
-  login_link: "http://openncart.herokuapp.com/index.php?route=account/login"
-  account_link: "http://openncart.herokuapp.com/index.php?route=account/account"
+  login_link: "http://oppencart.herokuapp.com/index.php?route=account/login"
+  account_link: "http://oppencart.herokuapp.com/index.php?route=account/account"
 

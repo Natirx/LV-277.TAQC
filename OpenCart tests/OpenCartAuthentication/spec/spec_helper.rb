@@ -8,13 +8,8 @@ require_relative '../utils/web_driver_utils'
 require_relative '../models/user'
 require_relative '../business_objects/login_bo'
 require_relative '../business_objects/registration_bo'
-
-AllureRSpec.configure do |config|
+RSpec.configure do |config|
   config.include AllureRSpec::Adaptor
-
-  config.output_dir = 'gen/allure-results'
-
-  config.logging_level = $log
 
   $valid_user_data = ConfigUtils.assign_user_object_properties('valid_user_credentials')
 

@@ -2,7 +2,7 @@
 
 require 'pry'
 
-module CalcHelps
+module CalculationMethods
   def self.isNaturalNumber(data)
     if (data.to_f.to_s.split('.').last.to_i != 0) || !Float(data) || data.to_i.negative?
       raise "Invalid data entered: #{data.inspect}"

@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec'
-
 describe 'Login page' do
   before(:all) do
     $log.info 'Login page spec test started'

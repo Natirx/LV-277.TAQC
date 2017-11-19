@@ -6,10 +6,8 @@ require 'rspec'
 require_relative '../config_data'
 require_relative '../tasks_calculation'
 
-AllureRSpec.configure do |config|
+RSpec.configure do |config|
   config.include AllureRSpec::Adaptor
-  # config.output_dir = 'reports/allure-results'
-  config.logging_level = $logger
   $logger = ConfigData.logger
 
   $task_182_test_data = {

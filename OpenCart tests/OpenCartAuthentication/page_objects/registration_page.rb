@@ -87,8 +87,15 @@ class RegistrationPage < PageObject
     @web_driver.find_elements(:css, 'div.text-danger')
   end
 
-  def policy_alert_danger
-    @web_driver.find_element(:css, 'div.alert.alert-danger')
+  def alert_danger
+    wait = Selenium::WebDriver::Wait.new(timeout: 2)
+    begin
+      wait.until { @web_driver.find_element(:css, 'div.alert.alert-danger') }
+      return @web_driver.find_element(:css, 'div.alert.alert-danger')
+    rescue Selenium::WebDriver::Error::TimeOutError
+      ConfigUtils.logger.warn "Web element 'div.alert.alert-danger' was not found"
+      return nil
+    end
   end
 
   def account_created_header

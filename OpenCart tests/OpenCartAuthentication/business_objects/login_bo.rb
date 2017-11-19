@@ -14,18 +14,18 @@ class LoginBO < BusinessObject
 
   def login?(user)
     login_action(user)
-    if !@login_page.invalid_login_alert_danger.nil?
+    if !@login_page.login_alert_danger.nil?
       print_alert_danger_message
-      logger.error 'Login was unsuccessful'
-      return false
+      logger.info 'Login was unsuccessful'
+      false
     else
       logger.info 'Login was successful'
-      return true
-      end
+      true
+    end
   end
 
   def print_alert_danger_message
-    login_alert_danger_message = @login_page.invalid_login_alert_danger.text
+    login_alert_danger_message = @login_page.login_alert_danger.text
     logger.info login_alert_danger_message
   end
 

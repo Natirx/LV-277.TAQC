@@ -14,22 +14,26 @@ class RegistrationBO < BusinessObject
   def register_account?(user)
     apply_register_account_data(user)
     danger_messages = @registration_page.inputs_text_danger_messages.reject { |item| item.text.to_s.empty? }
-    if !danger_messages.size.zero? || !policy_alert_danger?
+    if danger_messages.size.zero? && policy_alert_danger?
+      logger.info 'Register new account was successful'
+      true
+    else
       unless danger_messages.empty?
-        danger_messages.each { |item| @logger.error item.text }
+        danger_messages.each { |item| @logger.info item.text }
       end
       logger.info 'Register new account was unsuccessful'
-      return false
-    else
-      logger.info 'Register new account was successful'
-      return true
+      false
     end
   end
 
   def policy_alert_danger?
-    policy_alert_danger_message = @registration_page.policy_alert_danger.text
-    logger.error policy_alert_danger_message
-    policy_alert_danger_message.empty?
+    if @registration_page.alert_danger.nil?
+      true
+    else
+      alert_danger_message = @registration_page.alert_danger.text
+      logger.info alert_danger_message
+      false
+    end
   end
 
   def manage_of_policy_checkbox

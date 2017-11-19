@@ -1,0 +1,7 @@
+#! /bin/bash   
+echo "Run rspec spec tests..."  
+rspec --format html -o "rspec-report/rspec_report.html"
+echo "Generate allure report..." 
+allure generate -c gen/allure-results  
+echo "Open generated allure report in firefox..." 
+firefox allure-report/index.html 

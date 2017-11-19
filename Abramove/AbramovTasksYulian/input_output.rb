@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'calc_helps'
+require_relative 'calculation_methods'
 require_relative 'config_data'
 require 'pry'
 
@@ -26,7 +26,7 @@ module InputOutput
   def self.input_natural_number(_yaml_task_data_id, input_data_key)
     task_data = ConfigData.config_data(_yaml_task_data_id)
     puts task_data['input_data'][input_data_key]
-    data = CalcHelps.isNaturalNumber(gets.chomp).to_i
+    data = CalculationMethods.isNaturalNumber(gets.chomp).to_i
   end
 
   def self.output_data(_yaml_task_data_id, _calculated_data)

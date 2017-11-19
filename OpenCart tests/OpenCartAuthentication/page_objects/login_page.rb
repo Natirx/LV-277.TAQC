@@ -30,14 +30,14 @@ class LoginPage < PageObject
     @web_driver.find_element(:css, 'div.form-group a')
   end
 
-  def invalid_login_alert_danger
+  def login_alert_danger
     wait = Selenium::WebDriver::Wait.new(timeout: 2)
     begin
       wait.until { @web_driver.find_element(:css, 'div.alert.alert-danger') }
-      return @web_driver.find_element(:css, 'div.alert.alert-danger')
+      @web_driver.find_element(:css, 'div.alert.alert-danger')
     rescue Selenium::WebDriver::Error::TimeOutError
-      ConfigUtils.logger.error 'Web element was not found'
-      return nil
+      ConfigUtils.logger.warn "Web element 'div.alert.alert-danger' was not found"
+      nil
     end
   end
 end

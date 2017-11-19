@@ -4,4 +4,4 @@
 log/
 allure-report/
 gen/
-html-reports/
+rspec-report/

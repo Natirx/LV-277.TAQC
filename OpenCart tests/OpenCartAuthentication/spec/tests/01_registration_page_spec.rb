@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'rspec'
-
 describe 'Registration page' do
   before(:all) do
     @registration_bo = RegistrationBO.new
@@ -26,7 +24,8 @@ describe 'Registration page' do
   context 'registration page positive tests group' do
     it 'should enter valid user account data - registration must be successful' do
       @registration_bo.clear_user_data
-      expect(@registration_bo.register_account?($valid_user_data)).to be true
+      registration_result = @registration_bo.register_account?($valid_user_data)
+      expect(registration_result).to be true
     end
   end
 
