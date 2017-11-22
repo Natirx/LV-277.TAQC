@@ -1,0 +1,6 @@
+require 'rubygems'
+require 'selenium-webdriver'
+require 'rspec'
+require_relative '../../pages/cart'
+require_relative '../../pages/main'
+require_relative '../../pages/page'
