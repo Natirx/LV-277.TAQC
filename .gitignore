@@ -96,6 +96,7 @@ hs_err_pid*
 /doc/
 /test-output/
 /.classpath
+/.buildpath
 /.project
 /.checkstyle
 /reports/
