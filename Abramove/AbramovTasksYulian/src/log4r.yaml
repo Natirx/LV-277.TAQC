@@ -6,7 +6,7 @@ log4r_config:
     - name      : MainLogger
       level     : ALL
       additive  : 'false'
-      trace     : 'false'
+      trace     : 'true'
       outputters:
         - console
         - rolling_file_outputter

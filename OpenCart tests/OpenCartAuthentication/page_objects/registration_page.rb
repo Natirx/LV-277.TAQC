@@ -88,7 +88,7 @@ class RegistrationPage < PageObject
   end
 
   def alert_danger
-    wait = Selenium::WebDriver::Wait.new(timeout: 2)
+    wait = Selenium::WebDriver::Wait.new(timeout: 5)
     begin
       wait.until { @web_driver.find_element(:css, 'div.alert.alert-danger') }
       return @web_driver.find_element(:css, 'div.alert.alert-danger')
