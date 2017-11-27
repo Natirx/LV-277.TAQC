@@ -1,10 +1,11 @@
 require 'rubygems'
 require 'selenium-webdriver'
 require "test/unit"
+require_relative '../data/application_source_repository.rb'
+require_relative '../pages/application.rb'
 require_relative '../pages/user/main_page.rb'
 
 class OppenCart < Test::Unit::TestCase
-  
   def ptest_oppen_cart
     puts "start test ..."
     #
@@ -64,7 +65,7 @@ class OppenCart < Test::Unit::TestCase
     driver.quit
   end
 
-  def test_oppen_cart_page_obj1
+  def ptest_oppen_cart_page_obj1
     # precondition
     Selenium::WebDriver::Chrome.driver_path="lib/chromedriver.exe"
     driver = Selenium::WebDriver.for :chrome
@@ -82,7 +83,33 @@ class OppenCart < Test::Unit::TestCase
     # return to previous state
     driver.quit
   end
-    
+
+  def setup
+    Application.get(ApplicationSourceRepository.chrome_heroku)
+    #appl = Application.new(ApplicationSourceRepository.firefox_heroku)
+    #print "\t***setup appl = "
+    #p appl
+    #sleep 5
+  end
+
+  def teardown
+    Application.remove
+  end
+
+  def test_oppen_cart_page_obj2
+    # precondition
+    #
+    # steps
+    actual = Application.get.load_home_page \
+            .choose_currency_dollar \
+            .price_macbook_product_text_withot_tax
+    #
+    # check
+    assert_equal "$602.00", actual
+    #
+    # return to previous state
+  end
+
 end
 
 # Test BAD. Mixed

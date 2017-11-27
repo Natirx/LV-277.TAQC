@@ -2,6 +2,10 @@ class ApplicationSourceRepository
 
   private_class_method :new
   
+  def self.default
+    chrome_heroku
+  end
+  
   def self.chrome_heroku
     ApplicationSource.new("chrome",
     "lib/chromedriver.exe", 10,
