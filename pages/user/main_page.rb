@@ -1,5 +1,8 @@
+require_relative '../../data/currency.rb'
+require_relative '../../data/currency_repository.rb'
+require_relative '../../tools/price_utils.rb'
+
 class MainPage
-  
   def initialize(driver)
     @driver = driver
     @navigation_panel = @driver.find_element(:id, "top")
@@ -14,7 +17,7 @@ class MainPage
   def navigation_panel
     @navigation_panel
   end
-  
+
   def currency
     # classic page object
     @currency
@@ -35,7 +38,7 @@ class MainPage
   def price_macbook_product
     @price_macbook_product
   end
-  
+
   # page object get text
 
   def price_macbook_product_text
@@ -61,6 +64,23 @@ class MainPage
 
   # business logic of page
 
+  # TODO name
+  def choose_currency_by_item(currency)
+    # TODO use OOP
+    case currency.name
+    when CurrencyRepository.currency_euro.name
+      # TODO
+      choose_currency_dollar
+    when CurrencyRepository.currency_pound_sterling.name
+      # TODO
+      choose_currency_dollar
+    when CurrencyRepository.currency_dollar.name
+      choose_currency_dollar
+    else
+      choose_currency_dollar
+    end
+  end
+
   def choose_currency_dollar
     #click_currency
     click_currency_dollar
@@ -70,6 +90,6 @@ class MainPage
 
   def price_macbook_product_text_withot_tax
     sleep 2
-    price_macbook_product_text()[0,7]
+    PriceUtils.price_by_text(price_macbook_product_text()[0,7])
   end
 end

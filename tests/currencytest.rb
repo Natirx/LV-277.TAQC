@@ -2,6 +2,10 @@ require 'rubygems'
 require 'selenium-webdriver'
 require "test/unit"
 require_relative '../data/application_source_repository.rb'
+require_relative '../data/currency.rb'
+require_relative '../data/currency_repository.rb'
+require_relative '../data/product.rb'
+require_relative '../data/product_repository.rb'
 require_relative '../pages/application.rb'
 require_relative '../pages/user/main_page.rb'
 
@@ -96,16 +100,19 @@ class OppenCart < Test::Unit::TestCase
     Application.remove
   end
 
-  def test_oppen_cart_page_obj2
+  def test_oppen_cart_page_obj2 #(product, currency)
     # precondition
+    product = ProductRepository.MacBook
+    currency = CurrencyRepository.currency_dollar
     #
     # steps
+    #choose_currency_dollar
     actual = Application.get.load_home_page \
-            .choose_currency_dollar \
+            .choose_currency_by_item(currency) \
             .price_macbook_product_text_withot_tax
     #
     # check
-    assert_equal "$602.00", actual
+    assert_equal  product.prices_by_currency_item(currency), actual
     #
     # return to previous state
   end
