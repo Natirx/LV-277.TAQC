@@ -1,7 +1,7 @@
 class PriceUtils
 
   private_class_method :new
-  
+
   def self.price_by_text(text)
     price_re = /\d+\.\d+/
     matcher = price_re.match(text)
@@ -12,5 +12,6 @@ class PriceUtils
     end
     matcher[0]
   end
+
 
 end
