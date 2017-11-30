@@ -8,9 +8,15 @@ class BrowserWrapper
   private
 
   def init_browser(application_source)
-    Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
     # TODO Use factory method
-    @driver = Selenium::WebDriver.for :chrome
+    if application_source.browserName.include?("chrome")
+      Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
+      @driver = Selenium::WebDriver.for :chrome
+    end
+    if application_source.browserName.include?("firefox")
+      Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
+      @driver = Selenium::WebDriver.for :firefox
+    end
     # TODO Move to strategy classes
     @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
   end
