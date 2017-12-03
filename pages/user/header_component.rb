@@ -1,71 +1,85 @@
 class HeaderComponent
 
   # page object get webelements
-
+  NAVIGATION_PANEL = {:id, "top"}
+  CURRENCY = {:css, ".btn.btn-link.dropdown-toggle"}
+  CURRENCY_OPTIONS = {:css, ".btn.btn-link.dropdown-toggle + ul > li > button"}
+  DOLLAR = {:name, "USD"}
+  EURO = {:name, "EUR"}
+  POUND = {:name, "GBP"}
+  MY_ACCOUNT = {:css, ".list-inline > li > a.dropdown-toggle"}
+  MY_ACCOUNT_LOGIN = {:css, ".list-inline > li > a.dropdown-toggle + ul > li:first-child > a"}
+  MY_ACCOUNT_REGISTER = {:css, ".list-inline > li > a.dropdown-toggle + ul > li:last-child > a"}
+  WISH_LIST = {:id, "wishlist-total"}
+  SHOPPING_CART = {:css, "a[title='Shopping Cart']"}
+  LOGO = {:css, "#logo > a"}
+  SEARCH_PRODUCT_FIELD = {:name, "search"}
+  SEARCH_PRODUCT_BUTTON = {:css, ".btn.btn-default.btn-lg"}
+  SHOPPING_CART_BLOCK = {:css, "#cart > button"}
   def navigation_panel
-    @driver.find_element(:id, "top")
+    @driver.find_element NAVIGATION_PANEL
   end
 
   def currency
-    @driver.find_element(:css, ".btn.btn-link.dropdown-toggle")
+    @driver.find_element CURRENCY
   end
   def currency_options
-    @driver.find_elements(:css, ".btn.btn-link.dropdown-toggle + ul > li > button")
+    @driver.find_elements CURRENCY_OPTIONS
   end
   def currency_dollar
     click_navigation_panel
     click_currency
-    @driver.find_element(:name, "USD")
+    @driver.find_element DOLLAR
   end
 
   def currency_euro
     click_navigation_panel
     click_currency
-    @driver.find_element(:name, "EUR")
+    @driver.find_element EURO
   end
 
   def currency_pound
     click_navigation_panel
     click_currency
-    @driver.find_element(:name, "GBP")
+    @driver.find_element POUND
   end
 
   def my_account
     #TODO if link is already displayed
     #add click somewhere else to close it
-    @driver.find_element(:css, ".list-inline > li > a.dropdown-toggle")
+    @driver.find_element MY_ACCOUNT
   end
 
   def my_account_login
-    @driver.find_element(:css, ".list-inline > li > a.dropdown-toggle + ul > li:first-child > a")
+    @driver.find_element MY_ACCOUNT_LOGIN
   end
 
   def my_account_register
-    @driver.find_element(:css, ".list-inline > li > a.dropdown-toggle + ul > li:last-child > a")
+    @driver.find_element MY_ACCOUNT_REGISTER
   end
 
   def wish_list
-    @driver.find_element(:id, "wishlist-total")
+    @driver.find_element WISH_LIST
   end
 
   def shopping_cart
-    @driver.find_element(:css, "a[title='Shopping Cart']")
+    @driver.find_element SHOPPING_CART
   end
 
   def logo
-    @driver.find_element(:css, "#logo > a")
+    @driver.find_element LOGO
   end
 
   def search_product_field
-    @driver.find_element(:name, "search"))
+    @driver.find_element SEARCH_PRODUCT_FIELD
   end
 
   def search_product_button
-    @driver.find_element(:css, ".btn.btn-default.btn-lg")
+    @driver.find_element SEARCH_PRODUCT_BUTTON
   end
 
   def shopping_cart_block
-    @driver.find_element(:css, "#cart > button")
+    @driver.find_element SHOPPING_CART_BLOCK
   end
 
   # page object get text
@@ -181,19 +195,32 @@ class HeaderComponent
     click_currency_pound
     MainPage.new @driver
   end
+  def choose_currency_by_item(currency)
+    # TODO use OOP
+    case currency.name
+    when CurrencyRepository.currency_euro.name
+      # TODO
+      choose_currency_dollar
+    when CurrencyRepository.currency_pound_sterling.name
+      # TODO
+      choose_currency_dollar
+    when CurrencyRepository.currency_dollar.name
+      choose_currency_dollar
+    else
+      choose_currency_dollar
+    end
+    def go_to_login_from_my_account
+      click_my_account_option_login
+      LoginPage.new
+    end
 
-  def go_to_login_from_my_account
-    click_my_account_option_login
-    LoginPage.new
+    def go_to_register_from_my_account
+      click_my_account_option_register
+      RegistrationPage.new
+    end
+
+
+
+
+
   end
-
-  def go_to_register_from_my_account
-    click_my_account_option_register
-    RegistrationPage.new
-  end
-
-
-
-
-
-end
