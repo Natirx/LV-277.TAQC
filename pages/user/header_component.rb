@@ -1,21 +1,21 @@
 class HeaderComponent
 
   # page object get webelements
-  NAVIGATION_PANEL = {:id, "top"}
-  CURRENCY = {:css, ".btn.btn-link.dropdown-toggle"}
-  CURRENCY_OPTIONS = {:css, ".btn.btn-link.dropdown-toggle + ul > li > button"}
-  DOLLAR = {:name, "USD"}
-  EURO = {:name, "EUR"}
-  POUND = {:name, "GBP"}
-  MY_ACCOUNT = {:css, ".list-inline > li > a.dropdown-toggle"}
-  MY_ACCOUNT_LOGIN = {:css, ".list-inline > li > a.dropdown-toggle + ul > li:first-child > a"}
-  MY_ACCOUNT_REGISTER = {:css, ".list-inline > li > a.dropdown-toggle + ul > li:last-child > a"}
-  WISH_LIST = {:id, "wishlist-total"}
-  SHOPPING_CART = {:css, "a[title='Shopping Cart']"}
-  LOGO = {:css, "#logo > a"}
-  SEARCH_PRODUCT_FIELD = {:name, "search"}
-  SEARCH_PRODUCT_BUTTON = {:css, ".btn.btn-default.btn-lg"}
-  SHOPPING_CART_BLOCK = {:css, "#cart > button"}
+  NAVIGATION_PANEL = {:id => "top"}
+  CURRENCY = {:css => ".btn.btn-link.dropdown-toggle"}
+  CURRENCY_OPTIONS = {:css => ".btn.btn-link.dropdown-toggle + ul > li > button"}
+  DOLLAR = {:name => "USD"}
+  EURO = {:name => "EUR"}
+  POUND = {:name => "GBP"}
+  MY_ACCOUNT = {:css => ".list-inline > li > a.dropdown-toggle"}
+  MY_ACCOUNT_LOGIN = {:css => ".list-inline > li > a.dropdown-toggle + ul > li:first-child > a"}
+  MY_ACCOUNT_REGISTER = {:css => ".list-inline > li > a.dropdown-toggle + ul > li:last-child > a"}
+  WISH_LIST = {:id => "wishlist-total"}
+  SHOPPING_CART = {:css => "a[title='Shopping Cart']"}
+  LOGO = {:css => "#logo > a"}
+  SEARCH_PRODUCT_FIELD = {:name => "search"}
+  SEARCH_PRODUCT_BUTTON = {:css => ".btn.btn-default.btn-lg"}
+  SHOPPING_CART_BLOCK = {:css => "#cart > button"}
   def navigation_panel
     @driver.find_element NAVIGATION_PANEL
   end
@@ -181,10 +181,7 @@ class HeaderComponent
 
   # business logic of page
 
-  def choose_curency_dollar
-    click_currency_dolar
-    MainPage.new @driver
-  end
+
 
   def choose_curency_euro
     click_currency_euro
@@ -195,32 +192,23 @@ class HeaderComponent
     click_currency_pound
     MainPage.new @driver
   end
-  def choose_currency_by_item(currency)
-    # TODO use OOP
-    case currency.name
-    when CurrencyRepository.currency_euro.name
-      # TODO
-      choose_currency_dollar
-    when CurrencyRepository.currency_pound_sterling.name
-      # TODO
-      choose_currency_dollar
-    when CurrencyRepository.currency_dollar.name
-      choose_currency_dollar
-    else
-      choose_currency_dollar
-    end
-    def go_to_login_from_my_account
-      click_my_account_option_login
-      LoginPage.new
-    end
 
-    def go_to_register_from_my_account
-      click_my_account_option_register
-      RegistrationPage.new
-    end
-
-
-
-
-
+  def choose_curency_dollar
+    click_currency_dolar
+    MainPage.new @driver
   end
+  def go_to_login_from_my_account
+    click_my_account_option_login
+    LoginPage.new
+  end
+
+  def go_to_register_from_my_account
+    click_my_account_option_register
+    RegistrationPage.new
+  end
+
+
+
+
+
+end
