@@ -20,10 +20,5 @@ class User
     @password = String.new
   end
 
-  def to_s
-    puts first_name
-  end
-
-
 end
 
