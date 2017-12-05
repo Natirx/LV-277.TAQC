@@ -8,7 +8,6 @@ class ApplicationSourceRepository
   
   def self.chrome_heroku
     ApplicationSource.new("chrome",
-    # TODO Change path to chromedriver.exe   
     "lib/chromedriver.exe", 10,
     "http://oppencart.herokuapp.com/",
     "http://oppencart.herokuapp.com/index.php?route=account/login",
@@ -19,7 +18,6 @@ class ApplicationSourceRepository
 
   def self.firefox_heroku
     ApplicationSource.new("firefox",
-    # TODO Change path to geckodriver.exe
     "lib/geckodriver.exe", 10,
     "http://oppencart.herokuapp.com/",
     "http://oppencart.herokuapp.com/index.php?route=account/login",
