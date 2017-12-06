@@ -1,0 +1,15 @@
+invalid_user_credentials:
+  first_name: 'Yulian'
+  last_name: 'Mylian'
+  email: 'tuserfirst@gmail.com'
+  phoneNumber: '+38 (063) 874 45 52'
+  company: 'SoftServe'
+  addressFirst: 'street Shevchenko 352/32'
+  city: 'Lviv'
+  postcode: '79069'
+  country: '220'
+  region: '3493'
+  password: 'tuserfirst12345'
+  policy: 'false'
+
+
