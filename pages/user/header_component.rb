@@ -2,6 +2,7 @@ class HeaderComponent
 
   # page object get webelements
   NAVIGATION_PANEL = {:id => "top"}
+  MACBOOK = {css: ".product-layout:first-child button:first-child"}
   CURRENCY = {:css => ".btn.btn-link.dropdown-toggle"}
   CURRENCY_OPTIONS = {:css => ".btn.btn-link.dropdown-toggle + ul > li > button"}
   DOLLAR = {:name => "USD"}
@@ -16,7 +17,8 @@ class HeaderComponent
   SEARCH_PRODUCT_FIELD = {:name => "search"}
   SEARCH_PRODUCT_BUTTON = {:css => ".btn.btn-default.btn-lg"}
   SHOPPING_CART_BLOCK = {:css => "#cart > button"}
-  def navigation_panel
+
+  def navigation_panels
     @driver.find_element NAVIGATION_PANEL
   end
 
@@ -36,6 +38,10 @@ class HeaderComponent
     click_navigation_panel
     click_currency
     @driver.find_element EURO
+  end
+
+  def macbook
+    @driver.find_element MACBOOK
   end
 
   def currency_pound
@@ -145,6 +151,11 @@ class HeaderComponent
   def click_currency_pound
     currency_pound.click
   end
+
+  def click_macbook
+    macbook.click
+  end
+
 
   #TODO
   def click_my_account_option_login

@@ -9,9 +9,9 @@ class Application
   private_class_method :new
 
   private
-  
+
   @@instance = nil
-  
+
   def initialize(application_source)
     @application_source = application_source
   end

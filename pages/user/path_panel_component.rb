@@ -1,3 +1,4 @@
+require_relative 'header_component.rb'
 class PathPanelComponent < HeaderComponent
 
   def home_logo
@@ -21,3 +22,5 @@ class PathPanelComponent < HeaderComponent
     MainPage.new
 
   end
+
+end

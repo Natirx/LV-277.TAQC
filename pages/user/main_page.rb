@@ -2,6 +2,7 @@ require_relative '../../data/currency.rb'
 require_relative '../../data/currency_repository.rb'
 require_relative '../../tools/price_utils.rb'
 require_relative 'header_component.rb'
+require_relative 'guest_cart_page.rb'
 
 
 class MainPage < HeaderComponent
@@ -33,7 +34,12 @@ class MainPage < HeaderComponent
   # page object atomic set clear
   # page object atomic set click
 
-
+  def click_item
+    click_macbook
+    click_macbook
+    click_shopping_cart
+    GuestCartPage.new @driver
+  end
 
   # business logic of page
   def choose_currency_by_item(currency)

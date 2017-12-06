@@ -1,6 +1,7 @@
 require_relative '../data/application_source.rb'
 
 class BrowserWrapper
+
   def initialize(application_source)
     init_browser(application_source)
   end
@@ -23,7 +24,7 @@ class BrowserWrapper
 
   def open_url(url)
     #@driver.get url
-    driver.get "http://oppencart.herokuapp.com/"
+    driver.get "http://openncart.herokuapp.com/"
   end
 
   def navigate_forward
