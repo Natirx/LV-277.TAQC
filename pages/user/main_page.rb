@@ -36,7 +36,6 @@ class MainPage < HeaderComponent
 
   def click_item
     click_macbook
-    click_macbook
     click_shopping_cart
     GuestCartPage.new @driver
   end

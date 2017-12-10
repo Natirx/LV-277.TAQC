@@ -1,6 +1,8 @@
 require_relative 'header_component.rb'
 class PathPanelComponent < HeaderComponent
-
+  def initialize driver
+    @drvier =driver
+  end
   def home_logo
     @driver.find_element(:css, ".fa.fa-home")
   end

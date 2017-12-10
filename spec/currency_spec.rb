@@ -4,14 +4,15 @@ require 'selenium-webdriver'
 
 
 describe "open_cart" do
-
-  context "given main_page" do
-    it "returns currency_dollar" do
-      product = ProductRepository.MacBook
-      currency = CurrencyRepository.currency_dollar
-      expect(Application.get.load_home_page
-             .choose_currency_by_item(currency)
-             .price_macbook_product_text_withot_tax).to eql(product.prices_by_currency_item(currency))
+  $data_provider_currency.each do |product, quantity, expect|
+    context "given main_page" do
+      it "returns currency_dollar" do
+        expect(Application.get.load_home_page
+               .delete_cookies
+               .click_item
+               .quantity(product, quantity))
+        .to eql(expect)
+      end
     end
   end
 end

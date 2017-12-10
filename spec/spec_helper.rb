@@ -7,9 +7,13 @@ require_relative '../data/product.rb'
 require_relative '../data/product_repository.rb'
 require_relative '../pages/application.rb'
 require_relative '../pages/user/main_page.rb'
+require_relative '../pages/user/guest_cart_page.rb'
 
 RSpec.configure do |config|
-
+  $data_provider_currency = [
+    [ProductRepository.MacBook.name, "2", "1,204.00"],
+    [ProductRepository.MacBook.name, "3", "1,806.00"]
+  ]
 
   config.before(:all) do
     Application.get(ApplicationSourceRepository.chrome_heroku)

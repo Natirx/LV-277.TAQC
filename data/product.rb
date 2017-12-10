@@ -1,6 +1,6 @@
 class Product
   attr_reader :name, :description, :prices
-  
+
   def initialize(name, description, prices)
     @name=name;
     @description=description;

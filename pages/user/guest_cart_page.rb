@@ -1,4 +1,6 @@
 require_relative 'path_panel_component.rb'
+require_relative 'main_page.rb'
+
 
 class GuestCartPage < PathPanelComponent
 
@@ -12,15 +14,18 @@ class GuestCartPage < PathPanelComponent
   COUPON_BUTTON = {:xpath =>".//a[starts-with(.,'Use Coupon')]"}
   GIFT_BUTTON = {:xpath => ".//a[starts-with(.,'Use Gift')]"}
   TOTAL_PRICE = {:xpath => ".//td[preceding-sibling::td[starts-with(.,'Total:')]]"}
-  TABLE_TR = {:css => ".table-responsive tbody tr td"}
-  TABLE_HEAD = {:css => ".table-responsive thead tr td"}
+  TABLE_BODY = {:css => ".table-responsive .table tr"}
+  TD = {:css => "td"}
+  INPUT = {:css => "input"}
+  UPDATE_BUTTON = {:css => "button[data-original-title = 'Update']"}
+  REMOVE_BUTTON = {:css => "button[data-original-title = 'Remove']"}
 
   def table_head
     @driver.find_elements TABLE_HEAD
   end
 
-  def table_tr
-    @driver.find_elements TABLE_TR
+  def table_body
+    @driver.find_elements TABLE_BODY
   end
 
   def continue_button
@@ -39,6 +44,16 @@ class GuestCartPage < PathPanelComponent
     @driver.find_element TOTAL_PRICE
   end
 
+
+
+
+
+  def send_keys name, text
+    get_input_field_by_name(name).clear
+    get_input_field_by_name(name).send_keys text
+
+  end
+
   # page object get text
 
 
@@ -48,36 +63,37 @@ class GuestCartPage < PathPanelComponent
 
 
   # page object atomic set click
-  @@table_head = []
-
-  def get_table_head
-    table_head.each do |head|
-      @@table_head << head.text
+  def find_row_with_name name
+    table_body.each do |row|
+      return row if row.text.include?(name)
     end
   end
 
-  def get_table_body_with_titles
-    @@table_tr = []
-    i = 0
-    table_tr.each do |row|
-      i =0 if i == 6
-      @@table_tr << [@@table_head[i] , row.text] if row.text != ''
-      i += 1
+  def print_row name
+    find_row_with_name(name).find_elements TD
+  end
+
+  def print_td name
+    print_row(name).each do |td|
+      td
     end
-    p @@table_tr
+  end
+  def get_input_field_by_name name
+    print_td(name)[3].find_element INPUT
+  end
+  def get_total_by_name name
+    print_td(name)[5].text.delete("$")
+  end
+  def click_update_button name
+    print_td(name)[3].find_element UPDATE_BUTTON
   end
 
-  def get_items_from_table
-    @@hash = Hash[@@table_tr.group_by(&:first).map{ |k,a| [k,a.map(&:last)] }]
-  end
-
-  def click_item_press_display
-    get_table_head
-    p @@table_head
+  def quantity name, text
+    delete_cookies
+    send_keys name, text
+    click_update_button(name).click
     sleep 2
-    get_table_body_with_titles
-    @@hash = Hash[@@table_tr.group_by(&:first).map{ |k,a| [k,a.map(&:last)] }]
-    p @@hash
-    @@hash["Product Name"]
+    get_total_by_name name
   end
+
 end
