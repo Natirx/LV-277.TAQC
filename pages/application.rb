@@ -23,17 +23,17 @@ class Application
   #end
 
   def self.get(application_source = nil)
-    print "\t***application_source = "
-    p application_source
-    print "\t***application instance = "
-    p @@instance
+    # print "\t***application_source = "
+    # p application_source
+    # print "\t***application instance = "
+    # p @@instance
     #puts "\t***application_source = #{application_source}"
     #if !@@instance
     if @@instance.nil?
       #if !application_source
       if application_source.nil?
         application_source = ApplicationSourceRepository.default
-        puts "\t***application_source default"
+        # puts "\t***application_source default"
       end
       #@@instance = Application.new(application_source) # Error for self
       @@instance = new(application_source)
@@ -42,7 +42,7 @@ class Application
     return @@instance
   end
 
-  def self.remove()
+  def self.remove
     if @@instance
       @@instance.browser.quit
       @@instance = nil
@@ -55,6 +55,11 @@ class Application
 
   def load_home_page
     browser.open_url(application_source.baseUrl)
+    MainPage.new(browser.driver)
+  end
+
+  def delete_cookiess
+    browser.delete_cookies
     MainPage.new(browser.driver)
   end
 

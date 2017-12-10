@@ -2,9 +2,9 @@ class User
   attr_reader :firstname, :lastname, :email, :phoneNumber, \
     :fax, :company, :addressFirst, :addressSecond, \
     :city, :postCode, :country, :region, \
-    :password, :subscribe 
-  
-  def initialize()
+    :password, :subscribe
+
+  def initialize
     @firstname=firstname;
     @lastname=lastname;
     @email=email;

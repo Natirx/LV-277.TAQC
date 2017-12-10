@@ -3,6 +3,7 @@ class HeaderComponent
   def initialize driver
     @driver = driver
   end
+
   # page object get webelements
   NAVIGATION_PANEL = {:id => "top"}
   MACBOOK = {css: ".product-layout:first-child button:first-child"}
@@ -11,8 +12,9 @@ class HeaderComponent
   DOLLAR = {:name => "USD"}
   EURO = {:name => "EUR"}
   POUND = {:name => "GBP"}
+  MY_ACCOUNT_UL = {css: ".list-inline > li > a.dropdown-toggle + ul a"}
   MY_ACCOUNT = {:css => ".list-inline > li > a.dropdown-toggle"}
-  MY_ACCOUNT_LOGIN = {:css => ".list-inline > li > a.dropdown-toggle + ul > li:first-child > a"}
+  MY_ACCOUNT_LOGIN = {:css => ".list-inline > li > a.dropdown-toggle + ul > li:last-child > a"}
   MY_ACCOUNT_REGISTER = {:css => ".list-inline > li > a.dropdown-toggle + ul > li:last-child > a"}
   WISH_LIST = {:id => "wishlist-total"}
   SHOPPING_CART = {:css => "a[title='Shopping Cart']"}
@@ -158,11 +160,19 @@ class HeaderComponent
   def click_macbook
     macbook.click
   end
+  def find_dropdown_my_account
+    click_my_account
+    @driver.find_elements MY_ACCOUNT_UL
+  end
+  def click_login_page
+    click_my_account
+    my_account_login.click
+  end
 
 
   #TODO
   def click_my_account_option_login
-    click_my_account.each do |value|
+    find_dropdown_my_account.each do |value|
       if (value.text) == "Login"
         @result = value
         break
@@ -173,7 +183,7 @@ class HeaderComponent
 
   #TODO
   def click_my_account_option_register
-    click_my_account.each do |value|
+    find_dropdown_my_account.each do |value|
       if (value.text) == "Register"
         @result = value
         break
@@ -209,17 +219,16 @@ class HeaderComponent
 
   def choose_curency_dollar
     click_currency_dolar
+    sleep 2
     MainPage.new @driver
   end
+
   def go_to_login_from_my_account
-    click_my_account_option_login
-    LoginPage.new
+    click_login_page
+    sleep 2
+    LoginPage.new @driver
   end
 
-  def go_to_register_from_my_account
-    click_my_account_option_register
-    RegistrationPage.new
-  end
 
 
 

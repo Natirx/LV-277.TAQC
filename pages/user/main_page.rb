@@ -3,41 +3,40 @@ require_relative '../../data/currency_repository.rb'
 require_relative '../../tools/price_utils.rb'
 require_relative 'header_component.rb'
 require_relative 'guest_cart_page.rb'
+require_relative 'login_page.rb'
+
 
 
 class MainPage < HeaderComponent
 
-  def initialize(driver)
+  def initialize driver
     @driver = driver
-    @macbook_product = @driver.find_element(:xpath, "//*[@class='caption']/h4/a[text()='MacBook']/../..")
-    @price_macbook_product = @macbook_product.find_element(:xpath, "./p[@class='price']")
   end
+
+  MACBOOK = {css: ".product-layout:first-child button:first-child"}
 
   # page object get webelements
 
 
-
-  def price_macbook_product
-    @price_macbook_product
+  def macbook
+    @driver.find_element MACBOOK
   end
 
   # page object get text
 
+  def click_macbook
+    macbook.click
+  end
 
-  def price_macbook_product_text
-    price_macbook_product.text
-  end
-  def macbook_product
-    @macbook_product
-  end
   # page object atomic set text
   # page object atomic set clear
   # page object atomic set click
 
   def click_item
     click_macbook
-    click_shopping_cart
-    GuestCartPage.new @driver
+    sleep 2
+    HeaderComponent.new @driver
+
   end
 
   # business logic of page

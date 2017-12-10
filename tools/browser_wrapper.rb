@@ -24,7 +24,7 @@ class BrowserWrapper
 
   def open_url(url)
     #@driver.get url
-    driver.get "http://openncart.herokuapp.com/"
+    driver.get "http://server7.pp.ua"
   end
 
   def navigate_forward
@@ -40,7 +40,7 @@ class BrowserWrapper
   end
 
   def delete_cookies
-    driver.manage.delete_cookies
+    driver.manage.delete_all_cookies
   end
 
   def quit
