@@ -2,6 +2,8 @@ require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
 require_relative './user/home_page.rb'
+require_relative './user/item_list_component.rb'
+
 
 class Application
   # TODO for multithreading
@@ -48,6 +50,7 @@ class Application
   def load_home_page
     browser.open_url(application_source.baseUrl)
     HomePage.new(browser.driver)
+
   end
 
   def login_user

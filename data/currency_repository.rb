@@ -23,4 +23,4 @@ class CurrencyRepository
 end
 
 #p a = CurrencyRepository.currency_all_menu
-p CurrencyRepository.currency_dollar.description
+#p CurrencyRepository.currency_dollar.description

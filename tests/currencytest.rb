@@ -32,19 +32,7 @@ class OppenCart < Test::Unit::TestCase
                .click_add_cart_button(product)
 
     sleep 3
-    # product = ProductRepository.MacBook
-    # currency = CurrencyRepository.currency_dollar
-    # #
-    # # steps
-    # #choose_currency_dollar
-    # actual = Application.get.load_home_page \
-    #   .choose_currency_by_item(currency) \
-    #   .price_macbook_product_text_withot_tax
-    # #
-    # # check
-    # assert_equal  product.prices_by_currency_item(currency), actual
-    #
-    # return to previous state
+
   end
 
 end

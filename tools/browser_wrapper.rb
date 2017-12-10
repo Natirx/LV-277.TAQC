@@ -22,9 +22,8 @@ class BrowserWrapper
     @driver
   end
 
-  def open_url(url)
-    #@driver.get url
-    driver.get "http://oppencart.herokuapp.com/"
+  def open_url url
+       driver.get url
   end
 
   def navigate_forward

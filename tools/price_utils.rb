@@ -10,8 +10,9 @@ class PriceUtils
       puts "There was no match..."
       exit
     end
-    matcher[0]
+    matcher[0].to_f
   end
 
 
 end
+
