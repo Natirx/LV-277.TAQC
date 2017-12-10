@@ -10,6 +10,7 @@ class MainPage
     #@dollar = @driver.find_element(:name, "USD")
     @macbook_product = @driver.find_element(:xpath, "//*[@class='caption']/h4/a[text()='MacBook']/../..")
     @price_macbook_product = @macbook_product.find_element(:xpath, "./p[@class='price']")
+
   end
 
   # page object get webelements

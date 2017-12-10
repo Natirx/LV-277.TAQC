@@ -10,8 +10,8 @@ require_relative '../pages/user/main_page.rb'
 
 RSpec.configure do |config|
   $data_provider_currency = [
-    [ProductRepository.MacBook, CurrencyRepository.currency_dollar],
-    [ProductRepository.iMac, CurrencyRepository.currency_dollar]
+      [ProductRepository.MacBook, CurrencyRepository.currency_dollar],
+      [ProductRepository.iMac, CurrencyRepository.currency_dollar]
   ]
 
   config.before(:all) do

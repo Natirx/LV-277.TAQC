@@ -1,5 +1,9 @@
+require_relative '../pages/user/header_menu_component.rb'
+require_relative '../pages/user/product_page.rb'
+require_relative '../pages/user/left_bar_component'
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
+require_relative '../data/header_menu/header_menu_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
 
 class Application
@@ -17,10 +21,6 @@ class Application
   end
 
   public
-
-  #def self.get()
-  #  self.get(nil)
-  #end
 
   def self.get(application_source = nil)
     print "\t***application_source = "
@@ -57,7 +57,23 @@ class Application
     browser.open_url(application_source.baseUrl)
     MainPage.new(browser.driver)
   end
+#############################################################
+  def load_header_menu_component
+    browser.open_url(application_source.baseUrl)
+    HeaderMenuComponent.new(browser.driver)
+  end
 
+  def load_product_page
+    browser.open_url(application_source.productPageUrl)
+    ProductPage.new(browser.driver)
+  end
+
+  def load_left_bar_component
+    browser.open_url(application_source.productPageUrl)
+    LeftBarComponent.new(browser.driver)
+  end
+
+#############################################################
   def login_user
     browser.open_url(application_source.userLoginUrl)
     # TODO change page

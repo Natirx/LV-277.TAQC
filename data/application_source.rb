@@ -1,11 +1,11 @@
 class ApplicationSource
   attr_reader :browserName, :driverPath, :implicitWaitTimeOut, \
     :baseUrl, :userLoginUrl, :userLogoutUrl, \
-    :adminLoginUrl, :adminLogoutUrl
+    :adminLoginUrl, :adminLogoutUrl, :productPageUrl
   
   def initialize(browserName, driverPath, implicitWaitTimeOut, \
     baseUrl, userLoginUrl, userLogoutUrl, \
-    adminLoginUrl, adminLogoutUrl)
+    adminLoginUrl, adminLogoutUrl, productPageUrl)
     @browserName = browserName
     @driverPath = driverPath
     @implicitWaitTimeOut = implicitWaitTimeOut
@@ -14,6 +14,7 @@ class ApplicationSource
     @userLogoutUrl = userLogoutUrl
     @adminLoginUrl = adminLoginUrl
     @adminLogoutUrl = adminLogoutUrl
+    @productPageUrl = productPageUrl
   end
 
 end
