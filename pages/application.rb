@@ -56,6 +56,11 @@ class Application
     MainPage.new(browser.driver)
   end
 #############################################################
+  def load_product_search_page_component
+    browser.open_url(application_source.baseUrl)
+    ProductSearchPage.new(browser.driver)
+  end
+
   def load_header_menu_component
     browser.open_url(application_source.baseUrl)
     HeaderMenuComponent.new(browser.driver)

@@ -14,6 +14,7 @@ class BrowserWrapper
     @driver = Selenium::WebDriver.for :chrome
     # TODO Move to strategy classes
     @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
+    @driver.manage.window.maximize
   end
 
   public
@@ -23,8 +24,8 @@ class BrowserWrapper
   end
 
   def open_url(url)
-    #@driver.get url
-    driver.get "http://openncart.herokuapp.com/"
+    @driver.get url
+    #driver.get "http://oppencart.herokuapp.com/"
   end
 
   def navigate_forward
