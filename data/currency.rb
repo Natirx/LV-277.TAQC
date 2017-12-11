@@ -7,5 +7,3 @@ class Currency
   end
 
 end
-
-a = Currency.new("asda", "asdasd")

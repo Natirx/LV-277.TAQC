@@ -9,7 +9,7 @@ class BrowserWrapper
   private
 
   def init_browser(application_source)
-    #Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
+    Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
     # TODO Use factory method
     @driver = Selenium::WebDriver.for :chrome
     # TODO Move to strategy classes

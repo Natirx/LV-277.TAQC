@@ -1,3 +1,5 @@
+require_relative '../pages/user/header_component.rb'
+require_relative '../pages/user/product_search_page.rb'
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
@@ -9,31 +11,27 @@ class Application
   private_class_method :new
 
   private
-
+  
   @@instance = nil
-
+  
   def initialize(application_source)
     @application_source = application_source
   end
 
   public
 
-  #def self.get()
-  #  self.get(nil)
-  #end
-
   def self.get(application_source = nil)
-    print "\t***application_source = "
-    p application_source
-    print "\t***application instance = "
-    p @@instance
+    #print "\t***application_source = "
+    #p application_source
+    #print "\t***application instance = "
+    #p @@instance
     #puts "\t***application_source = #{application_source}"
     #if !@@instance
     if @@instance.nil?
       #if !application_source
       if application_source.nil?
         application_source = ApplicationSourceRepository.default
-        puts "\t***application_source default"
+        #puts "\t***application_source default"
       end
       #@@instance = Application.new(application_source) # Error for self
       @@instance = new(application_source)
@@ -57,7 +55,23 @@ class Application
     browser.open_url(application_source.baseUrl)
     MainPage.new(browser.driver)
   end
+#############################################################
+  def load_header_menu_component
+    browser.open_url(application_source.baseUrl)
+    HeaderMenuComponent.new(browser.driver)
+  end
 
+  def load_product_page
+    browser.open_url(application_source.productPageUrl)
+    ProductPage.new(browser.driver)
+  end
+
+  def load_left_bar_component
+    browser.open_url(application_source.productPageUrl)
+    LeftBarComponent.new(browser.driver)
+  end
+
+#############################################################
   def login_user
     browser.open_url(application_source.userLoginUrl)
     # TODO change page

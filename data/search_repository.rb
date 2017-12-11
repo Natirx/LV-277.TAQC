@@ -56,7 +56,7 @@ class SearchRepository
     Search.new("+")
   end
 
-  def self.search_value_plus
+  def self.search_value_mac
     Search.new("mac")
   end
 

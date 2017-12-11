@@ -6,15 +6,13 @@ class ProductSearchPage < PathPanelComponent
 
   def initialize(driver)
     @driver = driver
-    @input_search = driver.find_element(:css, "input-search")
+    @input_search = driver.find_element(:css, "#search > input")
     @search_button = driver.find_element(:css, "button.btn.btn-default.btn-lg")
     @search_category = driver.find_element(:css, "select[name = 'category_id']")
     @search_subcategory = driver.find_element(:css, ".checkbox-inline > input[name = 'sub_category']")
     @search_description = driver.find_element(:css, ".checkbox-inline > input[name = 'description']")
     @search_criteria_button = driver.find_element(:css, "button-search")
     @search_value = driver.find_element(:css, "#content > h1")
-    @list_view_button = driver.find_element(:css, "#list-view")
-    @grid_view_button = driver.find_element(:css, "#grid-view")
   end
 
   def input_search
@@ -49,16 +47,6 @@ class ProductSearchPage < PathPanelComponent
     input_search.clear
   end
 
-  def list_view_button
-    @list_view_button
-  end
-
-  def grid_view_button
-    @grid_view_button
-  end
-
-  #
-
   def input_search_click
     input_search.click
   end
@@ -89,14 +77,6 @@ class ProductSearchPage < PathPanelComponent
 
   def search_description_click
     search_description.click
-  end
-
-  def list_view_button_click
-    list_view_button.click
-  end
-
-  def grid_view_button_click
-    grid_view_button.click
   end
 
 end
