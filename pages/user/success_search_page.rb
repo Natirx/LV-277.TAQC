@@ -10,7 +10,7 @@ class SuccessSearchPage < ProductSearchPage
     @items_found = driver.find_element(:xpath, "//*[@class='caption']/h4/a")
     @list_view_button = driver.find_element(:css, "#list-view")
     @grid_view_button = driver.find_element(:css, "#grid-view")
-    @sucess_search = driver.find_element(:xpath, "//*[@class='caption']/h4/a")
+    @sucess_search = driver.find_elements(:xpath, "//*[@class='caption']/h4/a")
     @search_category = driver.find_element(:css, "[name = 'category_id']")
     @search_subcategory = driver.find_element(:css, ".checkbox-inline > input[name = 'sub_category']")
     @search_description = driver.find_element(:css, ".checkbox-inline > input[name = 'description']")
@@ -76,6 +76,10 @@ class SuccessSearchPage < ProductSearchPage
 
   def search_description_click
     search_description.click
+  end
+
+  def search_all_items
+    count = sucess_search.count
   end
 
   def verify_location?
