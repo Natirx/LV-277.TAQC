@@ -205,7 +205,10 @@ class HeaderComponent
 
   # business logic of page
 
-
+  def go_to_empty_shooping_cart
+    click_shopping_cart
+    GuestCartPage.new @driver
+  end
 
   def choose_curency_euro
     click_currency_euro

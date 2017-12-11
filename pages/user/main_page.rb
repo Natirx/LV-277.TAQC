@@ -32,11 +32,9 @@ class MainPage < HeaderComponent
   # page object atomic set clear
   # page object atomic set click
 
-  def click_item
+  def click_macbookk
     click_macbook
-    sleep 2
     HeaderComponent.new @driver
-
   end
 
   # business logic of page

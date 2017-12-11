@@ -58,6 +58,7 @@ class Application
     MainPage.new(browser.driver)
   end
 
+
   def delete_cookiess
     browser.delete_cookies
     MainPage.new(browser.driver)

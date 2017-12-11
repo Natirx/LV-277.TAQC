@@ -103,7 +103,10 @@ class ShoppingCartPage < PathPanelComponent
     send_keys name, text
     click_update_button(name).click
     get_total_by_name name
+  end
 
+  def check_cart_page name
+    find_row_with_name(name).displayed?
   end
 
 end

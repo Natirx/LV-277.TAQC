@@ -37,4 +37,5 @@ class LoginPage < HeaderComponent
     ShoppingCartPage.new @driver
   end
 
+
 end
