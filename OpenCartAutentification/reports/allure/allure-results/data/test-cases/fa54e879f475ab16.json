@@ -1,0 +1,58 @@
+{
+  "uid" : "fa54e879f475ab16",
+  "name" : "Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared",
+  "fullName" : "Registration page fields tests group.Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared",
+  "historyId" : "3c94fc224d490c53da0d276cb2e989d5",
+  "time" : {
+    "start" : 1512983865229,
+    "stop" : 1512983866943,
+    "duration" : 1714
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "yulian-VirtualBox"
+  }, {
+    "name" : "thread",
+    "value" : "5156680"
+  }, {
+    "name" : "suite",
+    "value" : "Registration page fields tests group"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration page fields tests group"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared"
+  }, {
+    "name" : "package",
+    "value" : "Registration page fields tests group"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa54e879f475ab16.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
