@@ -21,7 +21,6 @@ class ProductSearchPage < PathPanelComponent
   end
 
   def input_search_text text
-    sleep 1
     input_search.send_keys text
     search_button.click
     SuccessSearchPage.new @driver
