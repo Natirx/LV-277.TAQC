@@ -5,8 +5,6 @@ describe "open_cart" do
                  .input_search_text(SearchRepository.search_value_percent.searchvalue)
                  .search_all_items)
           .to eql(15)
-
-      sleep 3
     end
   end
 end

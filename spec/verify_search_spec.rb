@@ -5,7 +5,6 @@ describe "open_cart" do
                  .input_search_text(SearchRepository.search_value_mac.searchvalue)
                  .verify_location?)
           .to be true
-      sleep 3
     end
   end
 end

@@ -5,7 +5,6 @@ describe "open_cart" do
                  .search_button_empty_click
                  .check_empty_search)
           .to be true
-      sleep 3
     end
   end
 end

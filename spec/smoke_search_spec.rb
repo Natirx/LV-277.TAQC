@@ -5,7 +5,6 @@ describe "open_cart" do
                  .input_search_text(SearchRepository.search_value_mac.searchvalue)
                  .search_value)
         .to eql(SearchRepository.search_value_mac.searchvalue)
-      sleep 3
     end
   end
 end
