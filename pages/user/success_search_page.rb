@@ -59,7 +59,7 @@ class SuccessSearchPage < ProductSearchPage
   end
 
   def search_value
-    @search_value.text[9, 100]
+    @search_value.text[9..-1]
   end
 
   def search_criteria_button
