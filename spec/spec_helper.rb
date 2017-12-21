@@ -1,4 +1,6 @@
 require 'selenium-webdriver'
+require 'allure-rspec'
+require 'pathname'
 
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
@@ -9,6 +11,9 @@ require_relative '../pages/application.rb'
 require_relative '../pages/user/main_page.rb'
 
 RSpec.configure do |config|
+
+  config.include AllureRSpec::Adaptor
+
   $data_provider_currency = [
     [ProductRepository.MacBook, CurrencyRepository.currency_dollar],
     [ProductRepository.iMac, CurrencyRepository.currency_dollar]
@@ -23,5 +28,10 @@ RSpec.configure do |config|
     Application.remove
   end
 
-end
+  AllureRSpec.configure do |config|
+    config.output_dir = "reports"      # default: gen/allure-results
+    config.clean_dir = false              # clean the output directory first? (default: true)
+    config.logging_level = Logger::DEBUG  # logging level (default: DEBUG)
+  end
 
+end
