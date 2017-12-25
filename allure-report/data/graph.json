@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "1a7b191cf1f96faa",
+    "name" : "open_cart test_price_cart return price",
+    "title" : "open_cart test_price_cart return price",
+    "time" : {
+      "start" : 1514222865106,
+      "stop" : 1514222869915,
+      "duration" : 4809
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

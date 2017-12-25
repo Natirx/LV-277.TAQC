@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1514222865106,
+    "stop" : 1514222869915,
+    "duration" : 4809
+  },
+  "testSuites" : [ {
+    "uid" : "5fb2332099784fc",
+    "name" : "open_cart test_price_cart",
+    "title" : "open_cart test_price_cart",
+    "time" : {
+      "start" : 1514222865106,
+      "stop" : 1514222869915,
+      "duration" : 4809
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "1a7b191cf1f96faa",
+      "name" : "open_cart test_price_cart return price",
+      "title" : "open_cart test_price_cart return price",
+      "time" : {
+        "start" : 1514222865106,
+        "stop" : 1514222869915,
+        "duration" : 4809
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

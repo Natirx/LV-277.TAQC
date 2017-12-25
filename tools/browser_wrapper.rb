@@ -10,8 +10,9 @@ class BrowserWrapper
 
   def init_browser(application_source)
     #Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
-    # TODO Use factory method
-    @driver = Selenium::WebDriver.for :chrome
+    options = Selenium::WebDriver::Chrome::Options.new
+    options.add_argument('--headless')
+    @driver = Selenium::WebDriver.for :chrome, options: options
     # TODO Move to strategy classes
     @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
   end
