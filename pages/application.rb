@@ -1,6 +1,12 @@
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
+require_relative 'user/shopping_cart_page/shopping_cart_atomic'
+require_relative 'user/shopping_cart_page/shopping_cart_bussiness'
+require_relative 'user/shopping_cart_page/shopping_cart_page'
+require_relative 'user/login_page/login_atomic_page'
+require_relative 'user/login_page/login_page'
+require_relative 'user/login_page/login_business_page'
 
 class Application
   # TODO for multithreading

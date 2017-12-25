@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1513188815767" stop="1513188819604">
+  <name>open_cart test_price_cart</name>
+  <title>open_cart test_price_cart</title>
+  <test-cases>
+    <test-case start="1513188815768" stop="1513188819604" status="passed">
+      <name>open_cart test_price_cart return price</name>
+      <title>open_cart test_price_cart return price</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="47378719280980"/>
+        <label name="host" value="andriy"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="47378719280980"/>
+    <label name="host" value="andriy"/>
+  </labels>
+</ns2:test-suite>

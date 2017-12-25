@@ -1,7 +1,11 @@
-class HeaderComponent
+ require_relative '../../tools/logger_wrapper'
 
+require_relative '../application'
+class HeaderComponent
+  attr_reader :driver, :logger
   def initialize driver
     @driver = driver
+     @logger = LoggerWrapper.logger
   end
 
   # page object get webelements
@@ -160,10 +164,12 @@ class HeaderComponent
   def click_macbook
     macbook.click
   end
+
   def find_dropdown_my_account
     click_my_account
     @driver.find_elements MY_ACCOUNT_UL
   end
+
   def click_login_page
     click_my_account
     my_account_login.click
@@ -229,12 +235,7 @@ class HeaderComponent
   def go_to_login_from_my_account
     click_login_page
     sleep 2
-    LoginPage.new @driver
+    LoginBusinessPage.new(LoginAtomicPage.new(@driver))
   end
-
-
-
-
-
 
 end

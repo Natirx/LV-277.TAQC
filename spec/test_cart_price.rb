@@ -5,7 +5,7 @@ describe "open_cart" do
         expect(Application.get.load_home_page
                .click_macbookk
                .go_to_login_from_my_account
-               .login_valid_user
+               .login_and_click_shopping_cart
                .check_total_price(product, quantity))
         .to eql(expect)
       end
