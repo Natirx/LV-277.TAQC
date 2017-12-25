@@ -1,11 +1,11 @@
- require_relative '../../tools/logger_wrapper'
+ #require_relative '../../tools/logger_wrapper'
 
 require_relative '../application'
 class HeaderComponent
   attr_reader :driver, :logger
   def initialize driver
     @driver = driver
-     @logger = LoggerWrapper.logger
+    # @logger = LoggerWrapper.logger
   end
 
   # page object get webelements
