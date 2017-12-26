@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1514314566747" stop="1514314581227">
+  <name>Registration page fields tests group</name>
+  <title>Registration page fields tests group</title>
+  <test-cases>
+    <test-case start="1514314566747" stop="1514314574400" status="passed">
+      <name>Registration page fields tests group should enter previously registered user account email - alert notification must be appear</name>
+      <title>Registration page fields tests group should enter previously registered user account email - alert notification must be appear</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11235140"/>
+        <label name="host" value="yulian-VirtualBox"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1514314574400" stop="1514314576358" status="passed">
+      <name>Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted</name>
+      <title>Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11235140"/>
+        <label name="host" value="yulian-VirtualBox"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1514314576358" stop="1514314578205" status="passed">
+      <name>Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared</name>
+      <title>Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11235140"/>
+        <label name="host" value="yulian-VirtualBox"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1514314578206" stop="1514314579634" status="passed">
+      <name>Registration page fields tests group should enter blank e-mail field value - error notification is appeared</name>
+      <title>Registration page fields tests group should enter blank e-mail field value - error notification is appeared</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11235140"/>
+        <label name="host" value="yulian-VirtualBox"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1514314579634" stop="1514314581227" status="passed">
+      <name>Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared</name>
+      <title>Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11235140"/>
+        <label name="host" value="yulian-VirtualBox"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="11235140"/>
+    <label name="host" value="yulian-VirtualBox"/>
+  </labels>
+</ns2:test-suite>

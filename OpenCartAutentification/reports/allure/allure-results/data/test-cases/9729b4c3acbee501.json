@@ -1,12 +1,12 @@
 {
-  "uid" : "a62fbbe98d59133f",
-  "name" : "Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared",
-  "fullName" : "Registration page fields tests group.Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared",
-  "historyId" : "42d42b8418b5004042d05ab8465b89a0",
+  "uid" : "9729b4c3acbee501",
+  "name" : "Registration page fields tests group should enter previously registered user account email - alert notification must be appear",
+  "fullName" : "Registration page fields tests group.Registration page fields tests group should enter previously registered user account email - alert notification must be appear",
+  "historyId" : "20a6719b01c2e60846ef6752e4dec5f",
   "time" : {
-    "start" : 1514313527960,
-    "stop" : 1514313530395,
-    "duration" : 2435
+    "start" : 1514314566747,
+    "stop" : 1514314574400,
+    "duration" : 7653
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "yulian-VirtualBox"
   }, {
     "name" : "thread",
-    "value" : "16502600"
+    "value" : "11235140"
   }, {
     "name" : "suite",
     "value" : "Registration page fields tests group"
@@ -30,7 +30,7 @@
     "value" : "Registration page fields tests group"
   }, {
     "name" : "testMethod",
-    "value" : "Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared"
+    "value" : "Registration page fields tests group should enter previously registered user account email - alert notification must be appear"
   }, {
     "name" : "package",
     "value" : "Registration page fields tests group"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a62fbbe98d59133f.json",
+  "source" : "9729b4c3acbee501.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

@@ -1,12 +1,12 @@
 {
-  "uid" : "c72bb0d866009d9b",
-  "name" : "Login page should enter valid registered user account data - login must be successful",
-  "fullName" : "Login page.Login page should enter valid registered user account data - login must be successful",
-  "historyId" : "62bbf6892c34758d3d5eafe9cdee7666",
+  "uid" : "232b1c40171b7ed9",
+  "name" : "Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear",
+  "fullName" : "Login page.Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear",
+  "historyId" : "f801034e7dcfb0b7a2d0bab554e0a326",
   "time" : {
-    "start" : 1514313578022,
-    "stop" : 1514313589844,
-    "duration" : 11822
+    "start" : 1514314613174,
+    "stop" : 1514314613835,
+    "duration" : 661
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -24,7 +24,7 @@
     "value" : "critical"
   }, {
     "name" : "thread",
-    "value" : "16502600"
+    "value" : "11235140"
   }, {
     "name" : "suite",
     "value" : "Login page"
@@ -33,7 +33,7 @@
     "value" : "Login page"
   }, {
     "name" : "testMethod",
-    "value" : "Login page should enter valid registered user account data - login must be successful"
+    "value" : "Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear"
   }, {
     "name" : "package",
     "value" : "Login page"
@@ -50,7 +50,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c72bb0d866009d9b.json",
+  "source" : "232b1c40171b7ed9.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

@@ -155,8 +155,8 @@ at_symbol_miss_email_data:
   policy: true
 
 valid_user_login_data:
-  email: 'test@gmail.com'
-  password: 'qwerty'
+  email: 'b10zddzvc98xzx12@gmail.com'
+  password: 'tuserfirst12345'
 
 invalid_user_login_data:
   email: 'AtestA@gmail.com'

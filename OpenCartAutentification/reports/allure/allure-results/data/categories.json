@@ -5,19 +5,47 @@
     "children" : [ {
       "name" : "\nexpected true\n     got false\n",
       "children" : [ {
-        "name" : "Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful",
-        "uid" : "a82d59514119ffe1",
+        "name" : "Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful",
+        "uid" : "76dcbd37c7201cbc",
         "parentUid" : "788cc6b342a31d1fc1531e0ee2a23864",
         "status" : "failed",
         "time" : {
-          "start" : 1514313564020,
-          "stop" : 1514313571456,
-          "duration" : 7436
+          "start" : 1514314597689,
+          "stop" : 1514314602991,
+          "duration" : 5302
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful",
+        "uid" : "3092be7bf382120f",
+        "parentUid" : "788cc6b342a31d1fc1531e0ee2a23864",
+        "status" : "failed",
+        "time" : {
+          "start" : 1514314603023,
+          "stop" : 1514314609048,
+          "duration" : 6025
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "788cc6b342a31d1fc1531e0ee2a23864"
+    }, {
+      "name" : "\nexpected false\n     got true\n",
+      "children" : [ {
+        "name" : "Login page should enter valid registered user account data - login must be successful",
+        "uid" : "44e67e6ce52c613b",
+        "parentUid" : "d3bd3c2b6d2474bb110d0ad6715096dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1514314613835,
+          "stop" : 1514314614470,
+          "duration" : 635
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3bd3c2b6d2474bb110d0ad6715096dc"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

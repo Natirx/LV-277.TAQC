@@ -1,12 +1,12 @@
 {
-  "uid" : "7f3e997b52f14d3b",
-  "name" : "Registration page fields tests group should enter previously registered user account email - alert notification must be appear",
-  "fullName" : "Registration page fields tests group.Registration page fields tests group should enter previously registered user account email - alert notification must be appear",
-  "historyId" : "20a6719b01c2e60846ef6752e4dec5f",
+  "uid" : "a7bae49beeece8ce",
+  "name" : "Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared",
+  "fullName" : "Registration page fields tests group.Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared",
+  "historyId" : "3c94fc224d490c53da0d276cb2e989d5",
   "time" : {
-    "start" : 1514313512311,
-    "stop" : 1514313525597,
-    "duration" : 13286
+    "start" : 1514314579634,
+    "stop" : 1514314581227,
+    "duration" : 1593
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "yulian-VirtualBox"
   }, {
     "name" : "thread",
-    "value" : "16502600"
+    "value" : "11235140"
   }, {
     "name" : "suite",
     "value" : "Registration page fields tests group"
@@ -30,7 +30,7 @@
     "value" : "Registration page fields tests group"
   }, {
     "name" : "testMethod",
-    "value" : "Registration page fields tests group should enter previously registered user account email - alert notification must be appear"
+    "value" : "Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared"
   }, {
     "name" : "package",
     "value" : "Registration page fields tests group"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7f3e997b52f14d3b.json",
+  "source" : "a7bae49beeece8ce.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

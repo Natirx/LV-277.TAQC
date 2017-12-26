@@ -1,12 +1,12 @@
 {
-  "uid" : "2c8aa24e4eba744b",
-  "name" : "Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear",
-  "fullName" : "Login page.Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear",
-  "historyId" : "f801034e7dcfb0b7a2d0bab554e0a326",
+  "uid" : "4d97974a168b2b45",
+  "name" : "Login page smoke test",
+  "fullName" : "Login page.Login page smoke test",
+  "historyId" : "edce88d33dc20f7e4f9c026ca7188334",
   "time" : {
-    "start" : 1514313576679,
-    "stop" : 1514313578021,
-    "duration" : 1342
+    "start" : 1514314613089,
+    "stop" : 1514314613173,
+    "duration" : 84
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -24,7 +24,7 @@
     "value" : "critical"
   }, {
     "name" : "thread",
-    "value" : "16502600"
+    "value" : "11235140"
   }, {
     "name" : "suite",
     "value" : "Login page"
@@ -33,7 +33,7 @@
     "value" : "Login page"
   }, {
     "name" : "testMethod",
-    "value" : "Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear"
+    "value" : "Login page smoke test"
   }, {
     "name" : "package",
     "value" : "Login page"
@@ -50,7 +50,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2c8aa24e4eba744b.json",
+  "source" : "4d97974a168b2b45.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

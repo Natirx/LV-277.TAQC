@@ -283,22 +283,22 @@ a {
   <dl style="margin-left: 0px;">
   <dt id="example_group_1" class="passed">Registration page</dt>
     <script type="text/javascript">moveProgressBar('7.6');</script>
-    <dd class="example passed"><span class="passed_spec_name">smoke test</span><span class='duration'>0.19518s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">smoke test</span><span class='duration'>0.19130s</span></dd>
   </dl>
 </div>
 <div id="div_group_2" class="example_group passed">
   <dl style="margin-left: 15px;">
   <dt id="example_group_2" class="passed">fields tests group</dt>
     <script type="text/javascript">moveProgressBar('15.3');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter previously registered user account email - alert notification must be appear</span><span class='duration'>13.28587s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">should enter previously registered user account email - alert notification must be appear</span><span class='duration'>7.65239s</span></dd>
     <script type="text/javascript">moveProgressBar('23.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter valid e-mail field value by common e-mail template - value is accepted</span><span class='duration'>2.36232s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">should enter valid e-mail field value by common e-mail template - value is accepted</span><span class='duration'>1.95760s</span></dd>
     <script type="text/javascript">moveProgressBar('30.7');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter cyrillic e-mail field value - error notification is appeared</span><span class='duration'>2.43531s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">should enter cyrillic e-mail field value - error notification is appeared</span><span class='duration'>1.84686s</span></dd>
     <script type="text/javascript">moveProgressBar('38.4');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter blank e-mail field value - error notification is appeared</span><span class='duration'>2.42300s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">should enter blank e-mail field value - error notification is appeared</span><span class='duration'>1.42772s</span></dd>
     <script type="text/javascript">moveProgressBar('46.1');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter e-mail field value without &#39;@&#39; symbol - error notification is appeared</span><span class='duration'>1.81008s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">should enter e-mail field value without &#39;@&#39; symbol - error notification is appeared</span><span class='duration'>1.59314s</span></dd>
   </dl>
 </div>
 <div id="div_group_3" class="example_group passed">
@@ -306,22 +306,43 @@ a {
   <dt id="example_group_3" class="passed">states tests group</dt>
     <script type="text/javascript">moveProgressBar('53.8');</script>
     <dd class="example passed"><span class="passed_spec_name">should enter one (or) more of required fields is not valid - registration
-        must be unsuccessful and error notification(s) must appear</span><span class='duration'>6.65504s</span></dd>
+        must be unsuccessful and error notification(s) must appear</span><span class='duration'>6.03408s</span></dd>
     <script type="text/javascript">moveProgressBar('61.5');</script>
     <dd class="example passed"><span class="passed_spec_name">should set policy checkbox in unchecked state - registration must be unsuccessful
-        and error notification(s) must appear</span><span class='duration'>15.56252s</span></dd>
-    <script type="text/javascript">moveProgressBar('69.2');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter all required fields is valid and not required fields is empty -
-        registration must be successful</span><span class='duration'>7.17130s</span></dd>
+        and error notification(s) must appear</span><span class='duration'>10.42575s</span></dd>
     <script type="text/javascript">makeRed('rspec-header');</script>
     <script type="text/javascript">makeRed('div_group_3');</script>
     <script type="text/javascript">makeRed('example_group_3');</script>
+    <script type="text/javascript">moveProgressBar('69.2');</script>
+    <dd class="example failed">
+      <span class="failed_spec_name">should enter all required fields is valid and not required fields is empty -
+        registration must be successful</span>
+      <span class="duration">5.30252s</span>
+      <div class="failure" id="failure_1">
+        <div class="message"><pre>  Failure/Error:
+    [0m[32mexpect[0m([1;34;4mApplication[0m.get.user_register_business_page
+               [0m.register([1;32m$valid_user_with_not_required_fields_empty[0m)
+               [0m.success_register_atomic_page?).to be [1;36mtrue[0m
+
+    expected true
+         got false
+  # ./spec/01_registration_page_spec.rb:76:in `block (3 levels) in &lt;top (required)&gt;&#39;
+  # /home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run&#39;</pre></div>
+        <div class="backtrace"><pre>./spec/01_registration_page_spec.rb:76:in `block (3 levels) in &lt;top (required)&gt;&#39;
+/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">74</span>    <span class="keyword">it</span> <span class="string"><span class="delimiter">'</span><span class="content">should enter all required fields is valid and not required fields is empty -
+<span class="linenum">75</span>        registration must be successful</span><span class="delimiter">'</span></span>, <span class="key">severity</span>: <span class="symbol">:critical</span> <span class="keyword">do</span>
+<span class="offending"><span class="linenum">76</span>      <span class="keyword">expect</span>(<span class="constant">Application</span>.get.user_register_business_page</span>
+<span class="linenum">77</span>                 .register(<span class="global-variable">$valid_user_with_not_required_fields_empty</span>)
+<span class="linenum">78</span>                 .success_register_atomic_page?).to be <span class="predefined-constant">true</span></code></pre>
+      </div>
+    </dd>
     <script type="text/javascript">moveProgressBar('76.9');</script>
     <dd class="example failed">
       <span class="failed_spec_name">should enter all required fields are valid and
         policy checkbox set in checked state - registration must be successful</span>
-      <span class="duration">7.43591s</span>
-      <div class="failure" id="failure_1">
+      <span class="duration">6.02504s</span>
+      <div class="failure" id="failure_2">
         <div class="message"><pre>  Failure/Error:
     [0m[32mexpect[0m([1;34;4mApplication[0m.get.user_register_business_page.register([1;32m$valid_user_data[0m)
                [0m.success_register_atomic_page?).to be [1;36mtrue[0m
@@ -345,15 +366,37 @@ a {
   <dl style="margin-left: 0px;">
   <dt id="example_group_4" class="passed">Login page</dt>
     <script type="text/javascript">moveProgressBar('84.6');</script>
-    <dd class="example passed"><span class="passed_spec_name">smoke test</span><span class='duration'>0.07674s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">smoke test</span><span class='duration'>0.08378s</span></dd>
     <script type="text/javascript">moveProgressBar('92.3');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter invalid user account data - login must be unsuccessful and alert danger message must be appear</span><span class='duration'>1.34223s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">should enter invalid user account data - login must be unsuccessful and alert danger message must be appear</span><span class='duration'>0.66116s</span></dd>
+    <script type="text/javascript">makeRed('div_group_4');</script>
+    <script type="text/javascript">makeRed('example_group_4');</script>
     <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">should enter valid registered user account data - login must be successful</span><span class='duration'>11.82169s</span></dd>
+    <dd class="example failed">
+      <span class="failed_spec_name">should enter valid registered user account data - login must be successful</span>
+      <span class="duration">0.63464s</span>
+      <div class="failure" id="failure_3">
+        <div class="message"><pre>  Failure/Error:
+    [0m[32mexpect[0m(@login_business_page.login(user)
+               [0m.alert_notification?).to be expected
+
+    expected false
+         got true
+  # ./spec/02_login_page_spec.rb:22:in `block (3 levels) in &lt;top (required)&gt;&#39;
+  # /home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run&#39;</pre></div>
+        <div class="backtrace"><pre>./spec/02_login_page_spec.rb:22:in `block (3 levels) in &lt;top (required)&gt;&#39;
+/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">20</span>  <span class="global-variable">$login_data_provider</span>.each <span class="keyword">do</span> |user, test_description, expected|
+<span class="linenum">21</span>    <span class="keyword">it</span> test_description, <span class="key">severity</span>: <span class="symbol">:critical</span> <span class="keyword">do</span>
+<span class="offending"><span class="linenum">22</span>      <span class="keyword">expect</span>(<span class="instance-variable">@login_business_page</span>.login(user)</span>
+<span class="linenum">23</span>                 .alert_notification?).to be expected
+<span class="linenum">24</span>    <span class="keyword">end</span></code></pre>
+      </div>
+    </dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>80.55092 seconds</strong>";</script>
-<script type="text/javascript">document.getElementById('totals').innerHTML = "13 examples, 1 failure";</script>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>50.49578 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('totals').innerHTML = "13 examples, 3 failures";</script>
 </div>
 </div>
 </body>

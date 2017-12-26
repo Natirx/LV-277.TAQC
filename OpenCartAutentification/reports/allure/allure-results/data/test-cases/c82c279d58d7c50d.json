@@ -1,12 +1,12 @@
 {
-  "uid" : "b9908fa79439157c",
-  "name" : "Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted",
-  "fullName" : "Registration page fields tests group.Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted",
-  "historyId" : "6db0f334cd268f5863f32025296cddf",
+  "uid" : "c82c279d58d7c50d",
+  "name" : "Registration page fields tests group should enter blank e-mail field value - error notification is appeared",
+  "fullName" : "Registration page fields tests group.Registration page fields tests group should enter blank e-mail field value - error notification is appeared",
+  "historyId" : "a1970fb6e95a0fb7006d30e37469da00",
   "time" : {
-    "start" : 1514313525597,
-    "stop" : 1514313527959,
-    "duration" : 2362
+    "start" : 1514314578206,
+    "stop" : 1514314579634,
+    "duration" : 1428
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "yulian-VirtualBox"
   }, {
     "name" : "thread",
-    "value" : "16502600"
+    "value" : "11235140"
   }, {
     "name" : "suite",
     "value" : "Registration page fields tests group"
@@ -30,7 +30,7 @@
     "value" : "Registration page fields tests group"
   }, {
     "name" : "testMethod",
-    "value" : "Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted"
+    "value" : "Registration page fields tests group should enter blank e-mail field value - error notification is appeared"
   }, {
     "name" : "package",
     "value" : "Registration page fields tests group"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b9908fa79439157c.json",
+  "source" : "c82c279d58d7c50d.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

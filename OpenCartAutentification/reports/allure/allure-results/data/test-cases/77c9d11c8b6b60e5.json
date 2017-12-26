@@ -1,12 +1,12 @@
 {
-  "uid" : "15315e0e1788074d",
-  "name" : "Login page smoke test",
-  "fullName" : "Login page.Login page smoke test",
-  "historyId" : "edce88d33dc20f7e4f9c026ca7188334",
+  "uid" : "77c9d11c8b6b60e5",
+  "name" : "Registration page smoke test",
+  "fullName" : "Registration page.Registration page smoke test",
+  "historyId" : "3be14b2133374396171636599087ed45",
   "time" : {
-    "start" : 1514313576602,
-    "stop" : 1514313576679,
-    "duration" : 77
+    "start" : 1514314566555,
+    "stop" : 1514314566747,
+    "duration" : 192
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,23 +20,20 @@
     "name" : "host",
     "value" : "yulian-VirtualBox"
   }, {
-    "name" : "severity",
-    "value" : "critical"
-  }, {
     "name" : "thread",
-    "value" : "16502600"
+    "value" : "11235140"
   }, {
     "name" : "suite",
-    "value" : "Login page"
+    "value" : "Registration page"
   }, {
     "name" : "testClass",
-    "value" : "Login page"
+    "value" : "Registration page"
   }, {
     "name" : "testMethod",
-    "value" : "Login page smoke test"
+    "value" : "Registration page smoke test"
   }, {
     "name" : "package",
-    "value" : "Login page"
+    "value" : "Registration page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -45,12 +42,12 @@
   "links" : [ ],
   "hidden" : false,
   "extra" : {
-    "severity" : "critical",
+    "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "15315e0e1788074d.json",
+  "source" : "77c9d11c8b6b60e5.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

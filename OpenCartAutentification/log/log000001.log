@@ -2529,3 +2529,24 @@ expected true
 [INFO 2017-12-26 20:51:51]: Warning: No match for E-Mail Address and/or Password.
 [INFO 2017-12-26 20:51:51]: Login was unsuccessful
 [INFO 2017-12-26 20:51:51]: Web driver quit
+[INFO 2017-12-26 20:56:06]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-26 20:56:14]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-26 20:56:14]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-26 20:56:16]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-26 20:56:18]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-26 20:56:19]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-26 20:56:21]: Web driver quit
+[INFO 2017-12-26 20:56:27]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-26 20:56:27]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-26 20:56:27]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-26 20:56:27]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-26 20:56:27]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-26 20:56:27]: City must be between 2 and 128 characters!
+[INFO 2017-12-26 20:56:27]: Password must be between 4 and 20 characters!
+[INFO 2017-12-26 20:56:37]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-26 20:56:49]: Web driver quit
+[INFO 2017-12-26 20:56:53]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-26 20:56:53]: Login was unsuccessful
+[INFO 2017-12-26 20:56:54]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-26 20:56:54]: Login was unsuccessful
+[INFO 2017-12-26 20:56:54]: Web driver quit

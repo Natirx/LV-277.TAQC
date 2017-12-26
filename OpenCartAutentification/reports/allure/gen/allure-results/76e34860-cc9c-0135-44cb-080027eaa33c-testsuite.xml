@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
-<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1514314306664" stop="1514314311987">
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1514314609209" stop="1514314614714">
   <name>Login page</name>
   <title>Login page</title>
   <test-cases>
-    <test-case start="1514314310490" stop="1514314310568" status="passed">
+    <test-case start="1514314613089" stop="1514314613173" status="passed">
       <name>Login page smoke test</name>
       <title>Login page smoke test</title>
       <steps/>
       <attachments/>
       <labels>
-        <label name="thread" value="4075320"/>
+        <label name="thread" value="11235140"/>
         <label name="host" value="yulian-VirtualBox"/>
         <label name="severity" value="critical"/>
       </labels>
       <parameters/>
     </test-case>
-    <test-case start="1514314310569" stop="1514314311115" status="passed">
+    <test-case start="1514314613174" stop="1514314613835" status="passed">
       <name>Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear</name>
       <title>Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear</title>
       <steps/>
       <attachments/>
       <labels>
-        <label name="thread" value="4075320"/>
+        <label name="thread" value="11235140"/>
         <label name="host" value="yulian-VirtualBox"/>
         <label name="severity" value="critical"/>
       </labels>
       <parameters/>
     </test-case>
-    <test-case start="1514314311115" stop="1514314311767" status="failed">
+    <test-case start="1514314613835" stop="1514314614470" status="failed">
       <name>Login page should enter valid registered user account data - login must be successful</name>
       <title>Login page should enter valid registered user account data - login must be successful</title>
       <failure>
@@ -77,10 +77,10 @@ expected false
       </failure>
       <steps/>
       <attachments>
-        <attachment source="0ab868e8ce508cdd0f1eea30a1e19c1d8104cfdc84d6c8096cdccdb09c7889c1-attachment.png" title="Account Login 26-12-2017 20:51:51.png" size="74042" type="image/png"/>
+        <attachment source="0ab868e8ce508cdd0f1eea30a1e19c1d8104cfdc84d6c8096cdccdb09c7889c1-attachment.png" title="Account Login 26-12-2017 20:56:54.png" size="74042" type="image/png"/>
       </attachments>
       <labels>
-        <label name="thread" value="4075320"/>
+        <label name="thread" value="11235140"/>
         <label name="host" value="yulian-VirtualBox"/>
         <label name="severity" value="critical"/>
       </labels>
@@ -88,7 +88,7 @@ expected false
     </test-case>
   </test-cases>
   <labels>
-    <label name="thread" value="4075320"/>
+    <label name="thread" value="11235140"/>
     <label name="host" value="yulian-VirtualBox"/>
   </labels>
 </ns2:test-suite>

@@ -1,0 +1,90 @@
+{
+  "uid" : "44e67e6ce52c613b",
+  "name" : "Login page should enter valid registered user account data - login must be successful",
+  "fullName" : "Login page.Login page should enter valid registered user account data - login must be successful",
+  "historyId" : "62bbf6892c34758d3d5eafe9cdee7666",
+  "time" : {
+    "start" : 1514314613835,
+    "stop" : 1514314614470,
+    "duration" : 635
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\nexpected false\n     got true\n",
+    "trace" : "/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-support-3.7.0/lib/rspec/support.rb:97:in `block in <module:Support>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-support-3.7.0/lib/rspec/support.rb:106:in `notify_failure'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/fail_with.rb:35:in `fail_with'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:40:in `handle_failure'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:27:in `with_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:48:in `handle_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/expectation_target.rb:65:in `to'\r\n/home/yulian/Git folder/LV-277.TAQC/OpenCartAutentification/spec/02_login_page_spec.rb:22:in `block (3 levels) in <top (required)>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:254:in `instance_exec'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:254:in `block in run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `block in run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:604:in `run_around_example_hooks_for'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:251:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:628:in `block in run_examples'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `map'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `run_examples'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:590:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `map'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/configuration.rb:1896:in `with_suite_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:113:in `block in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/reporter.rb:79:in `report'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:112:in `run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:87:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:71:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:45:in `invoke'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/exe/rspec:4:in `<top (required)>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/rspec:22:in `load'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/rspec:22:in `<main>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/ruby_executable_hooks:15:in `eval'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/ruby_executable_hooks:15:in `<main>'",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "\nexpected false\n     got true\n",
+      "trace" : "/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-support-3.7.0/lib/rspec/support.rb:97:in `block in <module:Support>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-support-3.7.0/lib/rspec/support.rb:106:in `notify_failure'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/fail_with.rb:35:in `fail_with'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:40:in `handle_failure'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:27:in `with_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:48:in `handle_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/expectation_target.rb:65:in `to'\r\n/home/yulian/Git folder/LV-277.TAQC/OpenCartAutentification/spec/02_login_page_spec.rb:22:in `block (3 levels) in <top (required)>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:254:in `instance_exec'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:254:in `block in run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `block in run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:604:in `run_around_example_hooks_for'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:251:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:628:in `block in run_examples'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `map'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `run_examples'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:590:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `map'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/configuration.rb:1896:in `with_suite_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:113:in `block in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/reporter.rb:79:in `report'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:112:in `run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:87:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:71:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:45:in `invoke'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/exe/rspec:4:in `<top (required)>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/rspec:22:in `load'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/rspec:22:in `<main>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/ruby_executable_hooks:15:in `eval'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/ruby_executable_hooks:15:in `<main>'",
+      "flaky" : false
+    },
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "95675d62085ddac2",
+      "name" : "Account Login 26-12-2017 20:56:54.png",
+      "source" : "95675d62085ddac2.png",
+      "type" : "image/png",
+      "size" : 74042
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "yulian-VirtualBox"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "11235140"
+  }, {
+    "name" : "suite",
+    "value" : "Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login page should enter valid registered user account data - login must be successful"
+  }, {
+    "name" : "package",
+    "value" : "Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44e67e6ce52c613b.json",
+  "statusDetailsSafe" : {
+    "message" : "\nexpected false\n     got true\n",
+    "trace" : "/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-support-3.7.0/lib/rspec/support.rb:97:in `block in <module:Support>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-support-3.7.0/lib/rspec/support.rb:106:in `notify_failure'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/fail_with.rb:35:in `fail_with'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:40:in `handle_failure'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:50:in `block in handle_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:27:in `with_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/handler.rb:48:in `handle_matcher'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-expectations-3.7.0/lib/rspec/expectations/expectation_target.rb:65:in `to'\r\n/home/yulian/Git folder/LV-277.TAQC/OpenCartAutentification/spec/02_login_page_spec.rb:22:in `block (3 levels) in <top (required)>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:254:in `instance_exec'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:254:in `block in run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `block in with_around_and_singleton_context_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `block in with_around_example_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `block in run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:604:in `run_around_example_hooks_for'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/hooks.rb:466:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:457:in `with_around_example_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:500:in `with_around_and_singleton_context_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example.rb:251:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:628:in `block in run_examples'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `map'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:624:in `run_examples'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb:590:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `map'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/configuration.rb:1896:in `with_suite_hooks'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:113:in `block in run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/reporter.rb:79:in `report'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:112:in `run_specs'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:87:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:71:in `run'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb:45:in `invoke'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/gems/rspec-core-3.7.0/exe/rspec:4:in `<top (required)>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/rspec:22:in `load'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/rspec:22:in `<main>'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/ruby_executable_hooks:15:in `eval'\r\n/home/yulian/.rvm/gems/ruby-2.4.1@OpenCartAutentification/bin/ruby_executable_hooks:15:in `<main>'",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}
