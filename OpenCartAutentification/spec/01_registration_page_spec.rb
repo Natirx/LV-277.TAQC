@@ -15,9 +15,9 @@ describe 'Registration page' do
     end
   end
 
-  it 'smoke test' do
-    expect(@register_business_page.smoke?).to be true
-  end
+  # it 'smoke test' do
+  #   expect(@register_business_page.smoke?).to be true
+  # end
 
   # context 'fields tests group' do
   #   it  $registered_email_test_description do
