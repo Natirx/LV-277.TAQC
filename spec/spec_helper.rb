@@ -1,5 +1,10 @@
-require 'selenium-webdriver'
 
+
+require 'rspec'
+require 'allure-rspec'
+# require 'parallel_tests'
+require 'pathname'
+require 'selenium-webdriver'
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
 require_relative '../data/currency_repository.rb'
@@ -14,9 +19,16 @@ RSpec.configure do |config|
       [ProductRepository.iMac, CurrencyRepository.currency_dollar]
   ]
 
+  config.include AllureRSpec::Adaptor
+
   config.before(:all) do
     Application.get(ApplicationSourceRepository.chrome_heroku)
     #Application.get(ApplicationSourceRepository.firefox_heroku())
+  end
+
+  AllureRSpec.configure do |c|
+    c.output_dir = "reports"
+    c.clean_dir = false
   end
 
   config.after(:all) do
@@ -25,3 +37,4 @@ RSpec.configure do |config|
 
 end
 
+# ParallelTests.first_process? ? FileUtils.rm_rf(AllureRSpec::Config.output_dir) : sleep(1)

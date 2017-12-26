@@ -14,7 +14,6 @@ class ProductPage
 
   def verify_product_existing(product_title_name)
     @element_title = find_product_by_title(product_title_name)
-    # assert(@element_title.text.include?('Apple Cinema 30'),"Assertion Failed")
   end
 
 end

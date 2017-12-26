@@ -8,6 +8,11 @@ require_relative '../pages/user/header_menu_component.rb'
 require_relative '../pages/user/product_page.rb'
 require_relative '../pages/application.rb'
 
+RESULT = "Element is found"
+COMPONENT = "Components"
+MONITORS = "Monitors"
+PRODUCT_NAME = "Apple Cinema 30"
+
 describe "open_card" do
 
   context "Given title of the product" do
@@ -15,13 +20,11 @@ describe "open_card" do
     it "Return 'Element is found' if element is found" do
 
       @result
-      Application.get.load_header_menu_component.menu_subitem_click("Components", "Monitors")
-      if Application.get.load_product_page.verify_product_existing("Apple Cinema 30")
-        @result = "Element is found"
+      Application.get.load_header_menu_component.menu_subitem_click(COMPONENT, MONITORS)
+      if Application.get.load_product_page.verify_product_existing(PRODUCT_NAME)
+        @result = RESULT
       end
-      expect(@result).to eql("Element is found")
-
-      sleep 3
+      expect(@result).to eql(RESULT)
 
     end
 

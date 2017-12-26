@@ -23,10 +23,10 @@ class Application
   public
 
   def self.get(application_source = nil)
-    print "\t***application_source = "
-    p application_source
-    print "\t***application instance = "
-    p @@instance
+    # print "\t***application_source = "
+    # p application_source
+    # print "\t***application instance = "
+    # p @@instance
     #puts "\t***application_source = #{application_source}"
     #if !@@instance
     if @@instance.nil?
