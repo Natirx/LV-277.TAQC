@@ -1,12 +1,12 @@
 {
-  "uid" : "1e5ac5c2779a8a2",
+  "uid" : "15315e0e1788074d",
   "name" : "Login page smoke test",
   "fullName" : "Login page.Login page smoke test",
   "historyId" : "edce88d33dc20f7e4f9c026ca7188334",
   "time" : {
-    "start" : 1512983903948,
-    "stop" : 1512983904011,
-    "duration" : 63
+    "start" : 1514313576602,
+    "stop" : 1514313576679,
+    "duration" : 77
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -24,7 +24,7 @@
     "value" : "critical"
   }, {
     "name" : "thread",
-    "value" : "5156680"
+    "value" : "16502600"
   }, {
     "name" : "suite",
     "value" : "Login page"
@@ -50,7 +50,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1e5ac5c2779a8a2.json",
+  "source" : "15315e0e1788074d.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

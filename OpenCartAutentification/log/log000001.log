@@ -2497,3 +2497,35 @@ expected true
 [INFO 2017-12-11 11:18:36]: Web driver quit
 [INFO 2017-12-13 13:58:34]: Warning: No match for E-Mail Address and/or Password.
 [INFO 2017-12-13 13:58:34]: Login was unsuccessful
+[INFO 2017-12-26 20:38:32]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-26 20:38:45]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-26 20:38:45]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-26 20:38:47]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-26 20:38:50]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-26 20:38:52]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-26 20:38:54]: Web driver quit
+[INFO 2017-12-26 20:39:01]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-26 20:39:01]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-26 20:39:01]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-26 20:39:01]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-26 20:39:01]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-26 20:39:01]: City must be between 2 and 128 characters!
+[INFO 2017-12-26 20:39:01]: Password must be between 4 and 20 characters!
+[INFO 2017-12-26 20:39:16]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-26 20:39:23]: Register new account was successful
+[INFO 2017-12-26 20:39:23]: Your Account Has Been Created!
+[INFO 2017-12-26 20:39:23]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-26 20:39:23]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-26 20:39:23]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-26 20:39:23]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-26 20:39:31]: Web driver quit
+[INFO 2017-12-26 20:39:38]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-26 20:39:38]: Login was unsuccessful
+[INFO 2017-12-26 20:39:49]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-26 20:39:49]: Login was successful
+[INFO 2017-12-26 20:39:50]: Web driver quit
+[INFO 2017-12-26 20:51:51]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-26 20:51:51]: Login was unsuccessful
+[INFO 2017-12-26 20:51:51]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-26 20:51:51]: Login was unsuccessful
+[INFO 2017-12-26 20:51:51]: Web driver quit

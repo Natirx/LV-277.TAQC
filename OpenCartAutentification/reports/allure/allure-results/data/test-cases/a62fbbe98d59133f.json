@@ -1,12 +1,12 @@
 {
-  "uid" : "d260d7a352769295",
+  "uid" : "a62fbbe98d59133f",
   "name" : "Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared",
   "fullName" : "Registration page fields tests group.Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared",
   "historyId" : "42d42b8418b5004042d05ab8465b89a0",
   "time" : {
-    "start" : 1512983861167,
-    "stop" : 1512983863587,
-    "duration" : 2420
+    "start" : 1514313527960,
+    "stop" : 1514313530395,
+    "duration" : 2435
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "yulian-VirtualBox"
   }, {
     "name" : "thread",
-    "value" : "5156680"
+    "value" : "16502600"
   }, {
     "name" : "suite",
     "value" : "Registration page fields tests group"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d260d7a352769295.json",
+  "source" : "a62fbbe98d59133f.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

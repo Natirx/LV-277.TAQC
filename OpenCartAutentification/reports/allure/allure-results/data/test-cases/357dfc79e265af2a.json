@@ -1,12 +1,12 @@
 {
-  "uid" : "72d3535d4f671c6a",
+  "uid" : "357dfc79e265af2a",
   "name" : "Registration page fields tests group should enter blank e-mail field value - error notification is appeared",
   "fullName" : "Registration page fields tests group.Registration page fields tests group should enter blank e-mail field value - error notification is appeared",
   "historyId" : "a1970fb6e95a0fb7006d30e37469da00",
   "time" : {
-    "start" : 1512983863588,
-    "stop" : 1512983865228,
-    "duration" : 1640
+    "start" : 1514313530396,
+    "stop" : 1514313532819,
+    "duration" : 2423
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "yulian-VirtualBox"
   }, {
     "name" : "thread",
-    "value" : "5156680"
+    "value" : "16502600"
   }, {
     "name" : "suite",
     "value" : "Registration page fields tests group"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "72d3535d4f671c6a.json",
+  "source" : "357dfc79e265af2a.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

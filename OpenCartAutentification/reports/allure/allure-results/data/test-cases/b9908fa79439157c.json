@@ -1,12 +1,12 @@
 {
-  "uid" : "ea1f33be54195243",
+  "uid" : "b9908fa79439157c",
   "name" : "Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted",
   "fullName" : "Registration page fields tests group.Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted",
   "historyId" : "6db0f334cd268f5863f32025296cddf",
   "time" : {
-    "start" : 1512983858709,
-    "stop" : 1512983861166,
-    "duration" : 2457
+    "start" : 1514313525597,
+    "stop" : 1514313527959,
+    "duration" : 2362
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "yulian-VirtualBox"
   }, {
     "name" : "thread",
-    "value" : "5156680"
+    "value" : "16502600"
   }, {
     "name" : "suite",
     "value" : "Registration page fields tests group"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ea1f33be54195243.json",
+  "source" : "b9908fa79439157c.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

@@ -4,13 +4,13 @@
     "name" : "Registration page",
     "children" : [ {
       "name" : "Registration page smoke test",
-      "uid" : "cbcf226050b379e9",
+      "uid" : "b38b7c3993e90c91",
       "parentUid" : "72fccba881c3e75f03a2fb355b7be903",
       "status" : "passed",
       "time" : {
-        "start" : 1512983845704,
-        "stop" : 1512983845955,
-        "duration" : 251
+        "start" : 1514313512115,
+        "stop" : 1514313512310,
+        "duration" : 195
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -20,61 +20,61 @@
     "name" : "Registration page fields tests group",
     "children" : [ {
       "name" : "Registration page fields tests group should enter previously registered user account email - alert notification must be appear",
-      "uid" : "ee90a071f9f728cf",
+      "uid" : "7f3e997b52f14d3b",
       "parentUid" : "274087aa9eb2cfb9aad9d2a45619a8e9",
       "status" : "passed",
       "time" : {
-        "start" : 1512983845956,
-        "stop" : 1512983858708,
-        "duration" : 12752
+        "start" : 1514313512311,
+        "stop" : 1514313525597,
+        "duration" : 13286
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted",
-      "uid" : "ea1f33be54195243",
+      "uid" : "b9908fa79439157c",
       "parentUid" : "274087aa9eb2cfb9aad9d2a45619a8e9",
       "status" : "passed",
       "time" : {
-        "start" : 1512983858709,
-        "stop" : 1512983861166,
-        "duration" : 2457
+        "start" : 1514313525597,
+        "stop" : 1514313527959,
+        "duration" : 2362
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared",
-      "uid" : "d260d7a352769295",
+      "uid" : "a62fbbe98d59133f",
       "parentUid" : "274087aa9eb2cfb9aad9d2a45619a8e9",
       "status" : "passed",
       "time" : {
-        "start" : 1512983861167,
-        "stop" : 1512983863587,
-        "duration" : 2420
+        "start" : 1514313527960,
+        "stop" : 1514313530395,
+        "duration" : 2435
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Registration page fields tests group should enter blank e-mail field value - error notification is appeared",
-      "uid" : "72d3535d4f671c6a",
+      "uid" : "357dfc79e265af2a",
       "parentUid" : "274087aa9eb2cfb9aad9d2a45619a8e9",
       "status" : "passed",
       "time" : {
-        "start" : 1512983863588,
-        "stop" : 1512983865228,
-        "duration" : 1640
+        "start" : 1514313530396,
+        "stop" : 1514313532819,
+        "duration" : 2423
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared",
-      "uid" : "fa54e879f475ab16",
+      "uid" : "f7037d4c37e41ed6",
       "parentUid" : "274087aa9eb2cfb9aad9d2a45619a8e9",
       "status" : "passed",
       "time" : {
-        "start" : 1512983865229,
-        "stop" : 1512983866943,
-        "duration" : 1714
+        "start" : 1514313532819,
+        "stop" : 1514313534629,
+        "duration" : 1810
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -84,49 +84,49 @@
     "name" : "Registration page states tests group",
     "children" : [ {
       "name" : "Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear",
-      "uid" : "dadf6477545a9946",
+      "uid" : "a4c7bcba4318b1a9",
       "parentUid" : "533cd280d6a200cb668ee855902ae487",
       "status" : "passed",
       "time" : {
-        "start" : 1512983866944,
-        "stop" : 1512983872867,
-        "duration" : 5923
+        "start" : 1514313534630,
+        "stop" : 1514313541285,
+        "duration" : 6655
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear",
-      "uid" : "360f8832a0464cda",
+      "uid" : "35b04cf3a3efc9c3",
       "parentUid" : "533cd280d6a200cb668ee855902ae487",
       "status" : "passed",
       "time" : {
-        "start" : 1512983872868,
-        "stop" : 1512983888428,
-        "duration" : 15560
+        "start" : 1514313541286,
+        "stop" : 1514313556848,
+        "duration" : 15562
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful",
-      "uid" : "34f387f9139bb880",
+      "uid" : "c2cb90edbefa7b14",
       "parentUid" : "533cd280d6a200cb668ee855902ae487",
       "status" : "passed",
       "time" : {
-        "start" : 1512983888430,
-        "stop" : 1512983893966,
-        "duration" : 5536
+        "start" : 1514313556849,
+        "stop" : 1514313564020,
+        "duration" : 7171
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful",
-      "uid" : "c81eb838f0bcf21a",
+      "uid" : "a82d59514119ffe1",
       "parentUid" : "533cd280d6a200cb668ee855902ae487",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1512983893966,
-        "stop" : 1512983900202,
-        "duration" : 6236
+        "start" : 1514313564020,
+        "stop" : 1514313571456,
+        "duration" : 7436
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -136,37 +136,37 @@
     "name" : "Login page",
     "children" : [ {
       "name" : "Login page smoke test",
-      "uid" : "1e5ac5c2779a8a2",
+      "uid" : "15315e0e1788074d",
       "parentUid" : "eb3b0b8c2d2d588c1f596940912f379a",
       "status" : "passed",
       "time" : {
-        "start" : 1512983903948,
-        "stop" : 1512983904011,
-        "duration" : 63
+        "start" : 1514313576602,
+        "stop" : 1514313576679,
+        "duration" : 77
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear",
-      "uid" : "c79e808a58aa5419",
+      "uid" : "2c8aa24e4eba744b",
       "parentUid" : "eb3b0b8c2d2d588c1f596940912f379a",
       "status" : "passed",
       "time" : {
-        "start" : 1512983904011,
-        "stop" : 1512983904744,
-        "duration" : 733
+        "start" : 1514313576679,
+        "stop" : 1514313578021,
+        "duration" : 1342
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Login page should enter valid registered user account data - login must be successful",
-      "uid" : "42dd000077ba724d",
+      "uid" : "c72bb0d866009d9b",
       "parentUid" : "eb3b0b8c2d2d588c1f596940912f379a",
       "status" : "passed",
       "time" : {
-        "start" : 1512983904745,
-        "stop" : 1512983915797,
-        "duration" : 11052
+        "start" : 1514313578022,
+        "stop" : 1514313589844,
+        "duration" : 11822
       },
       "flaky" : false,
       "parameters" : [ ]

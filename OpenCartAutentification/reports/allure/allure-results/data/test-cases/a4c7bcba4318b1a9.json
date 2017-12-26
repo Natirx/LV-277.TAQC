@@ -1,12 +1,12 @@
 {
-  "uid" : "360f8832a0464cda",
-  "name" : "Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear",
-  "fullName" : "Registration page states tests group.Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear",
-  "historyId" : "a426043ac3f8f90357a22b7c1c73320a",
+  "uid" : "a4c7bcba4318b1a9",
+  "name" : "Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear",
+  "fullName" : "Registration page states tests group.Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear",
+  "historyId" : "1d94c32d05692eca2758b52b037116b4",
   "time" : {
-    "start" : 1512983872868,
-    "stop" : 1512983888428,
-    "duration" : 15560
+    "start" : 1514313534630,
+    "stop" : 1514313541285,
+    "duration" : 6655
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -24,7 +24,7 @@
     "value" : "critical"
   }, {
     "name" : "thread",
-    "value" : "5156680"
+    "value" : "16502600"
   }, {
     "name" : "suite",
     "value" : "Registration page states tests group"
@@ -33,7 +33,7 @@
     "value" : "Registration page states tests group"
   }, {
     "name" : "testMethod",
-    "value" : "Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear"
+    "value" : "Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear"
   }, {
     "name" : "package",
     "value" : "Registration page states tests group"
@@ -50,7 +50,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "360f8832a0464cda.json",
+  "source" : "a4c7bcba4318b1a9.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

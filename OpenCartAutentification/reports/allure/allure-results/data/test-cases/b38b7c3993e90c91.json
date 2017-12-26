@@ -1,12 +1,12 @@
 {
-  "uid" : "42dd000077ba724d",
-  "name" : "Login page should enter valid registered user account data - login must be successful",
-  "fullName" : "Login page.Login page should enter valid registered user account data - login must be successful",
-  "historyId" : "62bbf6892c34758d3d5eafe9cdee7666",
+  "uid" : "b38b7c3993e90c91",
+  "name" : "Registration page smoke test",
+  "fullName" : "Registration page.Registration page smoke test",
+  "historyId" : "3be14b2133374396171636599087ed45",
   "time" : {
-    "start" : 1512983904745,
-    "stop" : 1512983915797,
-    "duration" : 11052
+    "start" : 1514313512115,
+    "stop" : 1514313512310,
+    "duration" : 195
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -20,23 +20,20 @@
     "name" : "host",
     "value" : "yulian-VirtualBox"
   }, {
-    "name" : "severity",
-    "value" : "critical"
-  }, {
     "name" : "thread",
-    "value" : "5156680"
+    "value" : "16502600"
   }, {
     "name" : "suite",
-    "value" : "Login page"
+    "value" : "Registration page"
   }, {
     "name" : "testClass",
-    "value" : "Login page"
+    "value" : "Registration page"
   }, {
     "name" : "testMethod",
-    "value" : "Login page should enter valid registered user account data - login must be successful"
+    "value" : "Registration page smoke test"
   }, {
     "name" : "package",
-    "value" : "Login page"
+    "value" : "Registration page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -45,12 +42,12 @@
   "links" : [ ],
   "hidden" : false,
   "extra" : {
-    "severity" : "critical",
+    "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "42dd000077ba724d.json",
+  "source" : "b38b7c3993e90c91.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

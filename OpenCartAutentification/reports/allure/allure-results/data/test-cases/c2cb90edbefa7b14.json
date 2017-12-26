@@ -1,12 +1,12 @@
 {
-  "uid" : "34f387f9139bb880",
+  "uid" : "c2cb90edbefa7b14",
   "name" : "Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful",
   "fullName" : "Registration page states tests group.Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful",
   "historyId" : "eb500a474cac218710551e79692c66aa",
   "time" : {
-    "start" : 1512983888430,
-    "stop" : 1512983893966,
-    "duration" : 5536
+    "start" : 1514313556849,
+    "stop" : 1514313564020,
+    "duration" : 7171
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -24,7 +24,7 @@
     "value" : "critical"
   }, {
     "name" : "thread",
-    "value" : "5156680"
+    "value" : "16502600"
   }, {
     "name" : "suite",
     "value" : "Registration page states tests group"
@@ -50,7 +50,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "34f387f9139bb880.json",
+  "source" : "c2cb90edbefa7b14.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

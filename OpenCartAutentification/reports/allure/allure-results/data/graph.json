@@ -1,130 +1,130 @@
 [ {
-  "uid" : "72d3535d4f671c6a",
-  "name" : "Registration page fields tests group should enter blank e-mail field value - error notification is appeared",
-  "time" : {
-    "start" : 1512983863588,
-    "stop" : 1512983865228,
-    "duration" : 1640
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c81eb838f0bcf21a",
-  "name" : "Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful",
-  "time" : {
-    "start" : 1512983893966,
-    "stop" : 1512983900202,
-    "duration" : 6236
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "cbcf226050b379e9",
-  "name" : "Registration page smoke test",
-  "time" : {
-    "start" : 1512983845704,
-    "stop" : 1512983845955,
-    "duration" : 251
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea1f33be54195243",
-  "name" : "Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted",
-  "time" : {
-    "start" : 1512983858709,
-    "stop" : 1512983861166,
-    "duration" : 2457
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "360f8832a0464cda",
-  "name" : "Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear",
-  "time" : {
-    "start" : 1512983872868,
-    "stop" : 1512983888428,
-    "duration" : 15560
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d260d7a352769295",
+  "uid" : "a62fbbe98d59133f",
   "name" : "Registration page fields tests group should enter cyrillic e-mail field value - error notification is appeared",
   "time" : {
-    "start" : 1512983861167,
-    "stop" : 1512983863587,
-    "duration" : 2420
+    "start" : 1514313527960,
+    "stop" : 1514313530395,
+    "duration" : 2435
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1e5ac5c2779a8a2",
-  "name" : "Login page smoke test",
+  "uid" : "a82d59514119ffe1",
+  "name" : "Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful",
   "time" : {
-    "start" : 1512983903948,
-    "stop" : 1512983904011,
-    "duration" : 63
+    "start" : 1514313564020,
+    "stop" : 1514313571456,
+    "duration" : 7436
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "critical"
 }, {
-  "uid" : "c79e808a58aa5419",
-  "name" : "Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear",
+  "uid" : "357dfc79e265af2a",
+  "name" : "Registration page fields tests group should enter blank e-mail field value - error notification is appeared",
   "time" : {
-    "start" : 1512983904011,
-    "stop" : 1512983904744,
-    "duration" : 733
+    "start" : 1514313530396,
+    "stop" : 1514313532819,
+    "duration" : 2423
   },
   "status" : "passed",
-  "severity" : "critical"
+  "severity" : "normal"
 }, {
-  "uid" : "dadf6477545a9946",
+  "uid" : "a4c7bcba4318b1a9",
   "name" : "Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear",
   "time" : {
-    "start" : 1512983866944,
-    "stop" : 1512983872867,
-    "duration" : 5923
+    "start" : 1514313534630,
+    "stop" : 1514313541285,
+    "duration" : 6655
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "ee90a071f9f728cf",
-  "name" : "Registration page fields tests group should enter previously registered user account email - alert notification must be appear",
+  "uid" : "15315e0e1788074d",
+  "name" : "Login page smoke test",
   "time" : {
-    "start" : 1512983845956,
-    "stop" : 1512983858708,
-    "duration" : 12752
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa54e879f475ab16",
-  "name" : "Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared",
-  "time" : {
-    "start" : 1512983865229,
-    "stop" : 1512983866943,
-    "duration" : 1714
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "42dd000077ba724d",
-  "name" : "Login page should enter valid registered user account data - login must be successful",
-  "time" : {
-    "start" : 1512983904745,
-    "stop" : 1512983915797,
-    "duration" : 11052
+    "start" : 1514313576602,
+    "stop" : 1514313576679,
+    "duration" : 77
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "34f387f9139bb880",
+  "uid" : "b9908fa79439157c",
+  "name" : "Registration page fields tests group should enter valid e-mail field value by common e-mail template - value is accepted",
+  "time" : {
+    "start" : 1514313525597,
+    "stop" : 1514313527959,
+    "duration" : 2362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c8aa24e4eba744b",
+  "name" : "Login page should enter invalid user account data - login must be unsuccessful and alert danger message must be appear",
+  "time" : {
+    "start" : 1514313576679,
+    "stop" : 1514313578021,
+    "duration" : 1342
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c2cb90edbefa7b14",
   "name" : "Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful",
   "time" : {
-    "start" : 1512983888430,
-    "stop" : 1512983893966,
-    "duration" : 5536
+    "start" : 1514313556849,
+    "stop" : 1514313564020,
+    "duration" : 7171
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7f3e997b52f14d3b",
+  "name" : "Registration page fields tests group should enter previously registered user account email - alert notification must be appear",
+  "time" : {
+    "start" : 1514313512311,
+    "stop" : 1514313525597,
+    "duration" : 13286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7037d4c37e41ed6",
+  "name" : "Registration page fields tests group should enter e-mail field value without '@' symbol - error notification is appeared",
+  "time" : {
+    "start" : 1514313532819,
+    "stop" : 1514313534629,
+    "duration" : 1810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b38b7c3993e90c91",
+  "name" : "Registration page smoke test",
+  "time" : {
+    "start" : 1514313512115,
+    "stop" : 1514313512310,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c72bb0d866009d9b",
+  "name" : "Login page should enter valid registered user account data - login must be successful",
+  "time" : {
+    "start" : 1514313578022,
+    "stop" : 1514313589844,
+    "duration" : 11822
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "35b04cf3a3efc9c3",
+  "name" : "Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear",
+  "time" : {
+    "start" : 1514313541286,
+    "stop" : 1514313556848,
+    "duration" : 15562
   },
   "status" : "passed",
   "severity" : "critical"
