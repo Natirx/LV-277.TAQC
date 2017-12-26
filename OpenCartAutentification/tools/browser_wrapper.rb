@@ -3,7 +3,7 @@
 require 'pry'
 require 'selenium/webdriver'
 require_relative '../data/application_source_repository'
-require_relative 'driver_factory/firefox_driver' 
+require_relative 'driver_factory/firefox_driver'
 require_relative 'driver_factory/chrome_driver'
 require_relative '../tools/logger_wrapper'
 
@@ -65,7 +65,9 @@ class BrowserWrapper
   end
 
   def delete_all_cookies
-    @web_driver.manage.delete_all_cookies
+    unless @web_driver.nil?
+      @web_driver.manage.delete_all_cookies
+    end
   end
 
   def accept_alert
