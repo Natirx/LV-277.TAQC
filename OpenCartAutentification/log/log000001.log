@@ -1,0 +1,2499 @@
+[INFO 2017-11-23 01:52:47]: Registration page spec test started
+[INFO 2017-11-23 01:52:47]: Registration page spec test completed
+[INFO 2017-11-23 01:53:55]: Registration page spec test started
+[INFO 2017-11-23 01:54:23]: Web driver quit
+[INFO 2017-11-23 01:54:23]: Registration page spec test completed
+[INFO 2017-11-23 01:57:23]: Registration page spec test started
+[INFO 2017-11-23 01:57:51]: Web driver quit
+[INFO 2017-11-23 01:57:51]: Registration page spec test completed
+[INFO 2017-11-23 02:00:41]: without@
+[INFO 2017-11-23 02:00:41]: with
+[INFO 2017-11-23 02:00:41]: Registration page spec test started
+[INFO 2017-11-23 02:01:00]: Web driver quit
+[INFO 2017-11-23 02:01:00]: Registration page spec test completed
+[INFO 2017-11-23 02:02:54]: without@
+[INFO 2017-11-23 02:02:54]: with
+[INFO 2017-11-23 02:02:54]: Registration page spec test started
+[INFO 2017-11-23 02:03:37]: Register new account was successful
+[INFO 2017-11-23 02:04:34]: without@
+[INFO 2017-11-23 02:04:34]: with
+[INFO 2017-11-23 02:04:34]: Registration page spec test started
+[INFO 2017-11-23 02:04:53]: Web driver quit
+[INFO 2017-11-23 02:04:53]: Registration page spec test completed
+[INFO 2017-11-23 02:05:57]: without@
+[INFO 2017-11-23 02:05:57]: with
+[INFO 2017-11-23 02:05:57]: Registration page spec test started
+[INFO 2017-11-23 02:08:01]: without@
+[INFO 2017-11-23 02:08:01]: with
+[INFO 2017-11-23 02:08:01]: Registration page spec test started
+[INFO 2017-11-23 02:08:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:08:09]: Register new account was unsuccessful
+[INFO 2017-11-23 02:08:12]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 02:08:20]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:08:20]: Register new account was unsuccessful
+[INFO 2017-11-23 02:08:20]: Web driver quit
+[INFO 2017-11-23 02:08:20]: Registration page spec test completed
+[INFO 2017-11-23 02:11:52]: Registration page spec test started
+[INFO 2017-11-23 02:11:59]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:11:59]: Register new account was unsuccessful
+[INFO 2017-11-23 02:12:02]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 02:12:10]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:12:10]: Register new account was unsuccessful
+[INFO 2017-11-23 02:12:10]: Web driver quit
+[INFO 2017-11-23 02:12:10]: Registration page spec test completed
+[INFO 2017-11-23 02:13:21]: Registration page spec test started
+[INFO 2017-11-23 02:13:29]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:13:29]: Register new account was unsuccessful
+[INFO 2017-11-23 02:13:32]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 02:13:32]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 02:13:32]: Register new account was unsuccessful
+[INFO 2017-11-23 02:13:32]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 02:13:40]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:13:40]: Register new account was unsuccessful
+[INFO 2017-11-23 02:13:40]: Web driver quit
+[INFO 2017-11-23 02:13:40]: Registration page spec test completed
+[INFO 2017-11-23 02:15:46]: Registration page spec test started
+[INFO 2017-11-23 02:15:53]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:15:53]: Register new account was unsuccessful
+[INFO 2017-11-23 02:15:56]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 02:15:56]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 02:15:56]: Register new account was unsuccessful
+[INFO 2017-11-23 02:15:56]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 02:16:04]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 02:16:04]: Register new account was unsuccessful
+[INFO 2017-11-23 02:16:05]: Web driver quit
+[INFO 2017-11-23 02:16:05]: Registration page spec test completed
+[INFO 2017-11-23 09:48:18]: Registration page spec test started
+[INFO 2017-11-23 09:48:26]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:48:26]: Register new account was unsuccessful
+[INFO 2017-11-23 09:48:29]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:48:29]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:48:29]: Register new account was unsuccessful
+[INFO 2017-11-23 09:48:29]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 09:48:37]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:48:37]: Register new account was unsuccessful
+[INFO 2017-11-23 09:48:38]: Web driver quit
+[INFO 2017-11-23 09:48:38]: Registration page spec test completed
+[INFO 2017-11-23 09:48:38]: Login page spec test started
+[INFO 2017-11-23 09:48:43]: Web driver quit
+[INFO 2017-11-23 09:48:43]: Login page spec test completed
+[INFO 2017-11-23 09:49:58]: Registration page spec test started
+[INFO 2017-11-23 09:50:06]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:50:06]: Register new account was unsuccessful
+[INFO 2017-11-23 09:50:10]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:50:10]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:50:10]: Register new account was unsuccessful
+[INFO 2017-11-23 09:50:10]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 09:50:18]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:50:18]: Register new account was unsuccessful
+[INFO 2017-11-23 09:50:19]: Web driver quit
+[INFO 2017-11-23 09:50:19]: Registration page spec test completed
+[INFO 2017-11-23 09:50:19]: Login page spec test started
+[INFO 2017-11-23 09:50:23]: Web driver quit
+[INFO 2017-11-23 09:50:23]: Login page spec test completed
+[INFO 2017-11-23 09:52:00]: Registration page spec test started
+[INFO 2017-11-23 09:52:10]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:52:10]: Register new account was unsuccessful
+[INFO 2017-11-23 09:52:13]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:52:13]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:52:13]: Register new account was unsuccessful
+[INFO 2017-11-23 09:52:13]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 09:52:21]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:52:21]: Register new account was unsuccessful
+[INFO 2017-11-23 09:52:22]: Web driver quit
+[INFO 2017-11-23 09:52:22]: Registration page spec test completed
+[INFO 2017-11-23 09:52:22]: Login page spec test started
+[INFO 2017-11-23 09:52:26]: Web driver quit
+[INFO 2017-11-23 09:52:26]: Login page spec test completed
+[INFO 2017-11-23 09:53:12]: Login page spec test started
+[INFO 2017-11-23 09:53:16]: Web driver quit
+[INFO 2017-11-23 09:53:16]: Login page spec test completed
+[INFO 2017-11-23 09:55:18]: Login page spec test started
+[INFO 2017-11-23 09:55:25]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 09:55:25]: Login was unsuccessful
+[WARN 2017-11-23 09:55:32]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 09:55:32]: Login was successful
+[INFO 2017-11-23 09:55:32]: Web driver quit
+[INFO 2017-11-23 09:55:32]: Login page spec test completed
+[INFO 2017-11-23 09:56:33]: Registration page spec test started
+[INFO 2017-11-23 09:56:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:56:41]: Register new account was unsuccessful
+[INFO 2017-11-23 09:56:43]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:56:43]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:56:43]: Register new account was unsuccessful
+[INFO 2017-11-23 09:56:43]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 09:56:51]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:56:51]: Register new account was unsuccessful
+[INFO 2017-11-23 09:56:52]: Web driver quit
+[INFO 2017-11-23 09:56:52]: Registration page spec test completed
+[INFO 2017-11-23 09:56:52]: Login page spec test started
+[INFO 2017-11-23 09:56:58]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 09:56:58]: Login was unsuccessful
+[WARN 2017-11-23 09:57:04]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 09:57:04]: Login was successful
+[INFO 2017-11-23 09:57:04]: Web driver quit
+[INFO 2017-11-23 09:57:04]: Login page spec test completed
+[INFO 2017-11-23 09:58:25]: Registration page spec test started
+[INFO 2017-11-23 09:58:33]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:58:33]: Register new account was unsuccessful
+[INFO 2017-11-23 09:58:36]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:58:36]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 09:58:36]: Register new account was unsuccessful
+[INFO 2017-11-23 09:58:36]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 09:58:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 09:58:44]: Register new account was unsuccessful
+[INFO 2017-11-23 09:58:44]: Web driver quit
+[INFO 2017-11-23 09:58:44]: Registration page spec test completed
+[INFO 2017-11-23 09:58:44]: Login page spec test started
+[INFO 2017-11-23 09:58:51]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 09:58:51]: Login was unsuccessful
+[WARN 2017-11-23 09:58:57]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 09:58:57]: Login was successful
+[INFO 2017-11-23 09:58:57]: Web driver quit
+[INFO 2017-11-23 09:58:57]: Login page spec test completed
+[INFO 2017-11-23 10:02:37]: Registration page spec test started
+[INFO 2017-11-23 10:02:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:02:44]: Register new account was unsuccessful
+[INFO 2017-11-23 10:02:47]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:02:47]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:02:47]: Register new account was unsuccessful
+[INFO 2017-11-23 10:02:47]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 10:02:55]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:02:55]: Register new account was unsuccessful
+[INFO 2017-11-23 10:02:56]: Web driver quit
+[INFO 2017-11-23 10:02:56]: Registration page spec test completed
+[INFO 2017-11-23 10:02:56]: Login page spec test started
+[INFO 2017-11-23 10:03:02]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 10:03:02]: Login was unsuccessful
+[WARN 2017-11-23 10:03:08]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 10:03:08]: Login was successful
+[INFO 2017-11-23 10:03:09]: Web driver quit
+[INFO 2017-11-23 10:03:09]: Login page spec test completed
+[INFO 2017-11-23 10:04:19]: Registration page spec test started
+[INFO 2017-11-23 10:04:28]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:04:28]: Register new account was unsuccessful
+[INFO 2017-11-23 10:04:31]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:04:31]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:04:31]: Register new account was unsuccessful
+[INFO 2017-11-23 10:04:31]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 10:04:39]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:04:39]: Register new account was unsuccessful
+[INFO 2017-11-23 10:04:39]: Web driver quit
+[INFO 2017-11-23 10:04:39]: Registration page spec test completed
+[INFO 2017-11-23 10:04:39]: Login page spec test started
+[INFO 2017-11-23 10:04:49]: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+[INFO 2017-11-23 10:04:49]: Login was unsuccessful
+[WARN 2017-11-23 10:04:55]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 10:04:55]: Login was successful
+[INFO 2017-11-23 10:04:55]: Web driver quit
+[INFO 2017-11-23 10:04:55]: Login page spec test completed
+[INFO 2017-11-23 10:05:26]: Registration page spec test started
+[INFO 2017-11-23 10:05:35]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:05:35]: Register new account was unsuccessful
+[INFO 2017-11-23 10:05:38]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:05:38]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:05:38]: Register new account was unsuccessful
+[INFO 2017-11-23 10:05:38]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 10:05:46]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:05:46]: Register new account was unsuccessful
+[INFO 2017-11-23 10:05:46]: Web driver quit
+[INFO 2017-11-23 10:05:46]: Registration page spec test completed
+[INFO 2017-11-23 10:05:46]: Login page spec test started
+[INFO 2017-11-23 10:05:54]: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+[INFO 2017-11-23 10:05:54]: Login was unsuccessful
+[WARN 2017-11-23 10:06:00]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 10:06:00]: Login was successful
+[INFO 2017-11-23 10:06:01]: Web driver quit
+[INFO 2017-11-23 10:06:01]: Login page spec test completed
+[INFO 2017-11-23 10:10:22]: Registration page spec test started
+[INFO 2017-11-23 10:10:29]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:10:29]: Register new account was unsuccessful
+[INFO 2017-11-23 10:10:32]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:10:32]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:10:32]: Register new account was unsuccessful
+[INFO 2017-11-23 10:10:32]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 10:10:39]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:10:39]: Register new account was unsuccessful
+[INFO 2017-11-23 10:10:40]: Web driver quit
+[INFO 2017-11-23 10:10:40]: Registration page spec test completed
+[INFO 2017-11-23 10:10:40]: Login page spec test started
+[INFO 2017-11-23 10:10:47]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 10:10:47]: Login was unsuccessful
+[WARN 2017-11-23 10:10:53]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 10:10:53]: Login was successful
+[INFO 2017-11-23 10:10:54]: Web driver quit
+[INFO 2017-11-23 10:10:54]: Login page spec test completed
+[INFO 2017-11-23 10:11:54]: Login page spec test started
+[INFO 2017-11-23 10:12:00]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 10:12:00]: Login was unsuccessful
+[WARN 2017-11-23 10:12:06]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 10:12:06]: Login was successful
+[INFO 2017-11-23 10:12:06]: Web driver quit
+[INFO 2017-11-23 10:12:06]: Login page spec test completed
+[INFO 2017-11-23 10:15:11]: Registration page spec test started
+[INFO 2017-11-23 10:15:19]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:15:19]: Register new account was unsuccessful
+[INFO 2017-11-23 10:15:22]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:15:22]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 10:15:22]: Register new account was unsuccessful
+[INFO 2017-11-23 10:15:22]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 10:15:30]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 10:15:30]: Register new account was unsuccessful
+[INFO 2017-11-23 10:15:30]: Web driver quit
+[INFO 2017-11-23 10:15:30]: Registration page spec test completed
+[INFO 2017-11-23 10:15:30]: Login page spec test started
+[INFO 2017-11-23 10:15:37]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 10:15:37]: Login was unsuccessful
+[WARN 2017-11-23 10:15:43]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 10:15:43]: Login was successful
+[INFO 2017-11-23 10:15:43]: Web driver quit
+[INFO 2017-11-23 10:15:43]: Login page spec test completed
+[INFO 2017-11-23 11:25:04]: Registration page spec test started
+[INFO 2017-11-23 11:25:12]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:25:12]: Register new account was unsuccessful
+[INFO 2017-11-23 11:25:15]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:25:15]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:25:15]: Register new account was unsuccessful
+[INFO 2017-11-23 11:25:15]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 11:25:23]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:25:23]: Register new account was unsuccessful
+[INFO 2017-11-23 11:25:23]: Web driver quit
+[INFO 2017-11-23 11:25:23]: Registration page spec test completed
+[INFO 2017-11-23 11:25:23]: Login page spec test started
+[INFO 2017-11-23 11:25:29]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 11:25:29]: Login was unsuccessful
+[WARN 2017-11-23 11:25:36]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 11:25:36]: Login was successful
+[INFO 2017-11-23 11:25:36]: Web driver quit
+[INFO 2017-11-23 11:25:36]: Login page spec test completed
+[INFO 2017-11-23 11:30:14]: Registration page spec test started
+[INFO 2017-11-23 11:30:22]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:30:22]: Register new account was unsuccessful
+[INFO 2017-11-23 11:30:25]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:30:25]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:30:25]: Register new account was unsuccessful
+[INFO 2017-11-23 11:30:25]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 11:30:32]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:30:32]: Register new account was unsuccessful
+[INFO 2017-11-23 11:30:33]: Web driver quit
+[INFO 2017-11-23 11:30:33]: Registration page spec test completed
+[INFO 2017-11-23 11:30:33]: Login page spec test started
+[INFO 2017-11-23 11:30:40]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 11:30:40]: Login was unsuccessful
+[WARN 2017-11-23 11:30:46]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 11:30:46]: Login was successful
+[INFO 2017-11-23 11:30:47]: Web driver quit
+[INFO 2017-11-23 11:30:47]: Login page spec test completed
+[INFO 2017-11-23 11:39:27]: Registration page spec test started
+[INFO 2017-11-23 11:39:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:39:34]: Register new account was unsuccessful
+[INFO 2017-11-23 11:39:38]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:39:38]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:39:38]: Register new account was unsuccessful
+[INFO 2017-11-23 11:39:38]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 11:39:45]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:39:45]: Register new account was unsuccessful
+[INFO 2017-11-23 11:39:46]: Web driver quit
+[INFO 2017-11-23 11:39:46]: Registration page spec test completed
+[INFO 2017-11-23 11:39:46]: Login page spec test started
+[INFO 2017-11-23 11:39:52]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 11:39:52]: Login was unsuccessful
+[WARN 2017-11-23 11:39:59]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 11:39:59]: Login was successful
+[INFO 2017-11-23 11:39:59]: Web driver quit
+[INFO 2017-11-23 11:39:59]: Login page spec test completed
+[INFO 2017-11-23 11:41:13]: Registration page spec test started
+[INFO 2017-11-23 11:41:20]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:41:20]: Register new account was unsuccessful
+[INFO 2017-11-23 11:41:23]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:41:23]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:41:23]: Register new account was unsuccessful
+[INFO 2017-11-23 11:41:23]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 11:41:31]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:41:31]: Register new account was unsuccessful
+[INFO 2017-11-23 11:41:32]: Web driver quit
+[INFO 2017-11-23 11:41:32]: Registration page spec test completed
+[INFO 2017-11-23 11:41:32]: Login page spec test started
+[INFO 2017-11-23 11:41:38]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 11:41:38]: Login was unsuccessful
+[WARN 2017-11-23 11:41:44]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 11:41:44]: Login was successful
+[INFO 2017-11-23 11:41:45]: Web driver quit
+[INFO 2017-11-23 11:41:45]: Login page spec test completed
+[INFO 2017-11-23 11:43:32]: Login page spec test started
+[INFO 2017-11-23 11:43:39]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 11:43:39]: Login was unsuccessful
+[WARN 2017-11-23 11:43:45]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 11:43:45]: Login was successful
+[INFO 2017-11-23 11:43:45]: Web driver quit
+[INFO 2017-11-23 11:43:45]: Login page spec test completed
+[INFO 2017-11-23 11:44:41]: Login page spec test started
+[INFO 2017-11-23 11:44:47]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 11:44:47]: Login was unsuccessful
+[WARN 2017-11-23 11:44:54]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 11:44:54]: Login was successful
+[INFO 2017-11-23 11:44:54]: Web driver quit
+[INFO 2017-11-23 11:44:54]: Login page spec test completed
+[INFO 2017-11-23 11:46:24]: Registration page spec test started
+[INFO 2017-11-23 11:46:32]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:46:32]: Register new account was unsuccessful
+[INFO 2017-11-23 11:46:36]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:46:36]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 11:46:36]: Register new account was unsuccessful
+[INFO 2017-11-23 11:46:36]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 11:46:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 11:46:44]: Register new account was unsuccessful
+[INFO 2017-11-23 11:46:44]: Web driver quit
+[INFO 2017-11-23 11:46:44]: Registration page spec test completed
+[INFO 2017-11-23 11:46:44]: Login page spec test started
+[INFO 2017-11-23 11:46:51]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 11:46:51]: Login was unsuccessful
+[INFO 2017-11-23 12:07:47]: Login page spec test started
+[INFO 2017-11-23 12:07:53]: Web driver quit
+[INFO 2017-11-23 12:07:53]: Login page spec test completed
+[INFO 2017-11-23 12:08:19]: Login page spec test started
+[INFO 2017-11-23 12:08:25]: Web driver quit
+[INFO 2017-11-23 12:08:25]: Login page spec test completed
+[INFO 2017-11-23 12:11:20]: Login page spec test started
+[INFO 2017-11-23 12:11:26]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:11:26]: Login was unsuccessful
+[WARN 2017-11-23 12:11:33]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:11:33]: Login was successful
+[INFO 2017-11-23 12:11:33]: Web driver quit
+[INFO 2017-11-23 12:11:33]: Login page spec test completed
+[INFO 2017-11-23 12:12:54]: Login page spec test started
+[INFO 2017-11-23 12:13:01]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:13:01]: Login was unsuccessful
+[WARN 2017-11-23 12:13:07]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:13:07]: Login was successful
+[INFO 2017-11-23 12:13:07]: Web driver quit
+[INFO 2017-11-23 12:13:07]: Login page spec test completed
+[INFO 2017-11-23 12:15:44]: Login page spec test started
+[INFO 2017-11-23 12:15:50]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:15:50]: Login was unsuccessful
+[WARN 2017-11-23 12:15:57]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:15:57]: Login was successful
+[INFO 2017-11-23 12:15:57]: Web driver quit
+[INFO 2017-11-23 12:15:57]: Login page spec test completed
+[INFO 2017-11-23 12:16:21]: Login page spec test started
+[INFO 2017-11-23 12:16:28]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:16:28]: Login was unsuccessful
+[WARN 2017-11-23 12:16:35]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:16:35]: Login was successful
+[INFO 2017-11-23 12:16:35]: Web driver quit
+[INFO 2017-11-23 12:16:35]: Login page spec test completed
+[INFO 2017-11-23 12:17:57]: Login page spec test started
+[INFO 2017-11-23 12:18:04]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:18:04]: Login was unsuccessful
+[WARN 2017-11-23 12:18:10]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:18:10]: Login was successful
+[INFO 2017-11-23 12:18:11]: Web driver quit
+[INFO 2017-11-23 12:18:11]: Login page spec test completed
+[INFO 2017-11-23 12:22:25]: Login page spec test started
+[INFO 2017-11-23 12:22:31]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:22:31]: Login was unsuccessful
+[WARN 2017-11-23 12:22:37]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:22:37]: Login was successful
+[INFO 2017-11-23 12:22:38]: Web driver quit
+[INFO 2017-11-23 12:22:38]: Login page spec test completed
+[INFO 2017-11-23 12:27:08]: Login page spec test started
+[INFO 2017-11-23 12:27:14]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:27:14]: Login was unsuccessful
+[WARN 2017-11-23 12:27:20]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:27:20]: Login was successful
+[INFO 2017-11-23 12:27:21]: Web driver quit
+[INFO 2017-11-23 12:27:21]: Login page spec test completed
+[INFO 2017-11-23 12:29:54]: Login page spec test started
+[INFO 2017-11-23 12:30:00]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 12:30:00]: Login was unsuccessful
+[WARN 2017-11-23 12:30:06]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 12:30:06]: Login was successful
+[INFO 2017-11-23 12:30:07]: Web driver quit
+[INFO 2017-11-23 12:30:07]: Login page spec test completed
+[INFO 2017-11-23 12:43:33]: Registration page spec test started
+[INFO 2017-11-23 12:43:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:43:41]: Register new account was unsuccessful
+[INFO 2017-11-23 12:43:44]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:43:44]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:43:44]: Register new account was unsuccessful
+[INFO 2017-11-23 12:43:44]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 12:43:52]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:43:52]: Register new account was unsuccessful
+[ERROR 2017-11-23 12:43:52]: 
+expected true
+     got false
+
+[INFO 2017-11-23 12:43:52]: Web driver quit
+[INFO 2017-11-23 12:43:52]: Registration page spec test completed
+[INFO 2017-11-23 12:47:40]: Registration page spec test started
+[INFO 2017-11-23 12:47:48]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:47:48]: Register new account was unsuccessful
+[INFO 2017-11-23 12:47:51]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:47:51]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:47:51]: Register new account was unsuccessful
+[INFO 2017-11-23 12:47:51]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 12:47:58]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:47:58]: Register new account was unsuccessful
+[ERROR 2017-11-23 12:47:59]: 
+expected true
+     got false
+
+[INFO 2017-11-23 12:47:59]: Web driver quit
+[INFO 2017-11-23 12:47:59]: Registration page spec test completed
+[INFO 2017-11-23 12:48:31]: Registration page spec test started
+[INFO 2017-11-23 12:48:39]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:48:39]: Register new account was unsuccessful
+[INFO 2017-11-23 12:48:42]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:48:42]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:48:42]: Register new account was unsuccessful
+[INFO 2017-11-23 12:48:42]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 12:48:50]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:48:50]: Register new account was unsuccessful
+[ERROR 2017-11-23 12:48:50]: 
+expected true
+     got false
+
+[INFO 2017-11-23 12:48:50]: Web driver quit
+[INFO 2017-11-23 12:48:50]: Registration page spec test completed
+[INFO 2017-11-23 12:57:50]: Registration page spec test started
+[INFO 2017-11-23 12:57:58]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:57:58]: Register new account was unsuccessful
+[INFO 2017-11-23 12:58:00]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:58:00]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 12:58:00]: Register new account was unsuccessful
+[INFO 2017-11-23 12:58:00]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 12:58:07]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 12:58:07]: Register new account was unsuccessful
+[INFO 2017-11-23 12:58:08]: Web driver quit
+[INFO 2017-11-23 12:58:08]: Registration page spec test completed
+[INFO 2017-11-23 13:03:13]: Registration page spec test started
+[INFO 2017-11-23 13:03:20]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:03:20]: Register new account was unsuccessful
+[INFO 2017-11-23 13:03:23]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:03:23]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:03:23]: Register new account was unsuccessful
+[INFO 2017-11-23 13:03:23]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:03:31]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:03:31]: Register new account was unsuccessful
+[INFO 2017-11-23 13:03:31]: Web driver quit
+[INFO 2017-11-23 13:03:31]: Registration page spec test completed
+[INFO 2017-11-23 13:19:00]: Registration page spec test started
+[INFO 2017-11-23 13:19:08]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:19:08]: Register new account was unsuccessful
+[INFO 2017-11-23 13:19:10]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:19:10]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:19:10]: Register new account was unsuccessful
+[INFO 2017-11-23 13:19:11]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:19:18]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:19:18]: Register new account was unsuccessful
+[INFO 2017-11-23 13:19:19]: Web driver quit
+[INFO 2017-11-23 13:19:19]: Registration page spec test completed
+[INFO 2017-11-23 13:28:50]: Web driver quit
+[INFO 2017-11-23 13:28:50]: Registration page spec test completed
+[INFO 2017-11-23 13:29:46]: Registration page spec test started
+[INFO 2017-11-23 13:29:53]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:29:53]: Register new account was unsuccessful
+[INFO 2017-11-23 13:29:56]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:29:56]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:29:56]: Register new account was unsuccessful
+[INFO 2017-11-23 13:29:56]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:30:03]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:30:03]: Register new account was unsuccessful
+[INFO 2017-11-23 13:30:04]: Web driver quit
+[INFO 2017-11-23 13:30:04]: Registration page spec test completed
+[INFO 2017-11-23 13:37:27]: Registration page spec test started
+[INFO 2017-11-23 13:37:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:37:34]: Register new account was unsuccessful
+[INFO 2017-11-23 13:37:37]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:37:37]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:37:37]: Register new account was unsuccessful
+[INFO 2017-11-23 13:37:37]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:37:45]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:37:45]: Register new account was unsuccessful
+[INFO 2017-11-23 13:37:45]: Web driver quit
+[INFO 2017-11-23 13:37:45]: Registration page spec test completed
+[INFO 2017-11-23 13:41:15]: Registration page spec test started
+[INFO 2017-11-23 13:41:23]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:41:23]: Register new account was unsuccessful
+[INFO 2017-11-23 13:41:25]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:41:25]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:41:25]: Register new account was unsuccessful
+[INFO 2017-11-23 13:41:25]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:41:33]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:41:33]: Register new account was unsuccessful
+[INFO 2017-11-23 13:41:33]: Web driver quit
+[INFO 2017-11-23 13:41:33]: Registration page spec test completed
+[INFO 2017-11-23 13:42:26]: Registration page spec test started
+[INFO 2017-11-23 13:42:33]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:42:33]: Register new account was unsuccessful
+[INFO 2017-11-23 13:42:36]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:42:36]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:42:36]: Register new account was unsuccessful
+[INFO 2017-11-23 13:42:36]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:42:43]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:42:43]: Register new account was unsuccessful
+[INFO 2017-11-23 13:42:44]: Web driver quit
+[INFO 2017-11-23 13:42:44]: Registration page spec test completed
+[INFO 2017-11-23 13:51:01]: Registration page spec test started
+[INFO 2017-11-23 13:51:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:51:09]: Register new account was unsuccessful
+[INFO 2017-11-23 13:51:11]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:51:11]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:51:11]: Register new account was unsuccessful
+[INFO 2017-11-23 13:51:11]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:51:19]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:51:19]: Register new account was unsuccessful
+[INFO 2017-11-23 13:51:19]: Web driver quit
+[INFO 2017-11-23 13:51:19]: Registration page spec test completed
+[INFO 2017-11-23 13:53:15]: Registration page spec test started
+[INFO 2017-11-23 13:53:22]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:53:22]: Register new account was unsuccessful
+[INFO 2017-11-23 13:53:25]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:53:25]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:53:25]: Register new account was unsuccessful
+[INFO 2017-11-23 13:53:25]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:53:33]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:53:33]: Register new account was unsuccessful
+[INFO 2017-11-23 13:53:33]: Web driver quit
+[INFO 2017-11-23 13:53:33]: Registration page spec test completed
+[INFO 2017-11-23 13:53:33]: Login page spec test started
+[INFO 2017-11-23 13:53:39]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 13:53:39]: Login was unsuccessful
+[WARN 2017-11-23 13:53:46]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 13:53:46]: Login was successful
+[INFO 2017-11-23 13:53:46]: Web driver quit
+[INFO 2017-11-23 13:53:46]: Login page spec test completed
+[INFO 2017-11-23 13:54:58]: Registration page spec test started
+[INFO 2017-11-23 13:55:05]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:55:05]: Register new account was unsuccessful
+[INFO 2017-11-23 13:55:08]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:55:08]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:55:08]: Register new account was unsuccessful
+[INFO 2017-11-23 13:55:08]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:55:16]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:55:16]: Register new account was unsuccessful
+[INFO 2017-11-23 13:55:16]: Web driver quit
+[INFO 2017-11-23 13:55:16]: Registration page spec test completed
+[INFO 2017-11-23 13:55:16]: Login page spec test started
+[INFO 2017-11-23 13:55:22]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 13:55:22]: Login was unsuccessful
+[WARN 2017-11-23 13:55:28]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 13:55:28]: Login was successful
+[INFO 2017-11-23 13:55:28]: Web driver quit
+[INFO 2017-11-23 13:55:28]: Login page spec test completed
+[INFO 2017-11-23 13:56:10]: Registration page spec test started
+[INFO 2017-11-23 13:56:17]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:56:17]: Register new account was unsuccessful
+[INFO 2017-11-23 13:56:20]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:56:20]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:56:20]: Register new account was unsuccessful
+[INFO 2017-11-23 13:56:20]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:56:27]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:56:27]: Register new account was unsuccessful
+[INFO 2017-11-23 13:56:28]: Web driver quit
+[INFO 2017-11-23 13:56:28]: Registration page spec test completed
+[INFO 2017-11-23 13:56:28]: Login page spec test started
+[INFO 2017-11-23 13:56:34]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 13:56:34]: Login was unsuccessful
+[WARN 2017-11-23 13:56:40]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 13:56:40]: Login was successful
+[INFO 2017-11-23 13:56:40]: Web driver quit
+[INFO 2017-11-23 13:56:40]: Login page spec test completed
+[INFO 2017-11-23 13:57:08]: Registration page spec test started
+[INFO 2017-11-23 13:57:15]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:57:15]: Register new account was unsuccessful
+[INFO 2017-11-23 13:57:18]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:57:18]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 13:57:18]: Register new account was unsuccessful
+[INFO 2017-11-23 13:57:18]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 13:57:25]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 13:57:25]: Register new account was unsuccessful
+[INFO 2017-11-23 13:57:26]: Web driver quit
+[INFO 2017-11-23 13:57:26]: Registration page spec test completed
+[INFO 2017-11-23 13:57:26]: Login page spec test started
+[INFO 2017-11-23 13:57:32]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-11-23 13:57:32]: Login was unsuccessful
+[WARN 2017-11-23 13:57:38]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-11-23 13:57:38]: Login was successful
+[INFO 2017-11-23 13:57:38]: Web driver quit
+[INFO 2017-11-23 13:57:38]: Login page spec test completed
+[INFO 2017-11-23 14:27:05]: Registration page spec test started
+[INFO 2017-11-23 14:27:13]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:27:13]: Register new account was unsuccessful
+[INFO 2017-11-23 14:27:16]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:27:16]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:27:16]: Register new account was unsuccessful
+[INFO 2017-11-23 14:27:16]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 14:27:24]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:27:24]: Register new account was unsuccessful
+[INFO 2017-11-23 14:27:24]: Web driver quit
+[INFO 2017-11-23 14:27:24]: Registration page spec test completed
+[INFO 2017-11-23 14:27:48]: Registration page spec test started
+[INFO 2017-11-23 14:27:55]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:27:55]: Register new account was unsuccessful
+[INFO 2017-11-23 14:27:58]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:27:58]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:27:58]: Register new account was unsuccessful
+[INFO 2017-11-23 14:27:58]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 14:28:06]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:28:06]: Register new account was unsuccessful
+[INFO 2017-11-23 14:28:06]: Web driver quit
+[INFO 2017-11-23 14:28:06]: Registration page spec test completed
+[INFO 2017-11-23 14:28:28]: Registration page spec test started
+[INFO 2017-11-23 14:28:36]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:28:36]: Register new account was unsuccessful
+[INFO 2017-11-23 14:28:39]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:28:39]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:28:39]: Register new account was unsuccessful
+[INFO 2017-11-23 14:28:39]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 14:28:46]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:28:46]: Register new account was unsuccessful
+[INFO 2017-11-23 14:28:46]: Web driver quit
+[INFO 2017-11-23 14:28:46]: Registration page spec test completed
+[INFO 2017-11-23 14:29:18]: Registration page spec test started
+[INFO 2017-11-23 14:29:25]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:29:25]: Register new account was unsuccessful
+[INFO 2017-11-23 14:29:28]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:29:28]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:29:28]: Register new account was unsuccessful
+[INFO 2017-11-23 14:29:28]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 14:29:36]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:29:36]: Register new account was unsuccessful
+[INFO 2017-11-23 14:29:36]: Web driver quit
+[INFO 2017-11-23 14:29:36]: Registration page spec test completed
+[INFO 2017-11-23 14:29:49]: Registration page spec test started
+[INFO 2017-11-23 14:29:57]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:29:57]: Register new account was unsuccessful
+[INFO 2017-11-23 14:30:00]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:30:00]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:30:00]: Register new account was unsuccessful
+[INFO 2017-11-23 14:30:00]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 14:30:07]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:30:07]: Register new account was unsuccessful
+[INFO 2017-11-23 14:30:07]: Web driver quit
+[INFO 2017-11-23 14:30:07]: Registration page spec test completed
+[INFO 2017-11-23 14:30:42]: Registration page spec test started
+[INFO 2017-11-23 14:30:50]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:30:50]: Register new account was unsuccessful
+[INFO 2017-11-23 14:30:52]: First Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:30:52]: Last Name must be between 1 and 32 characters!
+[INFO 2017-11-23 14:30:52]: Register new account was unsuccessful
+[INFO 2017-11-23 14:30:52]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-11-23 14:31:00]: Warning: E-Mail Address is already registered!
+[INFO 2017-11-23 14:31:00]: Register new account was unsuccessful
+[INFO 2017-11-23 14:31:00]: Web driver quit
+[INFO 2017-11-23 14:31:00]: Registration page spec test completed
+[INFO 2017-12-04 20:57:52]: sdfsdf
+[INFO 2017-12-04 21:00:02]: sdfsdf
+[INFO 2017-12-04 21:00:34]: sdfsdf
+[INFO 2017-12-04 21:01:36]: sdfsdf
+[INFO 2017-12-04 21:02:03]: sdfsdf
+[INFO 2017-12-04 21:02:48]: sdfsdf
+[INFO 2017-12-04 21:03:03]: sdfsdf
+[INFO 2017-12-05 13:50:50]: sdf
+[INFO 2017-12-05 13:50:50]: sdf
+[INFO 2017-12-05 13:56:00]: dfg
+[INFO 2017-12-05 13:56:00]: dfg
+[INFO 2017-12-05 17:37:00]: Registration page spec test completed
+[INFO 2017-12-05 17:38:41]: Registration page spec test completed
+[INFO 2017-12-05 17:42:40]: Registration page spec test completed
+[INFO 2017-12-05 17:43:31]: Registration page spec test completed
+[INFO 2017-12-05 17:45:08]: Registration page spec test completed
+[INFO 2017-12-05 17:46:13]: Registration page spec test completed
+[INFO 2017-12-05 17:47:00]: Registration page spec test completed
+[INFO 2017-12-05 17:47:17]: Registration page spec test completed
+[INFO 2017-12-05 17:48:52]: Registration page spec test completed
+[INFO 2017-12-05 17:49:17]: Registration page spec test completed
+[INFO 2017-12-05 17:59:05]: Registration page spec test started
+[INFO 2017-12-05 17:59:18]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 17:59:18]: Register new account was unsuccessful
+[INFO 2017-12-05 17:59:32]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 17:59:32]: Register new account was unsuccessful
+[INFO 2017-12-05 17:59:32]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 17:59:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 17:59:44]: Register new account was unsuccessful
+[INFO 2017-12-05 18:01:28]: Registration page spec test started
+[INFO 2017-12-05 18:01:40]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 18:01:40]: Register new account was unsuccessful
+[INFO 2017-12-05 18:01:53]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 18:01:53]: Register new account was unsuccessful
+[INFO 2017-12-05 18:01:53]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 18:02:06]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 18:02:06]: Register new account was unsuccessful
+[INFO 2017-12-05 18:03:41]: Registration page spec test started
+[INFO 2017-12-05 18:03:54]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 18:03:54]: Register new account was unsuccessful
+[INFO 2017-12-05 18:04:06]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 18:04:06]: Register new account was unsuccessful
+[INFO 2017-12-05 18:04:06]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 18:04:19]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 18:04:19]: Register new account was unsuccessful
+[INFO 2017-12-05 18:05:41]: Registration page spec test started
+[INFO 2017-12-05 18:05:54]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 18:05:54]: Register new account was unsuccessful
+[INFO 2017-12-05 18:06:06]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 18:06:06]: Register new account was unsuccessful
+[INFO 2017-12-05 18:06:06]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-05 18:06:19]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-05 18:06:19]: Register new account was unsuccessful
+[INFO 2017-12-05 18:11:31]: Registration page spec test completed
+[INFO 2017-12-06 00:11:04]: Registration page spec test started
+[INFO 2017-12-06 00:11:16]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:11:16]: Register new account was unsuccessful
+[INFO 2017-12-06 00:11:29]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-06 00:11:29]: Register new account was unsuccessful
+[INFO 2017-12-06 00:11:29]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-06 00:11:42]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:11:42]: Register new account was unsuccessful
+[INFO 2017-12-06 00:11:42]: Registration page spec test completed
+[INFO 2017-12-06 00:11:42]: Login page spec test started
+[INFO 2017-12-06 00:12:33]: Registration page spec test started
+[INFO 2017-12-06 00:12:45]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:12:45]: Register new account was unsuccessful
+[INFO 2017-12-06 00:12:58]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-06 00:12:58]: Register new account was unsuccessful
+[INFO 2017-12-06 00:12:58]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-06 00:13:10]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:13:10]: Register new account was unsuccessful
+[INFO 2017-12-06 00:13:10]: Registration page spec test completed
+[INFO 2017-12-06 00:14:23]: Registration page spec test started
+[INFO 2017-12-06 00:14:36]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:14:36]: Register new account was unsuccessful
+[INFO 2017-12-06 00:14:48]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-06 00:14:48]: Register new account was unsuccessful
+[INFO 2017-12-06 00:14:48]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-06 00:15:01]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:15:01]: Register new account was unsuccessful
+[INFO 2017-12-06 00:15:01]: Registration page spec test completed
+[INFO 2017-12-06 00:17:19]: Registration page spec test started
+[INFO 2017-12-06 00:17:32]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:17:32]: Register new account was unsuccessful
+[INFO 2017-12-06 00:17:32]: Registration page spec test completed
+[INFO 2017-12-06 00:22:43]: Registration page spec test started
+[INFO 2017-12-06 00:22:56]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:22:56]: Register new account was unsuccessful
+[INFO 2017-12-06 00:22:56]: Registration page spec test completed
+[INFO 2017-12-06 00:26:21]: Registration page spec test started
+[INFO 2017-12-06 00:26:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:26:34]: Register new account was unsuccessful
+[INFO 2017-12-06 00:26:34]: Registration page spec test completed
+[INFO 2017-12-06 00:27:35]: Registration page spec test started
+[INFO 2017-12-06 00:27:48]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:27:48]: Register new account was unsuccessful
+[INFO 2017-12-06 00:27:48]: Registration page spec test completed
+[INFO 2017-12-06 00:28:05]: Web driver quit
+[INFO 2017-12-06 00:38:13]: Registration page spec test completed
+[INFO 2017-12-06 00:38:27]: Registration page spec test completed
+[INFO 2017-12-06 00:38:42]: Registration page spec test completed
+[INFO 2017-12-06 00:38:55]: Registration page spec test completed
+[INFO 2017-12-06 00:43:33]: Registration page spec test completed
+[INFO 2017-12-06 00:43:54]: Registration page spec test completed
+[INFO 2017-12-06 00:44:48]: Registration page spec test completed
+[INFO 2017-12-06 00:46:37]: Registration page spec test started
+[INFO 2017-12-06 00:46:50]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:46:50]: Register new account was unsuccessful
+[INFO 2017-12-06 00:53:33]: Registration page spec test started
+[INFO 2017-12-06 00:53:47]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 00:53:47]: Register new account was unsuccessful
+[INFO 2017-12-06 01:03:53]: Registration page spec test started
+[INFO 2017-12-06 01:04:06]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:04:06]: Register new account was unsuccessful
+[INFO 2017-12-06 01:05:05]: Registration page spec test started
+[INFO 2017-12-06 01:05:18]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:05:18]: Register new account was unsuccessful
+[INFO 2017-12-06 01:05:18]: Registration page spec test completed
+[INFO 2017-12-06 01:06:27]: Web driver quit
+[INFO 2017-12-06 01:07:58]: Registration page spec test started
+[INFO 2017-12-06 01:08:11]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:08:11]: Register new account was unsuccessful
+[INFO 2017-12-06 01:08:11]: Registration page spec test completed
+[INFO 2017-12-06 01:08:11]: Web driver quit
+[INFO 2017-12-06 01:17:12]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:17:12]: Register new account was unsuccessful
+[INFO 2017-12-06 01:17:13]: Web driver quit
+[INFO 2017-12-06 01:24:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:24:44]: Register new account was unsuccessful
+[INFO 2017-12-06 01:24:44]: Web driver quit
+[INFO 2017-12-06 01:31:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:31:44]: Register new account was unsuccessful
+[INFO 2017-12-06 01:31:44]: Web driver quit
+[INFO 2017-12-06 01:33:39]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:33:39]: Register new account was unsuccessful
+[INFO 2017-12-06 01:33:39]: Web driver quit
+[INFO 2017-12-06 01:34:57]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:34:57]: Register new account was unsuccessful
+[INFO 2017-12-06 01:34:57]: Web driver quit
+[INFO 2017-12-06 01:36:02]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:36:02]: Register new account was unsuccessful
+[INFO 2017-12-06 01:36:02]: Web driver quit
+[INFO 2017-12-06 01:37:11]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:37:11]: Register new account was unsuccessful
+[INFO 2017-12-06 01:37:12]: Web driver quit
+[INFO 2017-12-06 01:38:27]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:38:27]: Register new account was unsuccessful
+[INFO 2017-12-06 01:38:28]: Web driver quit
+[INFO 2017-12-06 01:40:11]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:40:11]: Register new account was unsuccessful
+[INFO 2017-12-06 01:40:12]: Web driver quit
+[INFO 2017-12-06 01:40:55]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:40:55]: Register new account was unsuccessful
+[INFO 2017-12-06 01:40:55]: Web driver quit
+[INFO 2017-12-06 01:42:47]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:42:47]: Register new account was unsuccessful
+[INFO 2017-12-06 01:42:47]: Web driver quit
+[INFO 2017-12-06 01:44:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:44:09]: Register new account was unsuccessful
+[INFO 2017-12-06 01:44:09]: Web driver quit
+[INFO 2017-12-06 01:45:31]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:45:31]: Register new account was unsuccessful
+[INFO 2017-12-06 01:45:31]: Web driver quit
+[INFO 2017-12-06 01:46:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:46:44]: Register new account was unsuccessful
+[INFO 2017-12-06 01:46:45]: Web driver quit
+[INFO 2017-12-06 01:47:58]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:47:58]: Register new account was unsuccessful
+[INFO 2017-12-06 01:50:43]: Web driver quit
+[INFO 2017-12-06 01:51:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:51:34]: Register new account was unsuccessful
+[INFO 2017-12-06 01:51:34]: Web driver quit
+[INFO 2017-12-06 01:54:42]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:54:42]: Register new account was unsuccessful
+[INFO 2017-12-06 01:54:42]: Web driver quit
+[INFO 2017-12-06 01:59:12]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 01:59:12]: Register new account was unsuccessful
+[INFO 2017-12-06 01:59:12]: Web driver quit
+[INFO 2017-12-06 02:00:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:00:34]: Register new account was unsuccessful
+[INFO 2017-12-06 02:03:08]: Web driver quit
+[INFO 2017-12-06 02:04:11]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:04:11]: Register new account was unsuccessful
+[INFO 2017-12-06 02:04:12]: Web driver quit
+[INFO 2017-12-06 02:08:45]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:08:45]: Register new account was unsuccessful
+[INFO 2017-12-06 02:08:45]: Web driver quit
+[INFO 2017-12-06 02:14:16]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:14:16]: Register new account was unsuccessful
+[INFO 2017-12-06 02:14:16]: Web driver quit
+[INFO 2017-12-06 02:16:38]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:16:38]: Register new account was unsuccessful
+[INFO 2017-12-06 02:16:39]: Web driver quit
+[INFO 2017-12-06 02:21:33]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:21:33]: Register new account was unsuccessful
+[INFO 2017-12-06 02:46:06]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:46:06]: Register new account was unsuccessful
+[INFO 2017-12-06 02:46:06]: Web driver quit
+[INFO 2017-12-06 02:46:49]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:46:49]: Register new account was unsuccessful
+[INFO 2017-12-06 02:46:49]: sdfgf
+[INFO 2017-12-06 02:46:50]: Web driver quit
+[INFO 2017-12-06 02:48:25]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:48:25]: Register new account was unsuccessful
+[INFO 2017-12-06 02:48:25]: sdfgf
+[INFO 2017-12-06 02:48:25]: Web driver quit
+[INFO 2017-12-06 02:57:28]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:57:28]: Register new account was unsuccessful
+[INFO 2017-12-06 02:57:28]: sdfgf
+[INFO 2017-12-06 02:57:28]: Web driver quit
+[INFO 2017-12-06 02:59:03]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-06 02:59:03]: Register new account was unsuccessful
+[INFO 2017-12-06 02:59:04]: Web driver quit
+[INFO 2017-12-07 11:34:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 11:34:09]: Register new account was unsuccessful
+[INFO 2017-12-07 11:35:04]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 11:35:04]: Register new account was unsuccessful
+[INFO 2017-12-07 11:35:04]: Web driver quit
+[INFO 2017-12-07 15:49:57]: Password confirmation does not match password!
+[INFO 2017-12-07 15:49:57]: Register new account was unsuccessful
+[INFO 2017-12-07 15:49:57]: Web driver quit
+[INFO 2017-12-07 15:51:17]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 15:51:17]: Register new account was unsuccessful
+[INFO 2017-12-07 15:51:18]: Web driver quit
+[INFO 2017-12-07 15:55:59]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 15:55:59]: Register new account was unsuccessful
+[INFO 2017-12-07 15:56:07]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 15:56:07]: Register new account was unsuccessful
+[INFO 2017-12-07 15:56:20]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 15:56:20]: Register new account was unsuccessful
+[INFO 2017-12-07 15:56:20]: Web driver quit
+[INFO 2017-12-07 15:59:29]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 15:59:29]: Register new account was unsuccessful
+[INFO 2017-12-07 15:59:37]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 15:59:37]: Register new account was unsuccessful
+[INFO 2017-12-07 15:59:50]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 15:59:50]: Register new account was unsuccessful
+[INFO 2017-12-07 15:59:50]: Web driver quit
+[INFO 2017-12-07 16:02:22]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 16:02:22]: Register new account was unsuccessful
+[INFO 2017-12-07 16:03:27]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 16:03:27]: Register new account was unsuccessful
+[INFO 2017-12-07 16:03:35]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 16:03:35]: Register new account was unsuccessful
+[INFO 2017-12-07 16:05:22]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 16:05:22]: Register new account was unsuccessful
+[INFO 2017-12-07 16:05:23]: Web driver quit
+[INFO 2017-12-07 16:07:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 16:07:41]: Register new account was unsuccessful
+[INFO 2017-12-07 16:07:43]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 16:07:43]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 16:07:43]: Register new account was unsuccessful
+[INFO 2017-12-07 16:07:57]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 16:07:57]: Register new account was unsuccessful
+[INFO 2017-12-07 16:07:57]: Web driver quit
+[INFO 2017-12-07 16:10:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 16:10:09]: Register new account was unsuccessful
+[INFO 2017-12-07 16:10:11]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 16:10:11]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 16:10:11]: Register new account was unsuccessful
+[INFO 2017-12-07 19:52:21]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 19:52:21]: Register new account was unsuccessful
+[INFO 2017-12-07 19:54:06]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 19:54:06]: Register new account was unsuccessful
+[INFO 2017-12-07 19:56:01]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 19:56:01]: Register new account was unsuccessful
+[INFO 2017-12-07 19:56:01]: Web driver quit
+[INFO 2017-12-07 19:57:37]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 19:57:37]: Register new account was unsuccessful
+[INFO 2017-12-07 19:57:38]: Web driver quit
+[INFO 2017-12-07 19:58:29]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 19:58:29]: Register new account was unsuccessful
+[INFO 2017-12-07 19:58:30]: Web driver quit
+[INFO 2017-12-07 20:05:45]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:05:45]: Register new account was unsuccessful
+[INFO 2017-12-07 20:05:48]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:05:48]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:05:48]: Register new account was unsuccessful
+[INFO 2017-12-07 20:07:19]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:07:19]: Register new account was unsuccessful
+[INFO 2017-12-07 20:07:22]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:07:23]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:07:23]: Register new account was unsuccessful
+[INFO 2017-12-07 20:09:13]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:09:13]: Register new account was unsuccessful
+[INFO 2017-12-07 20:09:16]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:09:16]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:09:16]: Register new account was unsuccessful
+[INFO 2017-12-07 20:09:39]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 20:09:55]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:09:55]: Register new account was unsuccessful
+[INFO 2017-12-07 20:09:56]: Web driver quit
+[INFO 2017-12-07 20:12:21]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:12:21]: Register new account was unsuccessful
+[INFO 2017-12-07 20:12:24]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:12:24]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:12:24]: Register new account was unsuccessful
+[INFO 2017-12-07 20:12:25]: Web driver quit
+[INFO 2017-12-07 20:13:38]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:13:38]: Register new account was unsuccessful
+[INFO 2017-12-07 20:13:41]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:13:41]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:13:41]: Register new account was unsuccessful
+[INFO 2017-12-07 20:15:09]: Web driver quit
+[INFO 2017-12-07 20:15:24]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:15:24]: Register new account was unsuccessful
+[INFO 2017-12-07 20:15:27]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:15:27]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:15:27]: Register new account was unsuccessful
+[INFO 2017-12-07 20:17:15]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 20:17:24]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 20:17:32]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:17:32]: Register new account was unsuccessful
+[INFO 2017-12-07 20:17:32]: Web driver quit
+[INFO 2017-12-07 20:18:38]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:18:38]: Register new account was unsuccessful
+[INFO 2017-12-07 20:18:40]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:18:41]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:18:41]: Register new account was unsuccessful
+[INFO 2017-12-07 20:18:41]: Web driver quit
+[INFO 2017-12-07 20:19:04]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:19:04]: Register new account was unsuccessful
+[INFO 2017-12-07 20:19:07]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:19:07]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:19:07]: Register new account was unsuccessful
+[INFO 2017-12-07 20:19:07]: Web driver quit
+[INFO 2017-12-07 20:59:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 20:59:54]: Register new account was unsuccessful
+[INFO 2017-12-07 20:59:54]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 20:59:54]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 21:00:02]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:00:02]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:00:02]: Web driver quit
+[INFO 2017-12-07 21:02:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:02:47]: Register new account was unsuccessful
+[INFO 2017-12-07 21:02:48]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 21:02:48]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 21:02:56]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:02:56]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:02:56]: Web driver quit
+[INFO 2017-12-07 21:04:47]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:05:00]: Register new account was unsuccessful
+[INFO 2017-12-07 21:05:00]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 21:05:00]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 21:05:08]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:05:08]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:05:08]: Web driver quit
+[INFO 2017-12-07 21:07:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:48:26]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:48:27]: Web driver quit
+[INFO 2017-12-07 21:57:13]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 21:59:22]: Web driver quit
+[INFO 2017-12-07 22:01:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:01:41]: Web driver quit
+[INFO 2017-12-07 22:02:44]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:02:44]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:02:47]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:02:47]: Web driver quit
+[INFO 2017-12-07 22:03:50]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:03:51]: Web driver quit
+[INFO 2017-12-07 22:09:39]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:09:39]: Web driver quit
+[INFO 2017-12-07 22:10:51]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:10:52]: Web driver quit
+[INFO 2017-12-07 22:12:01]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:12:01]: Web driver quit
+[INFO 2017-12-07 22:13:06]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:13:06]: Web driver quit
+[INFO 2017-12-07 22:15:31]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:15:31]: Web driver quit
+[INFO 2017-12-07 22:20:43]: Web driver quit
+[INFO 2017-12-07 22:24:54]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:24:54]: Web driver quit
+[INFO 2017-12-07 22:25:33]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:25:33]: Web driver quit
+[INFO 2017-12-07 22:28:08]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:28:17]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:28:17]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:28:22]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:28:23]: Web driver quit
+[INFO 2017-12-07 22:35:04]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:35:04]: Web driver quit
+[INFO 2017-12-07 22:35:22]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:35:25]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:35:25]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:35:28]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:35:28]: Web driver quit
+[INFO 2017-12-07 22:35:53]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:35:53]: Web driver quit
+[INFO 2017-12-07 22:36:17]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:36:17]: Web driver quit
+[INFO 2017-12-07 22:38:59]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:38:59]: Web driver quit
+[INFO 2017-12-07 22:39:36]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:39:37]: Web driver quit
+[INFO 2017-12-07 22:40:26]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:40:28]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:40:28]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:40:31]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:40:31]: Web driver quit
+[INFO 2017-12-07 22:40:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:40:41]: Web driver quit
+[INFO 2017-12-07 22:41:47]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:45:03]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:45:06]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:45:06]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 22:45:09]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:45:10]: Web driver quit
+[INFO 2017-12-07 22:45:27]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:46:46]: Web driver quit
+[INFO 2017-12-07 22:47:38]: Web driver quit
+[INFO 2017-12-07 22:48:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:48:09]: Web driver quit
+[INFO 2017-12-07 22:49:19]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:49:19]: Web driver quit
+[INFO 2017-12-07 22:54:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:54:44]: Web driver quit
+[INFO 2017-12-07 22:55:37]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:55:40]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:55:40]: Web driver quit
+[INFO 2017-12-07 22:56:43]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-07 22:56:46]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 22:56:46]: Web driver quit
+[INFO 2017-12-07 23:46:33]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:46:33]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:46:35]: Web driver quit
+[INFO 2017-12-07 23:48:41]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:48:41]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:48:43]: Web driver quit
+[INFO 2017-12-07 23:52:39]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:52:39]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:52:41]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 23:52:46]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 23:52:47]: Web driver quit
+[INFO 2017-12-07 23:56:18]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:56:18]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:56:20]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 23:56:25]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-07 23:56:27]: Web driver quit
+[INFO 2017-12-07 23:59:52]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-07 23:59:52]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:00:00]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 00:00:01]: Web driver quit
+[INFO 2017-12-08 00:00:39]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:00:39]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:00:47]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 00:00:48]: Web driver quit
+[INFO 2017-12-08 00:02:33]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:02:33]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:02:41]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 00:02:43]: Web driver quit
+[INFO 2017-12-08 00:04:07]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:04:07]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:04:15]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 00:04:23]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 00:04:23]: Web driver quit
+[INFO 2017-12-08 00:35:23]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:35:23]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 00:35:31]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 00:35:32]: Web driver quit
+[INFO 2017-12-08 00:51:03]: Web driver quit
+[INFO 2017-12-08 00:51:43]: Web driver quit
+[INFO 2017-12-08 00:52:38]: Web driver quit
+[INFO 2017-12-08 00:53:08]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 00:53:08]: Register new account was successful
+[INFO 2017-12-08 00:53:31]: Web driver quit
+[INFO 2017-12-08 00:54:11]: Web driver quit
+[INFO 2017-12-08 00:59:56]: Register new account was successful
+[INFO 2017-12-08 00:59:56]: Register new account was successful
+[INFO 2017-12-08 01:00:07]: Web driver quit
+[INFO 2017-12-08 01:04:46]: Register new account was successful
+[INFO 2017-12-08 01:04:46]: Register new account was successful
+[INFO 2017-12-08 01:04:57]: Web driver quit
+[INFO 2017-12-08 01:06:05]: Register new account was successful
+[INFO 2017-12-08 01:06:16]: Web driver quit
+[INFO 2017-12-08 01:07:30]: Register new account was successful
+[INFO 2017-12-08 01:08:17]: Register new account was successful
+[INFO 2017-12-08 01:08:28]: Web driver quit
+[INFO 2017-12-08 01:09:21]: Register new account was successful
+[INFO 2017-12-08 01:14:38]: Register new account was successful
+[INFO 2017-12-08 01:15:03]: Register new account was successful
+[INFO 2017-12-08 01:15:36]: Register new account was successful
+[INFO 2017-12-08 01:16:39]: Register new account was successful
+[INFO 2017-12-08 01:17:38]: Web driver quit
+[INFO 2017-12-08 01:18:31]: Register new account was successful
+[INFO 2017-12-08 01:18:31]: Your Account Has Been Created!
+[INFO 2017-12-08 01:18:44]: Web driver quit
+[INFO 2017-12-08 01:20:53]: Register new account was successful
+[INFO 2017-12-08 01:20:53]: Your Account Has Been Created!
+[INFO 2017-12-08 01:21:03]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x..fce3295ca44b97e9c id="a7b21532-7158-4ab1-9523-fb9739e1627f">
+[INFO 2017-12-08 01:21:03]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x..f84be2fc38fbcbe0e id="6c1e1ab4-5020-4330-b4e5-bd2e094fea70">
+[INFO 2017-12-08 01:21:03]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x390063efa2d6f3b6 id="9ffec4a9-dbe4-4d85-8f94-766fc326f074">
+[INFO 2017-12-08 01:21:03]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x19d07bcc3c706132 id="bf4a8532-8c2e-47d9-917f-a7f0bc99ba71">
+[INFO 2017-12-08 01:21:04]: Web driver quit
+[INFO 2017-12-08 01:23:06]: Register new account was successful
+[INFO 2017-12-08 01:23:06]: Register Account
+[INFO 2017-12-08 01:23:44]: Register new account was successful
+[INFO 2017-12-08 01:23:44]: Your Account Has Been Created!
+[INFO 2017-12-08 01:24:04]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x..fb0a4d773e3e1579a id="8a1181eb-e107-4e8b-b285-9b0b54ab4b06">
+[INFO 2017-12-08 01:24:04]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x7ddaa98bd1506a4c id="d9f1a0d3-f18e-4de0-af3d-7dff5f05815d">
+[INFO 2017-12-08 01:24:04]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x332c9173ced8f94e id="70646cbe-7df2-4b1f-9264-13ec9dbbd3db">
+[INFO 2017-12-08 01:24:04]: Selenium::WebDriver::Element: #<Selenium::WebDriver::Element:0x..f5ef68975f2e8974 id="8a490b7a-56c9-4505-aaae-3e4420ed5746">
+[INFO 2017-12-08 01:24:05]: Web driver quit
+[INFO 2017-12-08 01:25:11]: Register new account was successful
+[INFO 2017-12-08 01:25:11]: Your Account Has Been Created!
+[INFO 2017-12-08 01:25:19]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:25:19]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:25:19]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:25:19]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:25:19]: Web driver quit
+[INFO 2017-12-08 01:26:12]: Register new account was successful
+[INFO 2017-12-08 01:26:12]: Your Account Has Been Created!
+[INFO 2017-12-08 01:26:29]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:26:29]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:26:29]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:26:29]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:26:40]: Web driver quit
+[INFO 2017-12-08 01:33:37]: Register new account was successful
+[INFO 2017-12-08 01:33:37]: Your Account Has Been Created!
+[INFO 2017-12-08 01:33:52]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:33:52]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:33:52]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:33:52]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:36:14]: Web driver quit
+[INFO 2017-12-08 01:41:01]: Web driver quit
+[INFO 2017-12-08 01:41:33]: Register new account was successful
+[INFO 2017-12-08 01:41:33]: Your Account Has Been Created!
+[INFO 2017-12-08 01:41:33]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:41:33]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:41:33]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:41:33]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:41:34]: Web driver quit
+[INFO 2017-12-08 01:42:04]: Register new account was successful
+[INFO 2017-12-08 01:42:04]: Your Account Has Been Created!
+[INFO 2017-12-08 01:42:04]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:42:04]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:42:04]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:42:04]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:42:41]: Web driver quit
+[INFO 2017-12-08 01:44:48]: Register new account was successful
+[INFO 2017-12-08 01:44:48]: Your Account Has Been Created!
+[INFO 2017-12-08 01:44:48]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:44:48]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:44:48]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:44:48]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:51:31]: Register new account was successful
+[INFO 2017-12-08 01:51:31]: Your Account Has Been Created!
+[INFO 2017-12-08 01:51:31]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:51:31]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:51:31]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:51:31]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:51:38]: Register new account was successful
+[INFO 2017-12-08 01:51:38]: Your Account Has Been Created!
+[INFO 2017-12-08 01:51:38]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:51:38]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:51:38]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:51:38]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:51:51]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 01:51:52]: Web driver quit
+[INFO 2017-12-08 01:53:10]: Register new account was successful
+[INFO 2017-12-08 01:53:10]: Your Account Has Been Created!
+[INFO 2017-12-08 01:53:10]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:53:10]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:53:10]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:53:10]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:53:21]: Register new account was successful
+[INFO 2017-12-08 01:53:21]: Your Account Has Been Created!
+[INFO 2017-12-08 01:53:21]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:53:21]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:53:21]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:53:21]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:53:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 01:53:35]: Web driver quit
+[INFO 2017-12-08 01:55:14]: Register new account was successful
+[INFO 2017-12-08 01:55:14]: Your Account Has Been Created!
+[INFO 2017-12-08 01:55:14]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:55:14]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:55:14]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:55:14]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:55:27]: Register new account was successful
+[INFO 2017-12-08 01:55:27]: Register Account
+[INFO 2017-12-08 01:55:27]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-08 01:55:40]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 01:55:41]: Web driver quit
+[INFO 2017-12-08 01:56:22]: Register new account was successful
+[INFO 2017-12-08 01:56:22]: Your Account Has Been Created!
+[INFO 2017-12-08 01:56:22]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:56:22]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:56:22]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:56:22]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:56:25]: Register new account was successful
+[INFO 2017-12-08 01:56:25]: Your Account Has Been Created!
+[INFO 2017-12-08 01:56:25]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 01:56:25]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 01:56:25]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 01:56:25]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 01:56:38]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 01:56:38]: Web driver quit
+[INFO 2017-12-08 01:57:16]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 01:57:16]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 01:57:28]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 01:57:30]: Web driver quit
+[INFO 2017-12-08 01:58:54]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 01:58:54]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 01:59:07]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 01:59:08]: Web driver quit
+[INFO 2017-12-08 01:59:39]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 01:59:39]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 01:59:52]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 01:59:53]: Web driver quit
+[INFO 2017-12-08 07:38:06]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 07:38:09]: Web driver quit
+[INFO 2017-12-08 07:39:14]: Web driver quit
+[INFO 2017-12-08 07:40:06]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 07:40:06]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 07:40:12]: Web driver quit
+[INFO 2017-12-08 07:40:36]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 07:40:36]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 07:40:43]: Web driver quit
+[INFO 2017-12-08 10:22:37]: Web driver quit
+[INFO 2017-12-08 10:23:09]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 10:23:10]: Web driver quit
+[INFO 2017-12-08 10:24:27]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 10:24:27]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 10:24:40]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 10:24:41]: Web driver quit
+[INFO 2017-12-08 10:26:03]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 10:26:03]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 10:26:03]: Web driver quit
+[INFO 2017-12-08 10:28:25]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 10:28:25]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 10:28:38]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 10:28:39]: Web driver quit
+[INFO 2017-12-08 12:32:57]: Web driver quit
+[INFO 2017-12-08 12:37:24]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:37:24]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:37:37]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 12:37:40]: Register new account was successful
+[INFO 2017-12-08 12:37:40]: Your Account Has Been Created!
+[INFO 2017-12-08 12:37:40]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 12:37:40]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 12:37:40]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 12:37:40]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 12:37:43]: Register new account was successful
+[INFO 2017-12-08 12:37:43]: Your Account Has Been Created!
+[INFO 2017-12-08 12:37:43]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 12:37:43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 12:37:43]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 12:37:43]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 12:37:56]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 12:37:56]: Web driver quit
+[INFO 2017-12-08 12:39:49]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:39:49]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:40:02]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 12:40:05]: Register new account was successful
+[INFO 2017-12-08 12:40:05]: Your Account Has Been Created!
+[INFO 2017-12-08 12:40:05]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 12:40:05]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 12:40:05]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 12:40:05]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 12:40:08]: Register new account was successful
+[INFO 2017-12-08 12:40:08]: Your Account Has Been Created!
+[INFO 2017-12-08 12:40:08]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 12:40:08]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 12:40:08]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 12:40:08]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 12:40:09]: Web driver quit
+[INFO 2017-12-08 12:42:43]: Web driver quit
+[INFO 2017-12-08 12:43:33]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:43:33]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:43:46]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 12:43:48]: Register new account was successful
+[INFO 2017-12-08 12:43:49]: Your Account Has Been Created!
+[INFO 2017-12-08 12:43:49]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 12:43:49]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 12:43:49]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 12:43:49]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 12:43:52]: Register new account was successful
+[INFO 2017-12-08 12:43:52]: Your Account Has Been Created!
+[INFO 2017-12-08 12:43:52]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 12:43:52]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 12:43:52]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 12:43:52]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 12:43:53]: Web driver quit
+[INFO 2017-12-08 12:44:58]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:44:58]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 12:45:11]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 12:45:11]: Web driver quit
+[INFO 2017-12-08 14:21:35]: Web driver quit
+[INFO 2017-12-08 14:21:48]: Web driver quit
+[INFO 2017-12-08 14:22:09]: Web driver quit
+[INFO 2017-12-08 14:22:31]: Web driver quit
+[INFO 2017-12-08 14:23:56]: Web driver quit
+[INFO 2017-12-08 14:24:36]: Web driver quit
+[INFO 2017-12-08 14:25:15]: Web driver quit
+[INFO 2017-12-08 14:26:32]: Web driver quit
+[INFO 2017-12-08 14:27:18]: Web driver quit
+[INFO 2017-12-08 14:28:15]: Web driver quit
+[INFO 2017-12-08 14:28:58]: Web driver quit
+[INFO 2017-12-08 14:31:53]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-08 14:31:53]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-08 14:32:05]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-08 14:32:09]: Register new account was successful
+[INFO 2017-12-08 14:32:09]: Your Account Has Been Created!
+[INFO 2017-12-08 14:32:09]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 14:32:09]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 14:32:09]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 14:32:09]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 14:32:12]: Register new account was successful
+[INFO 2017-12-08 14:32:12]: Your Account Has Been Created!
+[INFO 2017-12-08 14:32:12]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-08 14:32:12]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-08 14:32:12]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-08 14:32:12]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-08 14:32:25]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-08 14:32:26]: Web driver quit
+[INFO 2017-12-10 15:01:43]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:01:43]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:01:56]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 15:02:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 15:02:09]: Web driver quit
+[INFO 2017-12-10 15:02:56]: Web driver quit
+[INFO 2017-12-10 15:03:17]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:03:17]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:03:25]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 15:03:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 15:03:34]: Web driver quit
+[INFO 2017-12-10 15:17:17]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:17:17]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:17:17]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 15:17:17]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 15:17:17]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 15:17:17]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 15:17:17]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 15:17:25]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 15:17:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 15:17:35]: Web driver quit
+[INFO 2017-12-10 15:20:26]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:20:26]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 15:20:26]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 15:20:26]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 15:20:26]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 15:20:26]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 15:20:26]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 15:20:35]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 15:20:43]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 15:20:43]: Web driver quit
+[INFO 2017-12-10 15:55:35]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 15:55:35]: Login was unsuccessful
+[INFO 2017-12-10 15:55:35]: Web driver quit
+[INFO 2017-12-10 15:58:15]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 15:58:15]: Login was unsuccessful
+[INFO 2017-12-10 15:58:15]: Web driver quit
+[WARN 2017-12-10 15:58:40]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 15:58:40]: Login was successful
+[INFO 2017-12-10 15:58:40]: Web driver quit
+[INFO 2017-12-10 16:11:53]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:11:53]: Login was unsuccessful
+[INFO 2017-12-10 16:11:53]: Web driver quit
+[WARN 2017-12-10 16:12:53]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:12:53]: Login was successful
+[INFO 2017-12-10 16:12:55]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:12:55]: Login was unsuccessful
+[INFO 2017-12-10 16:12:55]: Web driver quit
+[WARN 2017-12-10 16:13:58]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:13:58]: Login was successful
+[INFO 2017-12-10 16:13:59]: Web driver quit
+[INFO 2017-12-10 16:15:57]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:15:57]: Login was unsuccessful
+[WARN 2017-12-10 16:16:27]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:16:27]: Login was successful
+[INFO 2017-12-10 16:16:27]: Web driver quit
+[WARN 2017-12-10 16:17:20]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:17:20]: Login was successful
+[INFO 2017-12-10 16:17:20]: Web driver quit
+[INFO 2017-12-10 16:18:13]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:18:13]: Login was unsuccessful
+[INFO 2017-12-10 16:18:13]: Web driver quit
+[INFO 2017-12-10 16:18:31]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:18:31]: Login was unsuccessful
+[WARN 2017-12-10 16:18:38]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:18:38]: Login was successful
+[INFO 2017-12-10 16:18:39]: Web driver quit
+[INFO 2017-12-10 16:20:24]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:20:24]: Login was unsuccessful
+[WARN 2017-12-10 16:20:31]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:20:31]: Login was successful
+[INFO 2017-12-10 16:20:31]: Web driver quit
+[WARN 2017-12-10 16:20:59]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:20:59]: Login was successful
+[INFO 2017-12-10 16:20:59]: Web driver quit
+[INFO 2017-12-10 16:23:49]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:23:49]: Login was unsuccessful
+[WARN 2017-12-10 16:23:56]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:23:56]: Login was successful
+[INFO 2017-12-10 16:23:56]: Web driver quit
+[WARN 2017-12-10 16:24:44]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:24:44]: Login was successful
+[WARN 2017-12-10 16:25:07]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:25:07]: Login was successful
+[INFO 2017-12-10 16:25:37]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:25:37]: Login was unsuccessful
+[WARN 2017-12-10 16:25:44]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:25:44]: Login was successful
+[INFO 2017-12-10 16:25:45]: Web driver quit
+[INFO 2017-12-10 16:28:04]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:28:04]: Login was unsuccessful
+[WARN 2017-12-10 16:28:11]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:28:11]: Login was successful
+[INFO 2017-12-10 16:28:11]: Web driver quit
+[INFO 2017-12-10 16:38:05]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:38:05]: Login was unsuccessful
+[WARN 2017-12-10 16:38:12]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:38:12]: Login was successful
+[INFO 2017-12-10 16:38:12]: Web driver quit
+[INFO 2017-12-10 16:41:20]: Web driver quit
+[INFO 2017-12-10 16:42:09]: Web driver quit
+[INFO 2017-12-10 16:44:21]: Web driver quit
+[INFO 2017-12-10 16:45:31]: Web driver quit
+[INFO 2017-12-10 16:46:10]: Web driver quit
+[INFO 2017-12-10 16:47:28]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:47:28]: Login was unsuccessful
+[WARN 2017-12-10 16:47:35]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:47:35]: Login was successful
+[INFO 2017-12-10 16:47:35]: Web driver quit
+[INFO 2017-12-10 16:47:58]: Web driver quit
+[INFO 2017-12-10 16:48:31]: Web driver quit
+[INFO 2017-12-10 16:54:08]: Web driver quit
+[INFO 2017-12-10 16:55:20]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:55:20]: Login was unsuccessful
+[WARN 2017-12-10 16:55:27]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:55:27]: Login was successful
+[INFO 2017-12-10 16:55:27]: Web driver quit
+[INFO 2017-12-10 16:55:54]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 16:55:54]: Login was unsuccessful
+[WARN 2017-12-10 16:56:01]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 16:56:01]: Login was successful
+[INFO 2017-12-10 16:56:01]: Web driver quit
+[INFO 2017-12-10 17:01:10]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:01:10]: Login was unsuccessful
+[WARN 2017-12-10 17:01:18]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:01:18]: Login was successful
+[INFO 2017-12-10 17:01:18]: Web driver quit
+[INFO 2017-12-10 17:04:27]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:04:27]: Login was unsuccessful
+[WARN 2017-12-10 17:04:34]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:04:34]: Login was successful
+[INFO 2017-12-10 17:04:34]: Web driver quit
+[INFO 2017-12-10 17:07:39]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:07:39]: Login was unsuccessful
+[WARN 2017-12-10 17:07:47]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:07:47]: Login was successful
+[INFO 2017-12-10 17:07:47]: Web driver quit
+[INFO 2017-12-10 17:12:09]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 17:12:18]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 17:12:19]: Web driver quit
+[INFO 2017-12-10 17:12:25]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:12:25]: Login was unsuccessful
+[WARN 2017-12-10 17:12:35]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:12:35]: Login was successful
+[INFO 2017-12-10 17:12:35]: Web driver quit
+[INFO 2017-12-10 17:15:28]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:15:28]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:15:28]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 17:15:28]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 17:15:28]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 17:15:28]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 17:15:28]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 17:15:42]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 17:15:57]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 17:15:57]: Web driver quit
+[INFO 2017-12-10 17:16:03]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:16:03]: Login was unsuccessful
+[WARN 2017-12-10 17:16:16]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:16:16]: Login was successful
+[INFO 2017-12-10 17:16:16]: Web driver quit
+[INFO 2017-12-10 17:18:16]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:18:16]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:18:16]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 17:18:16]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 17:18:16]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 17:18:16]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 17:18:16]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 17:18:30]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 17:18:42]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 17:18:42]: Web driver quit
+[INFO 2017-12-10 17:18:48]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:18:48]: Login was unsuccessful
+[WARN 2017-12-10 17:19:01]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:19:01]: Login was successful
+[INFO 2017-12-10 17:19:02]: Web driver quit
+[INFO 2017-12-10 17:22:11]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:22:11]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:22:11]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 17:22:11]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 17:22:11]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 17:22:11]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 17:22:11]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 17:22:19]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 17:23:31]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:23:31]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:23:31]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 17:23:31]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 17:23:31]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 17:23:31]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 17:23:31]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 17:23:39]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 17:23:46]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 17:23:47]: Web driver quit
+[INFO 2017-12-10 17:23:54]: Web driver quit
+[INFO 2017-12-10 17:25:52]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:25:52]: Login was unsuccessful
+[WARN 2017-12-10 17:25:59]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:25:59]: Login was successful
+[INFO 2017-12-10 17:25:59]: Web driver quit
+[INFO 2017-12-10 17:26:34]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:26:34]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:26:34]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 17:26:34]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 17:26:34]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 17:26:34]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 17:26:34]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 17:29:19]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:29:19]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:29:19]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 17:29:19]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 17:29:19]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 17:29:19]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 17:29:19]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 17:29:49]: Web driver quit
+[INFO 2017-12-10 17:29:57]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 17:29:57]: Login was unsuccessful
+[WARN 2017-12-10 17:30:04]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 17:30:04]: Login was successful
+[INFO 2017-12-10 17:30:04]: Web driver quit
+[INFO 2017-12-10 17:32:31]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:32:31]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 17:32:31]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 17:32:31]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 17:32:31]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 17:32:31]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 17:32:31]: Please select a region / state!
+[INFO 2017-12-10 17:32:31]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 17:32:34]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 18:07:24]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 18:07:24]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 18:07:24]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 18:07:24]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 18:07:24]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 18:07:24]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 18:07:24]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 18:07:32]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 18:07:40]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 18:07:41]: Web driver quit
+[INFO 2017-12-10 18:07:46]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 18:07:46]: Login was unsuccessful
+[WARN 2017-12-10 18:07:54]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 18:07:54]: Login was successful
+[INFO 2017-12-10 18:07:54]: Web driver quit
+[INFO 2017-12-10 18:24:00]: Web driver quit
+[INFO 2017-12-10 18:24:33]: Web driver quit
+[INFO 2017-12-10 18:25:52]: Web driver quit
+[INFO 2017-12-10 18:26:57]: Web driver quit
+[INFO 2017-12-10 18:28:10]: Web driver quit
+[INFO 2017-12-10 18:29:11]: Web driver quit
+[INFO 2017-12-10 18:29:24]: Web driver quit
+[INFO 2017-12-10 18:30:23]: Web driver quit
+[INFO 2017-12-10 18:40:59]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 18:40:59]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 18:40:59]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 18:40:59]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 18:40:59]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 18:40:59]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 18:40:59]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 18:41:08]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 18:41:16]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 18:41:16]: Web driver quit
+[INFO 2017-12-10 18:41:21]: Web driver quit
+[INFO 2017-12-10 19:20:16]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 19:20:16]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 19:20:16]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 19:20:16]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 19:20:16]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 19:20:16]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 19:20:16]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 19:20:24]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 19:21:37]: Web driver quit
+[INFO 2017-12-10 19:21:50]: Web driver quit
+[INFO 2017-12-10 22:42:05]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:42:06]: Web driver quit
+[INFO 2017-12-10 22:42:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:42:41]: Web driver quit
+[INFO 2017-12-10 22:43:38]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:43:45]: Web driver quit
+[INFO 2017-12-10 22:44:42]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:44:49]: Web driver quit
+[INFO 2017-12-10 22:45:49]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:45:56]: Web driver quit
+[INFO 2017-12-10 22:48:33]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:48:41]: Web driver quit
+[INFO 2017-12-10 22:49:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:49:51]: Web driver quit
+[INFO 2017-12-10 22:54:44]: Web driver quit
+[INFO 2017-12-10 22:54:57]: Web driver quit
+[INFO 2017-12-10 22:55:53]: Web driver quit
+[INFO 2017-12-10 22:56:00]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 22:56:00]: Login was unsuccessful
+[WARN 2017-12-10 22:56:06]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 22:56:06]: Login was successful
+[INFO 2017-12-10 22:56:06]: Web driver quit
+[INFO 2017-12-10 22:57:00]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 22:57:08]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 22:57:08]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 22:57:08]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 22:57:08]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 22:57:08]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 22:57:08]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 22:57:08]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 22:57:16]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 22:57:18]: Register new account was successful
+[INFO 2017-12-10 22:57:18]: Your Account Has Been Created!
+[INFO 2017-12-10 22:57:18]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-10 22:57:18]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-10 22:57:18]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-10 22:57:18]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-10 22:57:24]: Web driver quit
+[INFO 2017-12-10 22:57:31]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 22:57:31]: Login was unsuccessful
+[WARN 2017-12-10 22:57:37]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 22:57:37]: Login was successful
+[INFO 2017-12-10 22:57:37]: Web driver quit
+[INFO 2017-12-10 23:09:03]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 23:09:12]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:09:12]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:09:12]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 23:09:12]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 23:09:12]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 23:09:12]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 23:09:12]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 23:10:53]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 23:11:04]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:11:04]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:11:04]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 23:11:04]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 23:11:04]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 23:11:04]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 23:11:04]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 23:11:12]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 23:11:14]: Register new account was successful
+[INFO 2017-12-10 23:11:14]: Your Account Has Been Created!
+[INFO 2017-12-10 23:11:14]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-10 23:11:14]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-10 23:11:14]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-10 23:11:14]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-10 23:11:20]: Web driver quit
+[INFO 2017-12-10 23:11:26]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 23:11:26]: Login was unsuccessful
+[WARN 2017-12-10 23:11:32]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 23:11:32]: Login was successful
+[INFO 2017-12-10 23:11:33]: Web driver quit
+[INFO 2017-12-10 23:51:39]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 23:51:47]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:51:47]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:51:47]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 23:51:47]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 23:51:47]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 23:51:47]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 23:51:47]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 23:51:55]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 23:51:57]: Register new account was successful
+[INFO 2017-12-10 23:51:57]: Register Account
+[INFO 2017-12-10 23:51:57]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-10 23:52:04]: Web driver quit
+[INFO 2017-12-10 23:52:08]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 23:52:08]: Login was unsuccessful
+[WARN 2017-12-10 23:52:15]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 23:52:15]: Login was successful
+[INFO 2017-12-10 23:52:15]: Web driver quit
+[INFO 2017-12-10 23:56:16]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-10 23:56:25]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:56:25]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-10 23:56:25]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-10 23:56:25]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-10 23:56:25]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-10 23:56:25]: City must be between 2 and 128 characters!
+[INFO 2017-12-10 23:56:25]: Password must be between 4 and 20 characters!
+[INFO 2017-12-10 23:56:32]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-10 23:56:35]: Register new account was successful
+[INFO 2017-12-10 23:56:35]: Register Account
+[INFO 2017-12-10 23:56:35]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-10 23:56:38]: Register new account was successful
+[INFO 2017-12-10 23:56:38]: Your Account Has Been Created!
+[INFO 2017-12-10 23:56:38]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-10 23:56:38]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-10 23:56:38]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-10 23:56:38]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-10 23:56:39]: Web driver quit
+[INFO 2017-12-10 23:56:45]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-10 23:56:45]: Login was unsuccessful
+[WARN 2017-12-10 23:56:51]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-10 23:56:51]: Login was successful
+[INFO 2017-12-10 23:56:51]: Web driver quit
+[INFO 2017-12-11 00:06:16]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:06:18]: Register new account was successful
+[INFO 2017-12-11 00:06:18]: Register Account
+[INFO 2017-12-11 00:06:18]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:06:27]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:06:27]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:06:27]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:06:27]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:06:27]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:06:27]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:06:27]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:06:34]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:06:37]: Register new account was successful
+[INFO 2017-12-11 00:06:37]: Register Account
+[INFO 2017-12-11 00:06:37]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:06:38]: Web driver quit
+[INFO 2017-12-11 00:06:42]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 00:06:42]: Login was unsuccessful
+[WARN 2017-12-11 00:06:49]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 00:06:49]: Login was successful
+[INFO 2017-12-11 00:06:49]: Web driver quit
+[INFO 2017-12-11 00:10:05]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:10:06]: Register new account was successful
+[INFO 2017-12-11 00:10:06]: Register Account
+[INFO 2017-12-11 00:10:06]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:10:15]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:10:15]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:10:15]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:10:15]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:10:15]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:10:15]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:10:15]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:10:23]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:10:25]: Register new account was successful
+[INFO 2017-12-11 00:10:25]: Register Account
+[INFO 2017-12-11 00:10:25]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:10:29]: Web driver quit
+[INFO 2017-12-11 00:10:34]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 00:10:34]: Login was unsuccessful
+[WARN 2017-12-11 00:10:40]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 00:10:40]: Login was successful
+[INFO 2017-12-11 00:10:40]: Web driver quit
+[INFO 2017-12-11 00:13:32]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:13:33]: Register new account was successful
+[INFO 2017-12-11 00:13:33]: Register Account
+[INFO 2017-12-11 00:13:33]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:13:42]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:13:42]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:13:42]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:13:42]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:13:42]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:13:42]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:13:42]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:13:50]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:13:52]: Register new account was successful
+[INFO 2017-12-11 00:13:52]: Register Account
+[INFO 2017-12-11 00:13:52]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:13:55]: Register new account was successful
+[INFO 2017-12-11 00:13:55]: Register Account
+[INFO 2017-12-11 00:13:55]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:13:56]: Web driver quit
+[INFO 2017-12-11 00:14:01]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 00:14:01]: Login was unsuccessful
+[WARN 2017-12-11 00:14:07]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 00:14:07]: Login was successful
+[INFO 2017-12-11 00:14:07]: Web driver quit
+[INFO 2017-12-11 00:15:57]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:15:59]: Register new account was successful
+[INFO 2017-12-11 00:15:59]: Register Account
+[INFO 2017-12-11 00:15:59]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:16:03]: Register new account was successful
+[INFO 2017-12-11 00:16:03]: Register Account
+[INFO 2017-12-11 00:16:03]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:16:03]: Web driver quit
+[INFO 2017-12-11 00:17:21]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:17:24]: Register new account was successful
+[INFO 2017-12-11 00:17:24]: Register Account
+[INFO 2017-12-11 00:17:24]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:17:26]: Register new account was successful
+[INFO 2017-12-11 00:17:26]: Register Account
+[INFO 2017-12-11 00:17:26]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:17:26]: Web driver quit
+[INFO 2017-12-11 00:18:26]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:18:28]: Register new account was successful
+[INFO 2017-12-11 00:18:28]: Register Account
+[INFO 2017-12-11 00:18:28]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:19:06]: Register new account was successful
+[INFO 2017-12-11 00:19:06]: Register Account
+[INFO 2017-12-11 00:19:06]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:19:06]: Web driver quit
+[INFO 2017-12-11 00:21:31]: Register new account was successful
+[INFO 2017-12-11 00:21:31]: Register Account
+[INFO 2017-12-11 00:21:31]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:21:36]: Register new account was successful
+[INFO 2017-12-11 00:21:36]: Register Account
+[INFO 2017-12-11 00:21:36]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:21:36]: Web driver quit
+[INFO 2017-12-11 00:24:43]: Register new account was successful
+[INFO 2017-12-11 00:24:43]: Register Account
+[INFO 2017-12-11 00:24:43]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:26:36]: Register new account was successful
+[INFO 2017-12-11 00:26:36]: Register Account
+[INFO 2017-12-11 00:26:36]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:26:41]: Register new account was successful
+[INFO 2017-12-11 00:26:41]: Register Account
+[INFO 2017-12-11 00:26:41]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:26:41]: Web driver quit
+[INFO 2017-12-11 00:27:30]: Register new account was successful
+[INFO 2017-12-11 00:27:30]: Register Account
+[INFO 2017-12-11 00:27:30]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:27:35]: Register new account was successful
+[INFO 2017-12-11 00:27:35]: Register Account
+[INFO 2017-12-11 00:27:35]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:27:35]: Web driver quit
+[INFO 2017-12-11 00:28:38]: Register new account was successful
+[INFO 2017-12-11 00:28:38]: Register Account
+[INFO 2017-12-11 00:28:38]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:29:18]: Register new account was successful
+[INFO 2017-12-11 00:29:18]: Register Account
+[INFO 2017-12-11 00:29:18]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:29:18]: Web driver quit
+[INFO 2017-12-11 00:29:55]: Register new account was successful
+[INFO 2017-12-11 00:29:55]: Register Account
+[INFO 2017-12-11 00:29:55]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:30:08]: Register new account was successful
+[INFO 2017-12-11 00:30:08]: Register Account
+[INFO 2017-12-11 00:30:08]: If you already have an account with us, please login at the login page.
+[INFO 2017-12-11 00:30:09]: Web driver quit
+[INFO 2017-12-11 00:30:59]: Web driver quit
+[INFO 2017-12-11 00:31:33]: Register new account was successful
+[INFO 2017-12-11 00:31:33]: Your Account Has Been Created!
+[INFO 2017-12-11 00:31:33]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 00:31:33]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 00:31:33]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 00:31:33]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 00:31:38]: Web driver quit
+[INFO 2017-12-11 00:34:44]: Register new account was successful
+[INFO 2017-12-11 00:34:44]: Your Account Has Been Created!
+[INFO 2017-12-11 00:34:44]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 00:34:44]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 00:34:44]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 00:34:44]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 00:34:47]: Register new account was successful
+[INFO 2017-12-11 00:34:47]: Your Account Has Been Created!
+[INFO 2017-12-11 00:34:47]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 00:34:47]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 00:34:47]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 00:34:47]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 00:34:47]: Web driver quit
+[INFO 2017-12-11 00:36:47]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:37:06]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:37:06]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:37:06]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:37:06]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:37:06]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:37:06]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:37:06]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:37:14]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:37:17]: Register new account was successful
+[INFO 2017-12-11 00:37:17]: Your Account Has Been Created!
+[INFO 2017-12-11 00:37:17]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 00:37:17]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 00:37:17]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 00:37:17]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 00:37:21]: Register new account was successful
+[INFO 2017-12-11 00:37:21]: Your Account Has Been Created!
+[INFO 2017-12-11 00:37:21]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 00:37:21]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 00:37:21]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 00:37:21]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 00:37:21]: Web driver quit
+[INFO 2017-12-11 00:37:26]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 00:37:26]: Login was unsuccessful
+[WARN 2017-12-11 00:37:33]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 00:37:33]: Login was successful
+[INFO 2017-12-11 00:37:33]: Web driver quit
+[INFO 2017-12-11 00:40:43]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:40:54]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:40:54]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:40:54]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:40:54]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:40:54]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:40:54]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:40:54]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:41:01]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:42:19]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:42:31]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:42:31]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:42:31]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:42:31]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:42:31]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:42:31]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:42:31]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:42:39]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:43:50]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 00:43:50]: Login was unsuccessful
+[WARN 2017-12-11 00:43:57]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 00:43:57]: Login was successful
+[INFO 2017-12-11 00:43:57]: Web driver quit
+[INFO 2017-12-11 00:44:57]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:45:08]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:45:08]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:45:08]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:45:08]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:45:08]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:45:08]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:45:08]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:45:16]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:47:27]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:50:58]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:50:58]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:50:58]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:50:58]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:50:58]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:50:58]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:50:58]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:51:25]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:51:36]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:51:36]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:51:36]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:51:36]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:51:36]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:51:36]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:51:36]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:51:44]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:53:27]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 00:53:38]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:53:38]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 00:53:38]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 00:53:38]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 00:53:38]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 00:53:38]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 00:53:38]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 00:53:46]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 00:53:53]: Web driver quit
+[INFO 2017-12-11 00:53:58]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 00:53:58]: Login was unsuccessful
+[WARN 2017-12-11 00:54:04]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 00:54:04]: Login was successful
+[INFO 2017-12-11 00:54:04]: Web driver quit
+[INFO 2017-12-11 01:08:55]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:14:58]: Web driver quit
+[INFO 2017-12-11 01:15:03]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 01:15:03]: Login was unsuccessful
+[WARN 2017-12-11 01:15:09]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 01:15:09]: Login was successful
+[INFO 2017-12-11 01:15:09]: Web driver quit
+[INFO 2017-12-11 01:16:51]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:17:00]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:17:00]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:17:00]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 01:17:00]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 01:17:00]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 01:17:00]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 01:17:00]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 01:17:08]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 01:17:11]: Register new account was successful
+[INFO 2017-12-11 01:17:11]: Your Account Has Been Created!
+[INFO 2017-12-11 01:17:11]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 01:17:11]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 01:17:11]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 01:17:11]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 01:17:14]: Register new account was successful
+[INFO 2017-12-11 01:17:14]: Your Account Has Been Created!
+[INFO 2017-12-11 01:17:14]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 01:17:14]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 01:17:14]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 01:17:14]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 01:17:14]: Web driver quit
+[INFO 2017-12-11 01:17:19]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 01:17:19]: Login was unsuccessful
+[WARN 2017-12-11 01:17:25]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 01:17:25]: Login was successful
+[INFO 2017-12-11 01:17:25]: Web driver quit
+[INFO 2017-12-11 01:19:54]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:20:03]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:20:03]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:20:03]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 01:20:03]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 01:20:03]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 01:20:03]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 01:20:03]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 01:20:10]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 01:20:16]: Web driver quit
+[INFO 2017-12-11 01:20:21]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 01:20:21]: Login was unsuccessful
+[WARN 2017-12-11 01:20:27]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 01:20:27]: Login was successful
+[INFO 2017-12-11 01:20:28]: Web driver quit
+[INFO 2017-12-11 01:22:15]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:22:23]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:22:23]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:22:23]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 01:22:23]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 01:22:23]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 01:22:23]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 01:22:23]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 01:22:30]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 01:22:36]: Web driver quit
+[INFO 2017-12-11 01:22:43]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 01:22:43]: Login was unsuccessful
+[WARN 2017-12-11 01:22:49]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 01:22:49]: Login was successful
+[INFO 2017-12-11 01:22:49]: Web driver quit
+[INFO 2017-12-11 01:37:16]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:38:01]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:38:42]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:39:26]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:39:33]: Web driver quit
+[INFO 2017-12-11 01:39:39]: Web driver quit
+[INFO 2017-12-11 01:39:44]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 01:39:44]: Login was unsuccessful
+[INFO 2017-12-11 01:39:50]: Login was successful
+[INFO 2017-12-11 01:39:51]: Web driver quit
+[INFO 2017-12-11 01:41:13]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:42:00]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:42:28]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:43:44]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:45:58]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:57:03]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:57:08]: Web driver quit
+[INFO 2017-12-11 01:57:33]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 01:57:50]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:57:50]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 01:57:50]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 01:57:50]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 01:57:50]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 01:57:50]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 01:57:50]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 01:58:17]: Web driver quit
+[INFO 2017-12-11 01:58:22]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 01:58:22]: Login was unsuccessful
+[INFO 2017-12-11 01:58:28]: Login was successful
+[INFO 2017-12-11 01:58:29]: Web driver quit
+[INFO 2017-12-11 02:02:34]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 02:02:50]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 02:02:50]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 02:02:50]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 02:02:50]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 02:02:50]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 02:02:50]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 02:02:50]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 02:02:59]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 02:03:05]: Register new account was successful
+[INFO 2017-12-11 02:03:05]: Your Account Has Been Created!
+[INFO 2017-12-11 02:03:05]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 02:03:05]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 02:03:05]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 02:03:05]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 02:03:11]: Register new account was successful
+[INFO 2017-12-11 02:03:11]: Your Account Has Been Created!
+[INFO 2017-12-11 02:03:11]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 02:03:11]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 02:03:11]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 02:03:11]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 02:03:11]: Web driver quit
+[INFO 2017-12-11 02:03:17]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 02:03:17]: Login was unsuccessful
+[WARN 2017-12-11 02:03:23]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 02:03:23]: Login was successful
+[INFO 2017-12-11 02:03:23]: Web driver quit
+[INFO 2017-12-11 02:10:52]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 02:11:00]: Web driver quit
+[INFO 2017-12-11 02:11:04]: Web driver quit
+[INFO 2017-12-11 02:11:10]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 02:11:10]: Login was unsuccessful
+[WARN 2017-12-11 02:11:16]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 02:11:16]: Login was successful
+[INFO 2017-12-11 02:11:17]: Web driver quit
+[INFO 2017-12-11 02:12:42]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 02:12:51]: Web driver quit
+[INFO 2017-12-11 02:12:58]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 02:12:58]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 02:12:58]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 02:12:58]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 02:12:58]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 02:12:58]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 02:12:58]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 02:13:00]: Web driver quit
+[INFO 2017-12-11 02:13:05]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 02:13:05]: Login was unsuccessful
+[WARN 2017-12-11 02:13:11]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 02:13:11]: Login was successful
+[INFO 2017-12-11 02:13:12]: Web driver quit
+[INFO 2017-12-11 02:14:39]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 02:14:48]: Web driver quit
+[INFO 2017-12-11 02:14:54]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 02:14:54]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 02:14:54]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 02:14:54]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 02:14:54]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 02:14:54]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 02:14:54]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 02:15:05]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 07:38:02]: Web driver quit
+[INFO 2017-12-11 07:38:13]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 07:38:13]: Login was unsuccessful
+[WARN 2017-12-11 07:38:19]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 07:38:19]: Login was successful
+[INFO 2017-12-11 07:38:19]: Web driver quit
+[INFO 2017-12-11 07:40:46]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 07:40:54]: Web driver quit
+[INFO 2017-12-11 07:41:01]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:41:01]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:41:01]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 07:41:01]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 07:41:01]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 07:41:01]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 07:41:01]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 07:41:12]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 07:41:25]: Web driver quit
+[INFO 2017-12-11 07:41:31]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 07:41:31]: Login was unsuccessful
+[WARN 2017-12-11 07:41:37]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 07:41:37]: Login was successful
+[INFO 2017-12-11 07:41:37]: Web driver quit
+[INFO 2017-12-11 07:44:09]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 07:44:18]: Web driver quit
+[INFO 2017-12-11 07:44:24]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:44:24]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:44:24]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 07:44:24]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 07:44:24]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 07:44:24]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 07:44:24]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 07:44:35]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 07:44:50]: Web driver quit
+[INFO 2017-12-11 07:44:54]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 07:44:54]: Login was unsuccessful
+[WARN 2017-12-11 07:45:01]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 07:45:01]: Login was successful
+[INFO 2017-12-11 07:45:01]: Web driver quit
+[INFO 2017-12-11 07:51:41]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 07:51:49]: Web driver quit
+[INFO 2017-12-11 07:51:55]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:51:55]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:51:55]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 07:51:55]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 07:51:55]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 07:51:55]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 07:51:55]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 07:52:06]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 07:52:19]: Web driver quit
+[INFO 2017-12-11 07:52:24]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 07:52:24]: Login was unsuccessful
+[WARN 2017-12-11 07:52:30]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 07:52:30]: Login was successful
+[INFO 2017-12-11 07:52:30]: Web driver quit
+[INFO 2017-12-11 07:54:21]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 07:54:29]: Web driver quit
+[INFO 2017-12-11 07:54:35]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:54:35]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 07:54:35]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 07:54:35]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 07:54:35]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 07:54:35]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 07:54:35]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 07:54:45]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 07:54:56]: Web driver quit
+[INFO 2017-12-11 07:55:02]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 07:55:02]: Login was unsuccessful
+[WARN 2017-12-11 07:55:08]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 07:55:08]: Login was successful
+[INFO 2017-12-11 07:55:08]: Web driver quit
+[INFO 2017-12-11 10:53:40]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 10:53:48]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 10:53:48]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 10:53:50]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 10:53:53]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 10:53:54]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 10:53:56]: Web driver quit
+[INFO 2017-12-11 10:54:02]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 10:54:02]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 10:54:02]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 10:54:02]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 10:54:02]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 10:54:02]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 10:54:02]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 10:54:12]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 10:54:24]: Web driver quit
+[INFO 2017-12-11 10:54:28]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 10:54:28]: Login was unsuccessful
+[WARN 2017-12-11 10:54:34]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 10:54:34]: Login was successful
+[INFO 2017-12-11 10:54:34]: Web driver quit
+[INFO 2017-12-11 11:02:04]: F
+[INFO 2017-12-11 11:02:04]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:02:12]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 11:02:12]: F
+[INFO 2017-12-11 11:02:12]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:02:14]: F
+[INFO 2017-12-11 11:02:14]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:02:17]: F
+[INFO 2017-12-11 11:02:17]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:02:19]: F
+[INFO 2017-12-11 11:02:19]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:02:21]: F
+[INFO 2017-12-11 11:02:21]: Web driver quit
+[INFO 2017-12-11 11:02:26]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:02:26]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:02:27]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 11:02:27]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 11:02:27]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 11:02:27]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 11:02:27]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 11:02:27]: F
+[INFO 2017-12-11 11:02:37]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 11:02:37]: F
+[INFO 2017-12-11 11:03:44]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:03:44]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:03:44]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:03:44]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:03:44]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:04:51]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:04:51]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:04:51]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:04:51]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:04:51]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:05:27]: T
+[INFO 2017-12-11 11:05:27]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:05:35]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 11:05:35]: T
+[INFO 2017-12-11 11:05:35]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:05:37]: T
+[INFO 2017-12-11 11:05:37]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:05:39]: T
+[INFO 2017-12-11 11:05:39]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:05:41]: T
+[INFO 2017-12-11 11:05:41]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:05:43]: T
+[INFO 2017-12-11 11:05:43]: Web driver quit
+[INFO 2017-12-11 11:05:49]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:05:49]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:05:49]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 11:05:49]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 11:05:49]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 11:05:49]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 11:05:49]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 11:05:49]: T
+[INFO 2017-12-11 11:05:59]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 11:05:59]: T
+[INFO 2017-12-11 11:06:05]: Register new account was successful
+[INFO 2017-12-11 11:06:05]: Your Account Has Been Created!
+[INFO 2017-12-11 11:06:05]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 11:06:05]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 11:06:05]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 11:06:05]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 11:06:05]: T
+[INFO 2017-12-11 11:06:11]: Register new account was successful
+[INFO 2017-12-11 11:06:11]: Your Account Has Been Created!
+[INFO 2017-12-11 11:06:11]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 11:06:11]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 11:06:11]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 11:06:11]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 11:06:11]: T
+[INFO 2017-12-11 11:06:11]: Web driver quit
+[INFO 2017-12-11 11:06:16]: T
+[INFO 2017-12-11 11:06:16]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 11:06:16]: Login was unsuccessful
+[INFO 2017-12-11 11:06:16]: T
+[INFO 2017-12-11 11:06:22]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 11:06:22]: Login was successful
+[INFO 2017-12-11 11:06:22]: T
+[INFO 2017-12-11 11:06:23]: Web driver quit
+[INFO 2017-12-11 11:06:39]: T
+[INFO 2017-12-11 11:06:39]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:06:47]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 11:06:47]: T
+[INFO 2017-12-11 11:06:47]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:06:50]: T
+[INFO 2017-12-11 11:06:50]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:06:52]: T
+[INFO 2017-12-11 11:06:52]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:06:53]: T
+[INFO 2017-12-11 11:06:53]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:06:55]: T
+[INFO 2017-12-11 11:06:55]: Web driver quit
+[INFO 2017-12-11 11:07:01]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:07:01]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:07:01]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 11:07:01]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 11:07:01]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 11:07:01]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 11:07:01]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 11:07:01]: T
+[INFO 2017-12-11 11:07:12]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 11:07:12]: T
+[INFO 2017-12-11 11:07:17]: F
+[INFO 2017-12-11 11:07:23]: F
+[INFO 2017-12-11 11:07:23]: Web driver quit
+[INFO 2017-12-11 11:07:26]: T
+[INFO 2017-12-11 11:07:27]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 11:07:27]: Login was unsuccessful
+[INFO 2017-12-11 11:07:27]: T
+[INFO 2017-12-11 11:07:33]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 11:07:33]: Login was successful
+[INFO 2017-12-11 11:07:33]: T
+[INFO 2017-12-11 11:07:33]: Web driver quit
+[INFO 2017-12-11 11:10:21]: T
+[INFO 2017-12-11 11:10:21]: T
+[INFO 2017-12-11 11:10:21]: T
+[INFO 2017-12-11 11:10:21]: T
+[INFO 2017-12-11 11:10:23]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:10:31]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 11:10:31]: T
+[INFO 2017-12-11 11:10:31]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:10:34]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:10:36]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:10:38]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:10:40]: Web driver quit
+[INFO 2017-12-11 11:11:08]: T
+[INFO 2017-12-11 11:11:08]: T
+[INFO 2017-12-11 11:11:08]: T
+[INFO 2017-12-11 11:11:08]: T
+[INFO 2017-12-11 11:11:11]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:11:18]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 11:11:18]: T
+[INFO 2017-12-11 11:11:18]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:11:21]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:11:23]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:11:25]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:11:27]: Web driver quit
+[INFO 2017-12-11 11:11:33]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:11:33]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:11:33]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 11:11:33]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 11:11:33]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 11:11:33]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 11:11:33]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 11:11:33]: T
+[INFO 2017-12-11 11:11:43]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 11:11:43]: T
+[INFO 2017-12-11 11:11:49]: F
+[INFO 2017-12-11 11:11:55]: F
+[INFO 2017-12-11 11:11:55]: Web driver quit
+[INFO 2017-12-11 11:11:59]: T
+[INFO 2017-12-11 11:11:59]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 11:11:59]: Login was unsuccessful
+[INFO 2017-12-11 11:11:59]: T
+[INFO 2017-12-11 11:12:05]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 11:12:05]: Login was successful
+[INFO 2017-12-11 11:12:05]: T
+[INFO 2017-12-11 11:12:06]: Web driver quit
+[INFO 2017-12-11 11:13:28]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:13:36]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 11:13:36]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:13:49]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:13:53]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:13:55]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:13:57]: Web driver quit
+[INFO 2017-12-11 11:14:02]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:14:02]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:14:02]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 11:14:03]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 11:14:03]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 11:14:03]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 11:14:03]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 11:14:13]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 11:14:18]: Register new account was successful
+[INFO 2017-12-11 11:14:18]: Your Account Has Been Created!
+[INFO 2017-12-11 11:14:18]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 11:14:18]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 11:14:18]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 11:14:18]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 11:14:24]: Register new account was successful
+[INFO 2017-12-11 11:14:24]: Your Account Has Been Created!
+[INFO 2017-12-11 11:14:25]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 11:14:25]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 11:14:25]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 11:14:25]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 11:14:25]: Web driver quit
+[INFO 2017-12-11 11:14:29]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 11:14:29]: Login was unsuccessful
+[INFO 2017-12-11 11:14:35]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 11:14:35]: Login was successful
+[INFO 2017-12-11 11:14:35]: Web driver quit
+[INFO 2017-12-11 11:17:25]: should enter previously registered user account email - alert notification must be appear
+[INFO 2017-12-11 11:17:38]: Warning: E-Mail Address is already registered!
+[INFO 2017-12-11 11:17:38]: should enter valid e-mail field value by common e-mail template - value is accepted
+[INFO 2017-12-11 11:17:41]: should enter cyrillic e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:17:43]: should enter blank e-mail field value - error notification is appeared
+[INFO 2017-12-11 11:17:45]: should enter e-mail field value without '@' symbol - error notification is appeared
+[INFO 2017-12-11 11:17:47]: Web driver quit
+[INFO 2017-12-11 11:17:52]: First Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:17:52]: Last Name must be between 1 and 32 characters!
+[INFO 2017-12-11 11:17:52]: E-Mail Address does not appear to be valid!
+[INFO 2017-12-11 11:17:52]: Telephone must be between 3 and 32 characters!
+[INFO 2017-12-11 11:17:52]: Address 1 must be between 3 and 128 characters!
+[INFO 2017-12-11 11:17:52]: City must be between 2 and 128 characters!
+[INFO 2017-12-11 11:17:52]: Password must be between 4 and 20 characters!
+[INFO 2017-12-11 11:18:08]: Warning: You must agree to the Privacy Policy!
+[INFO 2017-12-11 11:18:13]: Register new account was successful
+[INFO 2017-12-11 11:18:13]: Your Account Has Been Created!
+[INFO 2017-12-11 11:18:13]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 11:18:13]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 11:18:13]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 11:18:13]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 11:18:19]: Register new account was successful
+[INFO 2017-12-11 11:18:19]: Your Account Has Been Created!
+[INFO 2017-12-11 11:18:20]: Congratulations! Your new account has been successfully created!
+[INFO 2017-12-11 11:18:20]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+[INFO 2017-12-11 11:18:20]: If you have ANY questions about the operation of this online shop, please e-mail the store owner.
+[INFO 2017-12-11 11:18:20]: A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please contact us.
+[INFO 2017-12-11 11:18:20]: Web driver quit
+[INFO 2017-12-11 11:18:24]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-11 11:18:24]: Login was unsuccessful
+[INFO 2017-12-11 11:18:35]: Web element '["div.alert.alert-danger"]' was not found
+[INFO 2017-12-11 11:18:35]: Login was successful
+[INFO 2017-12-11 11:18:36]: Web driver quit
+[INFO 2017-12-13 13:58:34]: Warning: No match for E-Mail Address and/or Password.
+[INFO 2017-12-13 13:58:34]: Login was unsuccessful

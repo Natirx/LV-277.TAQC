@@ -1,0 +1,61 @@
+{
+  "uid" : "c81eb838f0bcf21a",
+  "name" : "Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful",
+  "fullName" : "Registration page states tests group.Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful",
+  "historyId" : "c05b859772d6dacba2a75c7b4d80ed28",
+  "time" : {
+    "start" : 1512983893966,
+    "stop" : 1512983900202,
+    "duration" : 6236
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "yulian-VirtualBox"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "5156680"
+  }, {
+    "name" : "suite",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration page states tests group should enter all required fields are valid and\n        policy checkbox set in checked state - registration must be successful"
+  }, {
+    "name" : "package",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c81eb838f0bcf21a.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

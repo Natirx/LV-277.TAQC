@@ -1,0 +1,61 @@
+{
+  "uid" : "34f387f9139bb880",
+  "name" : "Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful",
+  "fullName" : "Registration page states tests group.Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful",
+  "historyId" : "eb500a474cac218710551e79692c66aa",
+  "time" : {
+    "start" : 1512983888430,
+    "stop" : 1512983893966,
+    "duration" : 5536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "yulian-VirtualBox"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "5156680"
+  }, {
+    "name" : "suite",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration page states tests group should enter all required fields is valid and not required fields is empty -\n        registration must be successful"
+  }, {
+    "name" : "package",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34f387f9139bb880.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

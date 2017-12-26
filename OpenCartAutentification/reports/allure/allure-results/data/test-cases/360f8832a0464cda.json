@@ -1,0 +1,61 @@
+{
+  "uid" : "360f8832a0464cda",
+  "name" : "Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear",
+  "fullName" : "Registration page states tests group.Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear",
+  "historyId" : "a426043ac3f8f90357a22b7c1c73320a",
+  "time" : {
+    "start" : 1512983872868,
+    "stop" : 1512983888428,
+    "duration" : 15560
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "yulian-VirtualBox"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "5156680"
+  }, {
+    "name" : "suite",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration page states tests group should set policy checkbox in unchecked state - registration must be unsuccessful\n        and error notification(s) must appear"
+  }, {
+    "name" : "package",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "360f8832a0464cda.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

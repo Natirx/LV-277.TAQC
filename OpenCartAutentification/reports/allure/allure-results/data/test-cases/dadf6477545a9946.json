@@ -1,0 +1,61 @@
+{
+  "uid" : "dadf6477545a9946",
+  "name" : "Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear",
+  "fullName" : "Registration page states tests group.Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear",
+  "historyId" : "1d94c32d05692eca2758b52b037116b4",
+  "time" : {
+    "start" : 1512983866944,
+    "stop" : 1512983872867,
+    "duration" : 5923
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "yulian-VirtualBox"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "5156680"
+  }, {
+    "name" : "suite",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration page states tests group should enter one (or) more of required fields is not valid - registration\n        must be unsuccessful and error notification(s) must appear"
+  }, {
+    "name" : "package",
+    "value" : "Registration page states tests group"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dadf6477545a9946.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
