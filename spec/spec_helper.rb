@@ -1,6 +1,9 @@
 require 'rspec'
 require 'rubygems'
 require 'selenium-webdriver'
+require 'allure-rspec'
+require 'pathname'
+require 'parallel_tests'
 
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
@@ -16,6 +19,7 @@ require_relative '../pages/user/header_component.rb'
 require_relative '../pages/user/product_search_page.rb'
 require_relative '../pages/user/failure_search_page.rb'
 require_relative '../pages/user/success_search_page.rb'
+require_relative '../tools/logger_wrapper'
 
 
 RSpec.configure do |config|
@@ -26,8 +30,17 @@ RSpec.configure do |config|
     #Application.get(ApplicationSourceRepository.firefox_heroku())
   end
 
+  $log = LoggerWrapper.logger
+  config.include AllureRSpec::Adaptor
+
+  AllureRSpec.configure do |config|
+    config.output_dir = 'reports/allure/gen/allure-results'
+    config.logging_level = Logger::WARN
+  end
+
   config.after(:all) do
     Application.remove
   end
-
 end
+
+ParallelTests.first_process? ? FileUtils.rm_rf(AllureRSpec::Config.output_dir) : sleep(1)
