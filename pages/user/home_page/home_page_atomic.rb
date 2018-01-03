@@ -1,48 +1,24 @@
-require 'rubygems'
-require_relative '../../data/currency.rb'
-require_relative '../../data/currency_repository.rb'
-require_relative '../../tools/price_utils.rb'
-require_relative 'header_component.rb'
-require_relative 'shopping_cart.rb'
-#require_relative 'empty_cart.rb'
+require_relative 'home_page'
+require_relative 'home_page_selectors'
+class HomePageAtomic
+  attr_reader :home_page
 
-class HomePage < HeaderComponent
-
-  def initialize driver
-    @driver=driver
-    @home_page = @driver.find_element(:id, "content")
-    @product_block = @driver.find_elements(:css, "#content > .row > div")
-
+  def initialize(driver)
+    @home_page = HomePage.new(driver)
   end
 
-  def home_page
-    @home_page
-  end
-
-  def product_block
-    @product_block
-  end
 
   def product_div name
-    product_block.each do |div|
+    @home_page.product_block.each do |div|
       return div if div.text.include? name
-
     end
   end
 
   def add_cart_button name
-    product_div(name).find_element(css: ".fa.fa-shopping-cart")
+    product_div(name).find_element HomePageSelectors::ADD_BUTTON
   end
 
 
-  def check_cart
-    click_shopping_cart_block
-    Cart.new @driver
-  end
-
-  def click_add_cart_button name
-    add_cart_button(name).click
-  end
 
   def shipping_cart_block_text
     shopping_cart_block.text
@@ -89,5 +65,4 @@ class HomePage < HeaderComponent
     name1=['MacBook', 'MacBook', 'iPhone']
     add_product_to_cart(*name1)
   end
-
 end

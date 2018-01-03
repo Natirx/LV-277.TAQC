@@ -1,3 +1,4 @@
+require_relative '../pages/user/item_list_component.rb'
 class PriceUtils
 
   private_class_method :new
@@ -11,6 +12,11 @@ class PriceUtils
       exit
     end
     matcher[0].to_f
+  end
+
+  def self.sub_total_price a, b
+    a=((a-b)/1.2).round(2)
+    return a
   end
 
 

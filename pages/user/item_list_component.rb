@@ -1,5 +1,6 @@
 require_relative 'header_component.rb'
 require_relative '../../tools/price_utils.rb'
+require_relative '../../data/product_repository.rb'
 
 class ItemListComponent < HeaderComponent
 
@@ -16,30 +17,38 @@ class ItemListComponent < HeaderComponent
     @driver.find_elements SHOPPING_CART_PRODUCT
   end
 
-  def row_with_product name
-    shopping_cart_product.each do |row|
-      return row if row.text.include? name
+  def info_about_product_in_cart
+    click_shopping_cart_block
+    shopping_cart_product
+  end
 
+  def row_with_product name
+    info_about_product_in_cart.each do |row|
+      return row if row.text.include? name
     end
+  end
+
+  def cart_price_info
+
+    sleep 1
+    @driver.find_elements PRICE_INFO
   end
 
   def product_name name
     row_with_product(name).find_element(css: ".text-left a")
   end
 
-  def products_count name
+  def count_of_products name
     row_with_product(name).find_elements(css: ".text-right")
   end
 
   def product_count name
-    click_shopping_cart_block
-    products_count(name).each do |count|
+    count_of_products(name).each do |count|
       return count.text if count.text.include? 'x'
     end
   end
 
   def product_name_text name
-    click_shopping_cart_block
     product_name(name).text
   end
 
@@ -52,15 +61,10 @@ class ItemListComponent < HeaderComponent
   end
 
   def delete_product name
-    click_shopping_cart_block
     click_delete_button(name)
     ItemListComponent.new @driver
   end
-  def cart_price_info
-    click_shopping_cart_block
-    sleep 2
-    @driver.find_elements PRICE_INFO
-  end
+
 
   def table_sub_total
     PriceUtils.price_by_text(cart_price_info[0].text)
@@ -78,7 +82,8 @@ class ItemListComponent < HeaderComponent
     PriceUtils.price_by_text(cart_price_info[3].text)
   end
 
-
-  # page object get text
+  def sub_total_of_product
+    PriceUtils.sub_total_price(table_total, table_exo_tax)
+  end
 
 end

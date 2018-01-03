@@ -2,11 +2,13 @@ require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
 require_relative './user/home_page.rb'
-require_relative './user/item_list_component.rb'
-
+require_relative './user/shopping_cart.rb'
+require_relative 'user/cart_component/cart_atomic'
+require_relative 'user/cart_component/cart_component'
+require_relative 'user/cart_component/cart_business'
 
 class Application
-  # TODO for multithreading
+
   attr_reader :application_source, :browser
 
   private_class_method :new

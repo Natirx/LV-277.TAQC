@@ -12,7 +12,11 @@ class ProductRepository
                 "Intel Core 2 Duo processor Powered by an Intel Core 2 Duo processor at speeds up to 2.1",
                 {CurrencyRepository.currency_euro.name => "472.33",
                  CurrencyRepository.currency_pound_sterling.name => "368.73",
-                 CurrencyRepository.currency_dollar.name => "602.00"})
+                 CurrencyRepository.currency_dollar.name => "602.00"},
+    {CurrencyRepository.currency_euro.name => "392.30",
+     CurrencyRepository.currency_pound_sterling.name => "306.25",
+     CurrencyRepository.currency_dollar.name => "500.00"})
+
   end
 
   def self.IPhone
@@ -20,7 +24,10 @@ class ProductRepository
                 "iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a nam",
                 {CurrencyRepository.currency_euro.name => "96.66",
                  CurrencyRepository.currency_pound_sterling.name => "75.46",
-                 CurrencyRepository.currency_dollar.name => "123.20"})
+                 CurrencyRepository.currency_dollar.name => "123.20"},
+                {CurrencyRepository.currency_euro.name => "79.24",
+                 CurrencyRepository.currency_pound_sterling.name => "61.86",
+                 CurrencyRepository.currency_dollar.name => "101.00"})
   end
 
   def self.Apple_Cinema_30
