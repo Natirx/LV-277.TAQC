@@ -1,0 +1,4 @@
+#!/bin/bash
+rspec spec/name_valid_spec.rb
+allure generate -c reports/allure/gen/allure-results -o reports/allure/allure-results
+firefox  reports/allure/allure-results/index.html
