@@ -1,4 +1,5 @@
-require_relative '../pages/user/header_menu_component.rb'
+# require_relative '../pages/user/header_menu_component.rb'
+require_relative '../pages/user/header_menu_comp/header_menu_atomic.rb'
 require_relative '../pages/user/product_page.rb'
 require_relative '../pages/user/left_bar_component'
 require_relative '../data/application_source.rb'
@@ -23,14 +24,7 @@ class Application
   public
 
   def self.get(application_source = nil)
-    # print "\t***application_source = "
-    # p application_source
-    # print "\t***application instance = "
-    # p @@instance
-    #puts "\t***application_source = #{application_source}"
-    #if !@@instance
     if @@instance.nil?
-      #if !application_source
       if application_source.nil?
         application_source = ApplicationSourceRepository.default
         puts "\t***application_source default"
@@ -60,7 +54,8 @@ class Application
 #############################################################
   def load_header_menu_component
     browser.open_url(application_source.baseUrl)
-    HeaderMenuComponent.new(browser.driver)
+    # HeaderMenuComponent.new(browser.driver)
+    HeaderMenuAtomic.new(browser.driver)
   end
 
   def load_product_page

@@ -13,8 +13,8 @@ class HeaderMenuRepository
      HeaderMenu.new("MP3 Players")]
   end
 
-  def self.menu_item_path(menu_item_name)
-    {:xpath => "//ul[@class='nav navbar-nav']/li/a[contains(text(), '#{menu_item_name}')]"}
-  end
+  # def self.menu_item_path(menu_item_name)
+  #   {:xpath => "//ul[@class='nav navbar-nav']/li/a[contains(text(), '#{menu_item_name}')]"}
+  # end
 
 end

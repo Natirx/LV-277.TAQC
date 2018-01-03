@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/header_menu/header_menu_repository.rb'
-require_relative '../pages/user/header_menu_component.rb'
+require_relative '../pages/user/header_menu_comp/header_menu_atomic.rb'
 require_relative '../pages/application.rb'
 
 MENU_ITEMS_ARRAY = ["Desktops", "Laptops & Notebooks", "Components", "Tablets", "Software", "Phones & PDAs", "Cameras", "MP3 Players"]
