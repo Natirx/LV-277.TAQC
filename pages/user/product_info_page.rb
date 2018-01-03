@@ -1,5 +1,8 @@
 require_relative '../../data/review.rb'
 require_relative '../../data/review_repository.rb'
+require_relative '../../tools/log_wrapper.rb'
+
+require 'logging'
 
 class ProductInfoPage < ProductPage
 
@@ -61,11 +64,18 @@ class ProductInfoPage < ProductPage
 
 
   def choose_mssg
-    if alert_danger.nil?
-      return get_text_alert_success
-    else
-      return get_text_alert_danger
-    end
+    alert_danger
+    return get_text_alert_danger
+    $log.info "Warning: data are invalid, try again"
+
+  rescue Selenium::WebDriver::Error::NoSuchElementError
+    return get_text_alert_success
+    $log.info "INFO: review was send"
+
+  rescue Selenium::WebDriver::Error::NoSuchElementError
+    $log.info "INFO: review was send"
+    return get_text_alert_success
+
   end
 
 

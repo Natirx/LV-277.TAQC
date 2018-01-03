@@ -12,8 +12,11 @@ require_relative '../data/review.rb'
 require_relative '../data/review_repository.rb'
 require_relative '../data/message.rb'
 require_relative '../data/message_repository.rb'
+require 'allure-rspec'
 
 RSpec.configure do |config|
+  config.include AllureRSpec::Adaptor
+
 
 
   $data_provider_review_name_valid = [
@@ -52,15 +55,19 @@ RSpec.configure do |config|
   ]
 
 
-
-
-
   config.before(:all) do
     Application.get(ApplicationSourceRepository.firefox_heroku)
   end
+
+  $log = LoggerWrapper.logger
 
   config.after(:all) do
     Application.remove
   end
 
+
+  AllureRSpec.configure do |config|
+    config.output_dir = 'reports/allure/gen/allure-results'
+    config.logging_level = Logger::WARN  # logging level (default: DEBUG)
+  end
 end
