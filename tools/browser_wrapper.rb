@@ -12,6 +12,11 @@ class BrowserWrapper
     if application_source.browserName.include?("chrome")
       Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
       @driver = Selenium::WebDriver.for :chrome
+
+      #Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
+      options = Selenium::WebDriver::Chrome::Options.new
+      options.add_argument('--headless')
+      @driver = Selenium::WebDriver.for :chrome, options: options
     end
     if application_source.browserName.include?("firefox")
       Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
