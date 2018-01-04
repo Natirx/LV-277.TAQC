@@ -61,7 +61,7 @@ RSpec.configure do |config|
     Application.get(ApplicationSourceRepository.firefox_heroku)
   end
 
-  $log = LoggerWrapper.logger
+ # $log = LoggerWrapper.logger
   config.include AllureRSpec::Adaptor
 
   config.after(:all) do
