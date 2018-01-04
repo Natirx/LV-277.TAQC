@@ -29,7 +29,7 @@ class HomePageBusiness
   def add_2
     name1=['MacBook', 'MacBook', 'iPhone']
     add_all_product_to_cart(*name1)
-    sleep 5
+    sleep 1
   end
 
 

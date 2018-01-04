@@ -9,12 +9,12 @@ class BrowserWrapper
   private
 
   def init_browser(application_source)
-    #Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
+    Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
     # TODO Use factory method
     #@driver = Selenium::WebDriver.for :firefox
-    Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
+    #Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
     options = Selenium::WebDriver::Firefox::Options.new(
-        args: ['-headless']
+        args: ['--headless']
     )
     options.add_argument('--headless')
     @driver = Selenium::WebDriver.for :firefox, options: options

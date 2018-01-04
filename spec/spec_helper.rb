@@ -3,14 +3,13 @@ require 'selenium-webdriver'
 require 'rspec'
 require 'allure-rspec'
 require 'pathname'
-
+require_relative '../pages/application.rb'
 
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
 require_relative '../data/currency_repository.rb'
 require_relative '../data/product.rb'
 require_relative '../data/product_repository.rb'
-require_relative '../pages/application.rb'
 require_relative '../pages/user/home_page.rb'
 require_relative '../tools/price_utils.rb'
 
@@ -38,7 +37,7 @@ RSpec.configure do |config|
 
   AllureRSpec.configure do |c|
     #c.output_dir = "/whatever/you/like" # default: gen/allure-results
-    c.clean_dir = false # clean the output directory first? (default: true)
+    c.clean_dir = true # clean the output directory first? (default: true)
     c.logging_level = Logger::DEBUG # logging level (default: DEBUG)
   end
 
