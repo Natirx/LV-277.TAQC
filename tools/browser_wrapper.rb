@@ -9,15 +9,15 @@ class BrowserWrapper
   private
 
   def init_browser(application_source)
-    Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
+    #Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
     # TODO Use factory method
-    @driver = Selenium::WebDriver.for :firefox
-   # Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
-    #options = Selenium::WebDriver::Firefox::Options.new(
-     # args: ['-headless']
-   # )
-    #options.add_argument('--headless')
-    #@driver = Selenium::WebDriver.for :firefox, options: options
+    #@driver = Selenium::WebDriver.for :firefox
+    Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
+    options = Selenium::WebDriver::Firefox::Options.new(
+        args: ['-headless']
+    )
+    options.add_argument('--headless')
+    @driver = Selenium::WebDriver.for :firefox, options: options
     @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
   end
 
@@ -28,7 +28,7 @@ class BrowserWrapper
   end
 
   def open_url url
-    driver.get url
+       driver.get url
   end
 
   def navigate_forward

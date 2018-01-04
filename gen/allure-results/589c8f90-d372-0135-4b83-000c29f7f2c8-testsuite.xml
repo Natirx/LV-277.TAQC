@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515066183143" stop="1515066183143">
+  <name>open_cart given home_page</name>
+  <title>open_cart given home_page</title>
+  <test-cases>
+    <test-case start="1515066183143" stop="1515066183143" status="broken">
+      <name>open_cart given home_page add to cart</name>
+      <title>open_cart given home_page add to cart</title>
+      <failure>
+        <message>Failed to decode response from marionette</message>
+        <stack-trace>stack backtrace:&#xD;
+   0:           0x4edb3c - backtrace::backtrace::trace::hc4bd56a2f176de7e&#xD;
+   1:           0x4edb72 - backtrace::capture::Backtrace::new::he3b2a15d39027c46&#xD;
+   2:           0x4409a1 - webdriver::error::WebDriverError::new::h81babdd86c977032&#xD;
+   3:           0x4295be - &lt;webdriver::server::Dispatcher&lt;T, U&gt;&gt;::run::h2119c674d7b88193&#xD;
+   4:           0x4029b9 - std::sys_common::backtrace::__rust_begin_short_backtrace::h21d98a9ff86d4c25&#xD;
+   5:           0x40be65 - std::panicking::try::do_call::h5cff0c9b18cfdbba&#xD;
+   6:           0x5e6a6c - panic_unwind::__rust_maybe_catch_panic&#xD;
+                        at /checkout/src/libpanic_unwind/lib.rs:99&#xD;
+   7:           0x41eb22 - &lt;F as alloc::boxed::FnBox&lt;A&gt;&gt;::call_box::h413eb1d9d9f1c473&#xD;
+   8:           0x5df13b - alloc::boxed::{{impl}}::call_once&lt;(),()&gt;&#xD;
+                        at /checkout/src/liballoc/boxed.rs:692&#xD;
+                         - std::sys_common::thread::start_thread&#xD;
+                        at /checkout/src/libstd/sys_common/thread.rs:21&#xD;
+                         - std::sys::imp::thread::{{impl}}::new::thread_start&#xD;
+                        at /checkout/src/libstd/sys/unix/thread.rs:84&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/http/common.rb:81:in `new'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/http/common.rb:81:in `create_response'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/remote/bridge.rb:97:in `create_session'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/firefox/marionette/driver.rb:50:in `initialize'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/firefox/driver.rb:31:in `new'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver/common/driver.rb:52:in `for'&#xD;
+/var/lib/gems/2.4.0/gems/selenium-webdriver-3.8.0/lib/selenium/webdriver.rb:84:in `for'&#xD;
+/home/denchik/ruby/mydemo2/tools/browser_wrapper.rb:14:in `init_browser'&#xD;
+/home/denchik/ruby/mydemo2/tools/browser_wrapper.rb:6:in `initialize'&#xD;
+/home/denchik/ruby/mydemo2/pages/application.rb:52:in `new'&#xD;
+/home/denchik/ruby/mydemo2/pages/application.rb:52:in `init'&#xD;
+/home/denchik/ruby/mydemo2/pages/application.rb:39:in `get'&#xD;
+/home/denchik/ruby/mydemo2/spec/spec_helper.rb:32:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/var/lib/gems/2.4.0/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/var/lib/gems/2.4.0/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/usr/local/bin/rspec:23:in `load'&#xD;
+/usr/local/bin/rspec:23:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="11276060"/>
+        <label name="host" value="ubuntu"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="11276060"/>
+    <label name="host" value="ubuntu"/>
+  </labels>
+</ns2:test-suite>

@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
-<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1514969783166" stop="1514969794424">
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515066271625" stop="1515066282876">
   <name>open_cart given home_page</name>
   <title>open_cart given home_page</title>
   <test-cases>
-    <test-case start="1514969783166" stop="1514969794424" status="passed">
+    <test-case start="1515066271637" stop="1515066282859" status="passed">
       <name>open_cart given home_page add to cart</name>
       <title>open_cart given home_page add to cart</title>
       <steps/>
       <attachments/>
       <labels>
-        <label name="thread" value="12611360"/>
+        <label name="thread" value="12013340"/>
         <label name="host" value="ubuntu"/>
       </labels>
       <parameters/>
     </test-case>
   </test-cases>
   <labels>
-    <label name="thread" value="12611360"/>
+    <label name="thread" value="12013340"/>
     <label name="host" value="ubuntu"/>
   </labels>
 </ns2:test-suite>
