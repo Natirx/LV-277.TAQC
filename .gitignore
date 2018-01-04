@@ -2,11 +2,11 @@
 .ruby-gemset
 .ruby-version
 #allure-report/
-#reports/allure/gen/
+reports/allure/gen/
 run_tests
 rspec-report/
 #fail_screenshots
-#reports/
+reports/
 reports/allure/allure-results/plugins/junit/
 reports/allure/allure-results/plugins/trx/
 reports/allure/allure-results/plugins/xctest/
