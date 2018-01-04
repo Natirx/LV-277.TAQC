@@ -9,7 +9,7 @@ describe 'name field tests' do
 
     context "given invalid tests "  do
       it "returns alert_danger" do
-
+        $log.info
         expect(Application.get.load_home_page\
                .choose_desktop_product_by_category(product)\
                .choose_product_name\
