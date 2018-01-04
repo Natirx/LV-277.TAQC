@@ -14,7 +14,7 @@ class BrowserWrapper
     #@driver = Selenium::WebDriver.for :firefox
     #Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
     options = Selenium::WebDriver::Firefox::Options.new(
-        args: ['--headless']
+       args: ['--headless']
     )
     options.add_argument('--headless')
     @driver = Selenium::WebDriver.for :firefox, options: options
