@@ -3,7 +3,6 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'allure-rspec'
 require 'pathname'
-require 'parallel_tests'
 
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
@@ -42,5 +41,3 @@ RSpec.configure do |config|
     Application.remove
   end
 end
-
-ParallelTests.first_process? ? FileUtils.rm_rf(AllureRSpec::Config.output_dir) : sleep(1)
