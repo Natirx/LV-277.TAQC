@@ -10,7 +10,7 @@ class ApplicationSourceRepository
   def self.chrome_heroku
     ApplicationSource.new("chrome",
     "lib/chromedriver.exe", 10,
-    "http://openncart.herokuapp.com/",
+    "http://http://server7.pp.ua",
     "http://oppencart.herokuapp.com/index.php?route=account/login",
     "http://oppencart.herokuapp.com/index.php?route=account/logout",
     "http://oppencart.herokuapp.com/admin/",
