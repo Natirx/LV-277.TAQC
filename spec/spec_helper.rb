@@ -1,4 +1,5 @@
 require 'rspec'
+require 'rubygems'
 require 'selenium-webdriver'
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/application_source.rb'
@@ -13,9 +14,10 @@ require_relative '../data/review_repository.rb'
 require_relative '../data/message.rb'
 require_relative '../data/message_repository.rb'
 require 'allure-rspec'
+require 'pathname'
 
 RSpec.configure do |config|
-  config.include AllureRSpec::Adaptor
+
 
 
 
@@ -60,6 +62,7 @@ RSpec.configure do |config|
   end
 
   $log = LoggerWrapper.logger
+  config.include AllureRSpec::Adaptor
 
   config.after(:all) do
     Application.remove
@@ -68,6 +71,6 @@ RSpec.configure do |config|
 
   AllureRSpec.configure do |config|
     config.output_dir = 'reports/allure/gen/allure-results'
-    config.logging_level = Logger::WARN  # logging level (default: DEBUG)
+    config.logging_level = Logger::WARN
   end
 end

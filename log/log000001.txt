@@ -1,3 +1,9 @@
 [INFO 2018-01-04 13:30:59]: NilClass: nil
 [INFO 2018-01-04 13:31:39]: NilClass: nil
 [INFO 2018-01-04 13:32:01]: NilClass: nil
+[INFO 2018-01-04 14:12:44]: NilClass: nil
+[INFO 2018-01-04 14:13:01]: NilClass: nil
+[INFO 2018-01-04 14:13:12]: NilClass: nil
+[INFO 2018-01-04 14:25:42]: returns success message
+[INFO 2018-01-04 14:26:27]: returns success message
+[INFO 2018-01-04 14:26:51]: returns success message
