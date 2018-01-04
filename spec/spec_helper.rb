@@ -18,7 +18,7 @@ require_relative '../pages/user/header_component.rb'
 require_relative '../pages/user/product_search_page.rb'
 require_relative '../pages/user/failure_search_page.rb'
 require_relative '../pages/user/success_search_page.rb'
-require_relative '../tools/logger_wrapper'
+#require_relative '../tools/logger_wrapper'
 
 
 RSpec.configure do |config|
