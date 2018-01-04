@@ -11,20 +11,20 @@
       "total" : 1
     },
     "time" : {
-      "start" : 1515068811335,
-      "stop" : 1515068833407,
-      "duration" : 22072,
-      "minDuration" : 22072,
-      "maxDuration" : 22072,
-      "sumDuration" : 22072
+      "start" : 1515077609993,
+      "stop" : 1515077631867,
+      "duration" : 21874,
+      "minDuration" : 21874,
+      "maxDuration" : 21874,
+      "sumDuration" : 21874
     }
   },
   "environment" : [ ],
   "suites" : {
     "total" : 1,
     "items" : [ {
-      "uid" : "2ecec7b2f9ecadfe1776e41a4e52347a",
-      "name" : "name field tests given invalid tests",
+      "uid" : "07eeb0f6ad5f8a1c9ba047e117f97b0f",
+      "name" : "name field valid tests given invalid tests",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,

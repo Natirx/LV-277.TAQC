@@ -1,14 +1,14 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "name field tests given invalid tests  returns alert_danger",
-    "uid" : "1d2be56a1c52dc27",
+    "name" : "name field valid tests given invalid tests  returns alert_danger",
+    "uid" : "925402aa0793d0fc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1515068811335,
-      "stop" : 1515068833407,
-      "duration" : 22072
+      "start" : 1515077609993,
+      "stop" : 1515077631867,
+      "duration" : 21874
     },
     "flaky" : false,
     "parameters" : [ ]

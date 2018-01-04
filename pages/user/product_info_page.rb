@@ -1,7 +1,8 @@
 require_relative '../../data/review.rb'
 require_relative '../../data/review_repository.rb'
 require_relative '../../tools/log_wrapper.rb'
-require 'logging'
+#require 'logging'
+#require_relative '../../spec/spec_helper.rb'
 
 class ProductInfoPage < ProductPage
 
