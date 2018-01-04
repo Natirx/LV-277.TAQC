@@ -4,6 +4,7 @@ class ApplicationSourceRepository
   
   def self.default
     chrome_heroku
+    # firefox_heroku
   end
   
   def self.chrome_heroku
