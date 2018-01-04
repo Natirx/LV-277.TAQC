@@ -29,12 +29,12 @@ RSpec.configure do |config|
     #Application.get(ApplicationSourceRepository.firefox_heroku())
   end
 
-  $log = LoggerWrapper.logger
+  #$log = LoggerWrapper.logger
   config.include AllureRSpec::Adaptor
 
   AllureRSpec.configure do |config|
     config.output_dir = 'reports/allure/gen/allure-results'
-    #config.clean_dir = false
+    config.clean_dir = false
     config.logging_level = Logger::WARN
   end
 
