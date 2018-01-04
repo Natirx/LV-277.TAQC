@@ -1,0 +1,2 @@
+[INFO 2018-01-04 14:42:40]: Add product to cart Test Started
+[INFO 2018-01-04 14:42:44]: Add product to cart Test Finished

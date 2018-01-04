@@ -11,6 +11,7 @@ require_relative '../data/currency_repository.rb'
 require_relative '../data/product.rb'
 require_relative '../data/product_repository.rb'
 require_relative '../tools/price_utils.rb'
+require_relative '../tools/logger_wrapper'
 
 RSpec.configure do |config|
 
@@ -29,6 +30,8 @@ RSpec.configure do |config|
   config.before(:all) do
     Application.get(ApplicationSourceRepository.firefox_heroku())
   end
+
+  $log = LoggerWrapper.logger
 
   config.after(:all) do
     Application.remove
