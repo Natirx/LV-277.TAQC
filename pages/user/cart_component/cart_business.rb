@@ -5,6 +5,7 @@ require_relative 'cart_atomic'
 
 class CartBusiness
   attr_reader :cart_atomic
+
   def initialize(cart_atomic)
     @cart_atomic = cart_atomic
   end

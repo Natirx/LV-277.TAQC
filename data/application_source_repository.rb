@@ -9,7 +9,7 @@ class ApplicationSourceRepository
   def self.chrome_heroku
     ApplicationSource.new("chrome",
                           "lib/chromedriver.exe", 10,
-                          "http://server7.pp.ua",
+                          "http://oppencart.herokuapp.com/",
                           "http://openncart.herokuapp.com/index.php?route=account/login",
                           "http://openncart.herokuapp.com/index.php?route=account/logout",
                           "http://openncart.herokuapp.com/admin/",
@@ -19,7 +19,7 @@ class ApplicationSourceRepository
   def self.firefox_heroku
     ApplicationSource.new("firefox",
                           "lib/geckodriver", 10,
-                          "http://server7.pp.ua",
+                          "http://openncart.herokuapp.com/",
                           "http://oppencart.herokuapp.com/index.php?route=account/login",
                           "http://oppencart.herokuapp.com/index.php?route=account/logout",
                           "http://oppencart.herokuapp.com/admin/",

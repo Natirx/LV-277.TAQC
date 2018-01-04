@@ -9,6 +9,9 @@ require_relative 'user/home_page/home_page'
 require_relative 'user/cart_component/cart_atomic'
 require_relative 'user/cart_component/cart_component'
 require_relative 'user/cart_component/cart_business'
+require_relative 'user/shopping_cart/shopping_cart_atomic'
+require_relative 'user/shopping_cart/shopping_cart'
+require_relative 'user/shopping_cart/shopping_cart_business'
 
 class Application
 
@@ -58,7 +61,7 @@ class Application
     HomePageBusiness.new(HomePageAtomic.new(browser.driver))
 
   end
-
+=begin
   def login_user
     browser.open_url(application_source.userLoginUrl)
     # TODO change page
@@ -82,5 +85,5 @@ class Application
     # TODO change page
     HomePage.new(browser.driver)
   end
-
+=end
 end

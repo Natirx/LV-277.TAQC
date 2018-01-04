@@ -1,4 +1,4 @@
-require_relative '../pages/user/item_list_component.rb'
+
 class PriceUtils
 
   private_class_method :new

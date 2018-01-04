@@ -1,4 +1,4 @@
-require 'selenium/webdriver'
+require 'selenium-webdriver'
 require_relative '../header_component'
 require_relative 'cart_selectors'
 

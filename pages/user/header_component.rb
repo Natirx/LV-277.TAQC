@@ -1,5 +1,5 @@
 class HeaderComponent
-
+  attr_reader :driver
   # page object get webelements
   NAVIGATION_PANEL = {:id => "top"}
   MACBOOK = {css: ".product-layout:first-child button:first-child"}
@@ -18,6 +18,11 @@ class HeaderComponent
   SEARCH_PRODUCT_BUTTON = {:css => ".btn.btn-default.btn-lg"}
   SHOPPING_CART_BLOCK = {:css => "#cart > button"}
 
+
+
+  def initialize(driver)
+    @driver = driver
+  end
   def navigation_panels
     @driver.find_element NAVIGATION_PANEL
   end

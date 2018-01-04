@@ -1,4 +1,4 @@
-require 'selenium/webdriver'
+require 'selenium-webdriver'
 require_relative '../header_component'
 require_relative 'home_page_selectors'
 
@@ -13,7 +13,7 @@ class HomePage<HeaderComponent
   end
 
   def product_block
-    @driver.find_element HomePageSelectors::PRODUCT_BLOCK
+    @driver.find_elements HomePageSelectors::PRODUCT_BLOCK
   end
 
 end

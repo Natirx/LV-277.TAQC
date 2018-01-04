@@ -16,7 +16,7 @@ class BrowserWrapper
     options = Selenium::WebDriver::Firefox::Options.new(
        args: ['--headless']
     )
-    options.add_argument('--headless')
+     options.add_argument('--headless')
     @driver = Selenium::WebDriver.for :firefox, options: options
     @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
   end

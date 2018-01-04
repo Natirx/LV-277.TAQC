@@ -10,7 +10,6 @@ require_relative '../data/currency.rb'
 require_relative '../data/currency_repository.rb'
 require_relative '../data/product.rb'
 require_relative '../data/product_repository.rb'
-require_relative '../pages/user/home_page.rb'
 require_relative '../tools/price_utils.rb'
 
 RSpec.configure do |config|
