@@ -5,13 +5,13 @@ require_relative '../data/product_repository.rb'
 require_relative '../pages/application.rb'
 require_relative 'spec_helper.rb'
 
-describe "open_cart" do
+describe "open_cart " do
 
   $data_provider_product_currency.each do |product, currency|
     context "given home_page" do
       it "add #{product} to cart" do
         expect(Application.get.load_home_page
-                   .add_product_to_cart(product).sub_total_of_product).to eql(currency)
+                   .add_products_to_cart(product).sub_total_of_product).to eql(currency)
       end
     end
   end

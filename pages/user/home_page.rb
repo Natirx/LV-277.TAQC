@@ -81,6 +81,12 @@ class HomePage < HeaderComponent
 
   end
 
+  def add_products_to_cart (name)
+    click_add_cart_button(name)
+    sleep 1
+    ShoppingCart.new @driver
+  end
+
   def add_product_to_cart (*name)
     add_all_product_to_cart(*name)
   end

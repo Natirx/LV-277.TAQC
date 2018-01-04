@@ -18,7 +18,7 @@ class ApplicationSourceRepository
 
   def self.firefox_heroku
     ApplicationSource.new("firefox",
-                          "lib/geckodriver", 10,
+                          "/home/denchik/ruby/geckodriver", 10,
                           "http://openncart.herokuapp.com/",
                           "http://oppencart.herokuapp.com/index.php?route=account/login",
                           "http://oppencart.herokuapp.com/index.php?route=account/logout",

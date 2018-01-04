@@ -1,6 +1,8 @@
 require_relative 'home_page'
 require_relative 'home_page_selectors'
+
 class HomePageAtomic
+
   attr_reader :home_page
 
   def initialize(driver)
@@ -18,19 +20,17 @@ class HomePageAtomic
     product_div(name).find_element HomePageSelectors::ADD_BUTTON
   end
 
-
-
-  def shipping_cart_block_text
-    shopping_cart_block.text
+  def click_add_button name
+    add_cart_button(name).click
   end
 
 # business logic of page
 
-  def go_to_home_page
-    click_logo
-    HomePage new @driver
-  end
-
+  #def go_to_home_page
+    #click_logo
+    #HomePage new @driver
+  #end
+=begin
   def choose_currency_by_item(currency)
 
     case currency.name
@@ -46,23 +46,10 @@ class HomePageAtomic
         choose_currency_dollar
     end
   end
+=end
 
 
-  def add_all_product_to_cart (*name)
-    name.each do |product|
-      click_add_cart_button(product)
-      sleep 1
-      ShoppingCart.new @driver
-    end
 
-  end
+  # TO DO wish list,.......
 
-  def add_product_to_cart (*name)
-    add_all_product_to_cart(*name)
-  end
-
-  def add_2
-    name1=['MacBook', 'MacBook', 'iPhone']
-    add_product_to_cart(*name1)
-  end
 end

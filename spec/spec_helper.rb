@@ -2,7 +2,6 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'rspec'
 require 'allure-rspec'
-# require 'parallel_tests'
 require 'pathname'
 
 
@@ -40,8 +39,7 @@ RSpec.configure do |config|
   AllureRSpec.configure do |c|
     #c.output_dir = "/whatever/you/like" # default: gen/allure-results
     c.clean_dir = false # clean the output directory first? (default: true)
-    #c.logging_level = Logger::DEBUG # logging level (default: DEBUG)
+    c.logging_level = Logger::DEBUG # logging level (default: DEBUG)
   end
 
 end
-# ParallelTests.first_process? ? FileUtils.rm_rf(AllureRSpec::Config.output_dir) : sleep(1)

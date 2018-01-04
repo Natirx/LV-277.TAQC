@@ -71,20 +71,24 @@ class ShoppingCart < Cart
     end
   end
 
+  def cart_price_info
+    @driver.find_elements PRICE_INFO
+  end
+
   def cart_sub_total_text
-    products_in_cart_[0].text
+    cart_price_info[0].text
   end
 
   def cart_exo_tax_text
-    products_in_cart_[1].text
+    cart_price_info[1].text
   end
 
   def cart_vat_text
-    products_in_cart_[2].text
+    cart_price_info[2].text
   end
 
   def cart_total_text
-    products_in_cart_[3].text
+    cart_price_info[3].text
   end
 
   # 2 cnopku TODO
@@ -126,6 +130,12 @@ class ShoppingCart < Cart
 
   def get_total
     PriceUtils.price_by_text(cart_total_text)
+  end
+
+  def sub_total_of_product
+    cart_click
+    sleep 1
+    PriceUtils.sub_total_price(get_total, get_exo_tax)
   end
 
   def delete_product_from_cart name

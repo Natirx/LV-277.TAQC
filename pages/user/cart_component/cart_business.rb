@@ -9,12 +9,10 @@ class CartBusiness
     @cart_atomic = cart_atomic
   end
 
-  def cart_text
-    @cart_atomic.cart_button_text
+  def check_cart
+    @cart_atomic.cart_button_click
+    #Cart.new @driver
   end
 
-  def cart_click
-    @cart_atomic.cart_button_click
-  end
 
 end

@@ -1,8 +1,11 @@
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
-require_relative './user/home_page.rb'
-require_relative './user/shopping_cart.rb'
+#require_relative './user/home_page.rb'
+#require_relative './user/shopping_cart.rb'
+require_relative 'user/home_page/home_page_atomic'
+require_relative 'user/home_page/home_page_business'
+require_relative 'user/home_page/home_page'
 require_relative 'user/cart_component/cart_atomic'
 require_relative 'user/cart_component/cart_component'
 require_relative 'user/cart_component/cart_business'
@@ -51,7 +54,8 @@ class Application
 
   def load_home_page
     browser.open_url(application_source.baseUrl)
-    HomePage.new(browser.driver)
+    #HomePage.new(browser.driver)
+    HomePageBusiness.new(HomePageAtomic.new(browser.driver))
 
   end
 
