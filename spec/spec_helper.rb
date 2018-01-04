@@ -12,14 +12,13 @@ require_relative '../pages/application.rb'
 require_relative '../pages/user/main_page.rb'
 
 RSpec.configure do |config|
+
   config.include AllureRSpec::Adaptor
 
   $data_provider_currency = [
       [ProductRepository.MacBook, CurrencyRepository.currency_dollar],
       [ProductRepository.iMac, CurrencyRepository.currency_dollar]
   ]
-
-
 
   config.before(:all) do
     Application.get(ApplicationSourceRepository.chrome_heroku)

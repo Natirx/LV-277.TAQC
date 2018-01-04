@@ -14,10 +14,10 @@ class BrowserWrapper
   #     @driver = Selenium::WebDriver.for :chrome
   #     #
   #     # Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
-  #     options = Selenium::WebDriver::Chrome::Options.new
-  #     options.add_argument('--headless')
-  #     options.add_argument('--disable-gpu')
-  #     @driver = Selenium::WebDriver.for :chrome, options: options
+  #     # options = Selenium::WebDriver::Chrome::Options.new
+  #     # options.add_argument('--headless')
+  #     # options.add_argument('--disable-gpu')
+  #     # @driver = Selenium::WebDriver.for :chrome, options: options
   #   end
   #   if application_source.browserName.include?("firefox")
   #     Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
