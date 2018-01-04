@@ -34,6 +34,7 @@ RSpec.configure do |config|
 
   AllureRSpec.configure do |config|
     config.output_dir = 'reports/allure/gen/allure-results'
+    #config.clean_dir = false
     config.logging_level = Logger::WARN
   end
 
