@@ -25,9 +25,9 @@ RSpec.configure do |config|
     #Application.get(ApplicationSourceRepository.firefox_heroku())
   end
 
-  config.after(:all) do
-    Application.remove
-  end
+  # config.after(:all) do
+  #   Application.remove
+  # end
 
   AllureRSpec.configure do |c|
     c.output_dir = "reports"
