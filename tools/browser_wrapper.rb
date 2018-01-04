@@ -27,16 +27,29 @@ class BrowserWrapper
   #   @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
   # end
 
+  # def init_browser(application_source)
+  #   Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
+  #   options = Selenium::WebDriver::Chrome::Options.new
+  #   options.add_argument('--headless')
+  #   options.add_argument('--disable-gpu')
+  #   # TODO Use factory method
+  #   @driver = Selenium::WebDriver.for :chrome, options: options
+  #   # TODO Move to strategy classes
+  #   @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
+  #   #@driver.manage.window.maximize
+  # end
+
   def init_browser(application_source)
-    Selenium::WebDriver::Chrome.driver_path = application_source.driverPath
-    options = Selenium::WebDriver::Chrome::Options.new
-    options.add_argument('--headless')
-    options.add_argument('--disable-gpu')
+    Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
     # TODO Use factory method
-    @driver = Selenium::WebDriver.for :chrome, options: options
-    # TODO Move to strategy classes
+    #@driver = Selenium::WebDriver.for :firefox
+    #Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
+    options = Selenium::WebDriver::Firefox::Options.new(
+        args: ['--headless']
+    )
+    options.add_argument('--headless')
+    @driver = Selenium::WebDriver.for :firefox, options: options
     @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
-    #@driver.manage.window.maximize
   end
 
   public
