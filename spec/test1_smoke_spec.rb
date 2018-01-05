@@ -1,5 +1,5 @@
 require 'rspec'
-require 'rubygems'
+# require 'rubygems'
 require 'selenium-webdriver'
 
 require_relative '../data/application_source_repository.rb'

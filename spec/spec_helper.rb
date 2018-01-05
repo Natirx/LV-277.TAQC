@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'rspec'
-# require 'allure-rspec'
-# require 'pathname'
+require 'allure-rspec'
+require 'pathname'
 require 'selenium-webdriver'
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
@@ -25,15 +25,15 @@ RSpec.configure do |config|
   end
 
   $log = LoggerWrapper.logger
-  # config.include AllureRSpec::Adaptor
+  config.include AllureRSpec::Adaptor
 
   config.after(:all) do
     Application.remove
   end
 
-  # AllureRSpec.configure do |c|
-  #   c.output_dir = "reports"
-  #   c.clean_dir = false
-  # end
+  AllureRSpec.configure do |c|
+    c.output_dir = "reports"
+    # c.clean_dir = false
+  end
 
 end
