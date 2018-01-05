@@ -1,6 +1,14 @@
 require 'rubygems'
 require 'logging'
 
+list = [0,1,2,3,4,5]
+#puts list[1..5]
+puts list[1..-1]
+
+s_origin = "hello, %s.  Where is %s?"
+s_update = s_origin % ["John", "Mary"]
+puts s_update
+
 print "logging #1:"  
 
 #logger = Logging.logger(STDOUT)

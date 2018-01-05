@@ -2,6 +2,7 @@ require 'rubygems'
 require 'mysql2'
 require 'figaro'
 
+puts "Start"
 begin
   #con = Mysql2.connect('localhost', 'db277', 'db277', 'lv277')
   ###con = Mysql2::Client.new(:host=>'localhost', :username=>'db277', :password=>'db277', :database=>'lv277')
@@ -14,13 +15,17 @@ begin
   #db_port=ENV['DB_PORT']
   #
   # Read data from /config/application.yml
+  #db_host=Figaro.env.DB_HOST
   db_host=Figaro.env.db_host
   db_username=Figaro.env.db_username
   db_password=Figaro.env.db_password
   db_database=Figaro.env.db_database
   db_port=Figaro.env.db_port
   #
-  ###con = Mysql2::Client.new(:host=>'77.120.103.50', :username=>'p1e1k1e1l1is_usr', :password=>'B161y101N171i5', :database=>'pekelis_db', :port=>'3310')
+  puts "db_host = #{db_host}"
+  p db_host
+  #
+  ###con = Mysql2::Client.new(:host=>'77.120.103.50', :username=>'pekelis_usr', :password=>'B6y0N7i5', :database=>'pekelis_db', :port=>'3310')
   con = Mysql2::Client.new(:host=>db_host, :username=>db_username, :password=>db_password, :database=>db_database, :port=>db_port)
   #
   #DB_HOST=77.120.103.50
@@ -42,13 +47,26 @@ begin
   ##end
   ##print rs.first.keys
   ##puts
+  result = []
   rs.each do |row|
+    my_row = []
     row.each do |key,value|
-      puts key.to_s + ":\t " + value.to_s 
+      puts key.to_s + ":\t " + value.to_s
+      my_row = my_row + [value.to_s]
     end
+    result = result + [my_row]
     #row.each do |key,value|
     #  print value.to_s + " "
     #end
+    puts
+  end
+  puts "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+  print result
+  puts "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+  result.each do |r|
+    r.each do |s|
+      print "#{s} \t"
+    end
     puts
   end
   #

@@ -4,7 +4,7 @@ require_relative '../tools/browser_wrapper.rb'
 
 class Application
   # TODO for multithreading
-  attr_reader :application_source, :browser
+  attr_reader :application_source, :browser, :connection_manager
 
   private_class_method :new
 
@@ -45,12 +45,14 @@ class Application
   def self.remove()
     if @@instance
       @@instance.browser.quit
+      @@instance.connection_manager.close_connection
       @@instance = nil
     end
   end
 
   def init(application_source)
     @browser = BrowserWrapper.new(application_source)
+    @connection_manager = ConnectionManager.new(application_source)
   end
 
   def load_home_page
