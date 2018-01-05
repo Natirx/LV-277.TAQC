@@ -1,4 +1,3 @@
----
 log4r_config:
 
   loggers:
@@ -30,4 +29,3 @@ log4r_config:
         date_pattern: #'%y%m%d %H:%M:%S'
         pattern     : '[%l %d]: %M'
         type        : PatternFormatter
----
