@@ -21,8 +21,8 @@ RSpec.configure do |config|
   ]
 
   config.before(:all) do
-    # Application.get(ApplicationSourceRepository.chrome_heroku)
-    Application.get(ApplicationSourceRepository.firefox_heroku())
+    Application.get(ApplicationSourceRepository.chrome_heroku)
+    # Application.get(ApplicationSourceRepository.firefox_heroku())
   end
 
   config.after(:all) do

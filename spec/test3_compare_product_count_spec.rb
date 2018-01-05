@@ -21,8 +21,9 @@ describe "open_card" do
       @actual_product_count
 
       Application.get.load_header_menu_component.menu_subitem_click(COMPONENTS, MONITORS)
-      @product_count = Application.get.load_left_bar_component.get_number_of_product_count
-      if Application.get.load_left_bar_component.compare_product_number(@product_count)
+      # @product_count = Application.get.load_left_bar_component.get_number_of_product_count
+      @product_count = Application.get.load_product_page.get_number_of_product_count
+      if Application.get.load_left_bar_component.get_left_bar_product_count(@product_count)
         @actual_product_count = @product_count
       end
       expect(@actual_product_count).to eql(@product_count)

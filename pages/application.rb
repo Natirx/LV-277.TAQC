@@ -1,5 +1,7 @@
-# require_relative '../pages/user/header_menu_component.rb'
 require_relative '../pages/user/header_menu_comp/header_menu_atomic.rb'
+require_relative '../pages/user/left_bar_comp/left_bar_atomic.rb'
+require_relative '../pages/user/prod_page/product_page_atomic.rb'
+
 require_relative '../pages/user/product_page.rb'
 require_relative '../pages/user/left_bar_component'
 require_relative '../data/application_source.rb'
@@ -60,12 +62,14 @@ class Application
 
   def load_product_page
     browser.open_url(application_source.productPageUrl)
-    ProductPage.new(browser.driver)
+    # ProductPage.new(browser.driver)
+    ProductPageAtomic.new(browser.driver)
   end
 
   def load_left_bar_component
     browser.open_url(application_source.productPageUrl)
-    LeftBarComponent.new(browser.driver)
+    # LeftBarComponent.new(browser.driver)
+    LeftBarAtomic.new(browser.driver)
   end
 
 #############################################################

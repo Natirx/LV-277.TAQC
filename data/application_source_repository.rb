@@ -3,8 +3,8 @@ class ApplicationSourceRepository
   private_class_method :new
   
   def self.default
-    # chrome_heroku
-    firefox_heroku
+    chrome_heroku
+    # firefox_heroku
   end
   
   def self.chrome_heroku
@@ -21,7 +21,7 @@ class ApplicationSourceRepository
 
   def self.firefox_heroku
     ApplicationSource.new("firefox",
-    "lib/geckodriver", 10,
+    "lib/geckodriver.exe", 10,
     "http://server7.pp.ua",
     "http://oppencart.herokuapp.com/index.php?route=account/login",
     "http://oppencart.herokuapp.com/index.php?route=account/logout",
