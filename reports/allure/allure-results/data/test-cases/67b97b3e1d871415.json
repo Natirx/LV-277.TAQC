@@ -1,12 +1,12 @@
 {
-  "uid" : "925402aa0793d0fc",
+  "uid" : "67b97b3e1d871415",
   "name" : "name field valid tests given invalid tests  returns alert_danger",
   "fullName" : "name field valid tests given invalid tests.name field valid tests given invalid tests  returns alert_danger",
   "historyId" : "28dfcf4a3dfbd6c9d31d3a9f6915ca04",
   "time" : {
-    "start" : 1515077609993,
-    "stop" : 1515077631867,
-    "duration" : 21874
+    "start" : 1515443632883,
+    "stop" : 1515443659978,
+    "duration" : 27095
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "ubuntu"
   }, {
     "name" : "thread",
-    "value" : "17805120"
+    "value" : "10415940"
   }, {
     "name" : "suite",
     "value" : "name field valid tests given invalid tests"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "925402aa0793d0fc.json",
+  "source" : "67b97b3e1d871415.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

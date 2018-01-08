@@ -15,7 +15,7 @@ class ReviewRepository
   end
 
   def self.long_valid_name_field
-    Review.new("Names" ,"Thanks for a review, we appreciate it")
+    Review.new("Namesnamesnamesnamesnames" ,"Thanks for a review, we appreciate it")
   end
 
   def self.empty_name_field

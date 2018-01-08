@@ -1,10 +1,10 @@
 [ {
-  "uid" : "925402aa0793d0fc",
+  "uid" : "67b97b3e1d871415",
   "name" : "name field valid tests given invalid tests  returns alert_danger",
   "time" : {
-    "start" : 1515077609993,
-    "stop" : 1515077631867,
-    "duration" : 21874
+    "start" : 1515443632883,
+    "stop" : 1515443659978,
+    "duration" : 27095
   },
   "status" : "passed",
   "severity" : "normal"

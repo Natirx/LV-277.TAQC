@@ -1,6 +1,5 @@
 require_relative 'product_info_page.rb'
-require_relative '../../../data/review.rb'
-require_relative '../../../data/review_repository.rb'
+
 
 class ProductInfoPageAtomic
   attr_reader :product_info_page
@@ -14,12 +13,12 @@ class ProductInfoPageAtomic
     @product_info_page.write_review.click
   end
 
-  def user_name_send_keys (review)
-    @product_info_page.user_name.send_keys(review.user_name)
+  def choose_user_name
+    @product_info_page.user_name
   end
 
-  def text_field_send_text #(review)
-    @product_info_page.text_field.send_keys("jbfesdkxkl'bkhfjakdv")#review.text_field)
+  def choose_text_field
+    @product_info_page.text_field
   end
 
 
