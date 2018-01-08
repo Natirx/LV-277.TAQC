@@ -1,0 +1,77 @@
+#name field
+all_valid_fields:
+  user_name: 'Name'
+  text_field: 'Thanks for a review, we appreciate it'
+  rating: true
+
+short_valid_name_field:
+  user_name: 'Nam'
+  text_field: 'Thanks for a review, we appreciate it'
+  rating: true
+
+long_valid_name_field:
+  user_name: 'Namesnamesnames'
+  text_field: 'Thanks for a review, we appreciate it'
+  rating: true
+
+empty_name_field:
+  user_name: ''
+  text_field: 'Thanks for a review, we appreciate it'
+  rating: true
+
+short_invalid_name_field:
+  user_name: 'Na'
+  text_field: 'Thanks for a review, we appreciate it'
+  rating: true
+
+long_invalid_name_field:
+  user_name: 'Namesnamesnamesnamesnamesnamesnamesnamesnames'
+  text_field: 'Thanks for a review, we appreciate it'
+  rating: true
+
+
+
+#text field
+short_invalid_text_field:
+  user_name: 'Nam'
+  text_field: 'Thanks'
+  rating: true
+
+short_valid_text_field:
+  user_name: 'Nam'
+  text_field: 'Thanks for a review, we appreciate it'
+  rating: true
+
+long_valid_text_field:
+  user_name: 'Nam'
+  text_field: 'Thanks for a review, we appreciate it.Thanks for a review, we appreciate it.'
+  rating: true
+
+empty_text_field:
+  user_name: 'Nam'
+  text_field: ''
+  rating: true
+
+all_empty_fields_with_rating:
+  user_name: ''
+  text_field: ''
+  rating: true
+
+all_empty_fields_without_rating:
+  user_name: ''
+  text_field: ''
+  rating: false
+
+all_valid_fields_without_rating:
+  user_name: 'Nam'
+  text_field: 'Thanks for a review, we appreciate it.'
+  rating: false
+
+
+
+
+
+
+
+
+

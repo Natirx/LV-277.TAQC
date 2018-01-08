@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
-<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515443632882" stop="1515443659978">
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515454422481" stop="1515454451997">
   <name>name field valid tests given invalid tests</name>
   <title>name field valid tests given invalid tests</title>
   <test-cases>
-    <test-case start="1515443632883" stop="1515443659978" status="passed">
+    <test-case start="1515454422481" stop="1515454451996" status="passed">
       <name>name field valid tests given invalid tests  returns alert_danger</name>
       <title>name field valid tests given invalid tests  returns alert_danger</title>
       <steps/>
       <attachments/>
       <labels>
-        <label name="thread" value="10415940"/>
+        <label name="thread" value="4878140"/>
         <label name="host" value="ubuntu"/>
       </labels>
       <parameters/>
     </test-case>
   </test-cases>
   <labels>
-    <label name="thread" value="10415940"/>
+    <label name="thread" value="4878140"/>
     <label name="host" value="ubuntu"/>
   </labels>
 </ns2:test-suite>
