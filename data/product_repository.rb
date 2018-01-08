@@ -4,7 +4,7 @@ class ProductRepository
 
   def self.desktop_menu
     [Product.new("PC (0)"),
-     Product.new("Mac (1)"),
+     Product.new("Mac (1)")
      ]
   end
 

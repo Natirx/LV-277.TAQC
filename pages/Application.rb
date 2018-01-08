@@ -1,7 +1,15 @@
+require_relative 'user/header_component/header_component.rb'
+require_relative 'user/header_component/header_component_bl.rb'
+require_relative 'user/header_component/header_component_atomic.rb'
+require_relative 'user/product_page/product_page.rb'
+require_relative 'user/product_page/product_page_bl.rb'
+require_relative 'user/product_page/product_page_atomic.rb'
+require_relative 'user/product_page_info/product_info_page_bl.rb'
+require_relative 'user/product_page_info/product_info_page_atomic.rb'
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/Browser_wrapper.rb'
-require 'pry'
+
 
 class Application
 
@@ -48,7 +56,7 @@ class Application
   def load_home_page
     p  application_source.baseUrl
     browser.open_url(application_source.baseUrl)
-    HeaderMenuComponent.new(browser.driver)
+    HeaderComponentBusiness.new(HeaderComponentAtomic.new(browser.driver))
   end
 
 
