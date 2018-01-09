@@ -63,10 +63,10 @@ class Application
     HeaderMenuBusiness.new()
   end
 
-  def load_header_menu_atomic
-    browser.open_url(application_source.baseUrl)
-    HeaderMenuAtomic.new(browser.driver)
-  end
+  # def load_header_menu_atomic
+  #   browser.open_url(application_source.baseUrl)
+  #   HeaderMenuAtomic.new(browser.driver)
+  # end
 
   def load_product_page
     browser.open_url(application_source.productPageUrl)
