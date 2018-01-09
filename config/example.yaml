@@ -1,0 +1,8 @@
+source_and_target_cols_map:
+ - com_id: "community_id0"
+   report_dt: "note_date0"
+   site_section: "site_section0"
+   visitor_cnt: "visitors0"
+   visit_cnt: "visits0"
+   view_cnt: "views0"
+   new_visitor_cnt: "new_visitors"
