@@ -11,6 +11,7 @@ require_relative '../data/application_source_repository.rb'
 require_relative '../tools/Browser_wrapper.rb'
 
 
+
 class Application
 
   attr_reader :application_source, :browser

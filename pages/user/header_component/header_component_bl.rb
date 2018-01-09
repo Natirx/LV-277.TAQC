@@ -25,10 +25,11 @@ class HeaderComponentBusiness
 
     when ProductRepository.desktop_mac.category
 
-      @header_component_atomic.choose_desktop_mac
+      header_component_atomic.choose_desktop_mac
     else
-      @header_component_atomic.choose_desktop_mac
+      header_component_atomic.choose_desktop_mac
     end
+    LoggerWrapper.logger.info "Mac product chosen"
     ProductPageBusiness.new(ProductPageAtomic.new(@header_component_atomic.header_component.driver))
   end
 

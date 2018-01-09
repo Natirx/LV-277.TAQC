@@ -11,10 +11,9 @@ describe 'name field invalid tests' do
                .choose_desktop_product_by_category(product)\
                .choose_product_name\
                .choose_write_review\
-               .apply_bl(review)).to eql(expected)
+               .leave_review(review)).to eql(expected)
+        $log.info "name field invalid tests finished"
       end
-      $log.info "name field invalid tests finished"
     end
-
   end
 end

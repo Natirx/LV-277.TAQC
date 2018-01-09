@@ -12,7 +12,7 @@ describe 'rating field test' do
                .choose_desktop_product_by_category(product)\
                .choose_product_name\
                .choose_write_review\
-               .apply_bl(review)).to eql(expected)
+               .without_rating(review)).to eql(expected)
         $log.info "rating field invalid tests finished"
       end
     end

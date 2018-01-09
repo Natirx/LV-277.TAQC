@@ -1,11 +1,12 @@
 require_relative 'user.rb'
 require_relative '../../tools/parse_data.rb'
+require 'pathname'
 
-class UserParseData
+class UserRepository
 
   private_class_method :new
 
-  TEST_USERS_DATA_PATH = 'data/user_data/users_data.yaml'.freeze
+  TEST_USERS_DATA_PATH = 'data/user_data/user_data.yaml'.freeze
 
 
   def self.all_valid_fields
@@ -38,6 +39,10 @@ class UserParseData
     assign_user_data_properties('short_invalid_text_field')
   end
 
+  def self.short_valid_text_field
+    assign_user_data_properties('short_valid_text_field')
+  end
+
   def self.long_valid_text_field
     assign_user_data_properties('long_valid_text_field')
   end
@@ -57,10 +62,6 @@ class UserParseData
   def self.all_valid_fields_without_rating
     assign_user_data_properties('all_valid_fields_without_rating')
   end
-
-
-
-
 
   def self.assign_user_data_properties(_yaml_data_task)
     user_data = User.new

@@ -1,12 +1,12 @@
 {
-  "uid" : "67b97b3e1d871415",
-  "name" : "name field valid tests given invalid tests  returns alert_danger",
-  "fullName" : "name field valid tests given invalid tests.name field valid tests given invalid tests  returns alert_danger",
-  "historyId" : "28dfcf4a3dfbd6c9d31d3a9f6915ca04",
+  "uid" : "6d2119bdcee666a",
+  "name" : "name field valid tests given invalid tests  returns alert_success",
+  "fullName" : "name field valid tests given invalid tests.name field valid tests given invalid tests  returns alert_success",
+  "historyId" : "45a6b48e2d08cd719de98cca2dfb7bbf",
   "time" : {
-    "start" : 1515443632883,
-    "stop" : 1515443659978,
-    "duration" : 27095
+    "start" : 1515514490331,
+    "stop" : 1515514531504,
+    "duration" : 41173
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,7 +21,7 @@
     "value" : "ubuntu"
   }, {
     "name" : "thread",
-    "value" : "10415940"
+    "value" : "6549320"
   }, {
     "name" : "suite",
     "value" : "name field valid tests given invalid tests"
@@ -30,7 +30,7 @@
     "value" : "name field valid tests given invalid tests"
   }, {
     "name" : "testMethod",
-    "value" : "name field valid tests given invalid tests  returns alert_danger"
+    "value" : "name field valid tests given invalid tests  returns alert_success"
   }, {
     "name" : "package",
     "value" : "name field valid tests given invalid tests"
@@ -47,7 +47,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "67b97b3e1d871415.json",
+  "source" : "6d2119bdcee666a.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

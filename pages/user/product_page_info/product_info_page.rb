@@ -4,9 +4,8 @@ require_relative 'product_info_page_selectors.rb'
 
 class ProductInfoPage <ProductPage
 
-  def initialize(driver)
-    #@driver = driver
-    super (driver)
+  def initialize (driver)
+    super(driver)
   end
 
   def user_name

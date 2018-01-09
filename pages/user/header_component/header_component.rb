@@ -1,5 +1,6 @@
 require 'selenium/webdriver'
 require_relative 'header_component_selectors.rb'
+require_relative '../../Application.rb'
 
 
 class HeaderMenuComponent

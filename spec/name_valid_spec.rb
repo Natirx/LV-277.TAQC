@@ -4,7 +4,7 @@ describe 'name field valid tests' do
 
   $data_provider_review_name_valid.each do |product, review,  expected|
     context "given invalid tests "  do
-      it "returns alert_danger" do
+      it "returns alert_success" do
         $log.info "name field valid tests started"
         expect(Application.get.load_home_page\
                .choose_desktop_product_by_category(product)\

@@ -13,8 +13,9 @@ class ApplicationSourceRepository
       "firefox",
       "/home/iryna/Desktop/Demo2/lib/geckodriver",
       10,
-    "http://openncart.herokuapp.com/")
-
+      "http://server7.pp.ua",
+      # "http://openncart.herokuapp.com/")
+    )
   end
 
 end

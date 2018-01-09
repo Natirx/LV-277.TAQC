@@ -7,12 +7,13 @@ describe 'text field test' do
 
     context "given valid tests"  do
       it "returns alert_success" do
-
+        $log.info "name field invalid tests started"
         expect(Application.get.load_home_page\
                .choose_desktop_product_by_category(product)\
                .choose_product_name\
                .choose_write_review\
-               .apply_bl(review)).to eql(expected)
+               .leave_review(review)).to eql(expected)
+        $log.info "name field invalid tests finished"
       end
     end
 

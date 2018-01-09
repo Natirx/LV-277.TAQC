@@ -11,7 +11,7 @@ class ProductPageAtomic
   end
 
   def click_product_name
-    @product_page.product_name.click
+    product_page.product_name.click
   end
 
 end

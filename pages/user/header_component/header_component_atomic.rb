@@ -8,24 +8,24 @@ class HeaderComponentAtomic
   end
 
   def click_navigation_panel
-    @header_component.navigation_panel.click
+    header_component.navigation_panel.click
   end
 
   def click_desktop
     click_navigation_panel
-    @header_component.desktop.click
+    header_component.desktop.click
   end
 
   def desktop_mac
     click_navigation_panel
     click_desktop
-    @header_component.mac
+    header_component.mac
   end
 
   def desktop_pc
     click_navigation_panel
     click_desktop
-    @header_component.pc
+    header_component.pc
   end
 
   def click_desktop_pc

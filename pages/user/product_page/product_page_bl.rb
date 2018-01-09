@@ -11,7 +11,8 @@ class ProductPageBusiness
   end
 
   def choose_product_name
-    @product_page_atomic.click_product_name
+    product_page_atomic.click_product_name
+    LoggerWrapper.logger.info "Go to Mac product description"
     ProductInfoPageBusiness.new (ProductInfoPageAtomic.new(@product_page_atomic.product_page.driver))
   end
 
