@@ -3,7 +3,6 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'allure-rspec'
 require 'pathname'
-require 'parallel_tests'
 
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
