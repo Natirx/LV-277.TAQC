@@ -3,7 +3,7 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'allure-rspec'
 require 'pathname'
-require 'parallel_tests'
+#require 'parallel_tests'
 
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
@@ -25,8 +25,8 @@ require_relative '../tools/logger_wrapper'
 RSpec.configure do |config|
 
   config.before(:all) do
-    Application.get(ApplicationSourceRepository.chrome_heroku)
-    #Application.get(ApplicationSourceRepository.firefox_heroku())
+    #Application.get(ApplicationSourceRepository.chrome_heroku)
+    Application.get(ApplicationSourceRepository.firefox_heroku())
   end
 
   $log = LoggerWrapper.logger

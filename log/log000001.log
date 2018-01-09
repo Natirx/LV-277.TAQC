@@ -204,3 +204,9 @@
 [INFO 2018-01-09 10:27:06]: Special Symbol Test Ended
 [INFO 2018-01-09 10:27:08]: Verify Search Test Started
 [INFO 2018-01-09 10:27:09]: Verify Search Test Ended
+[INFO 2018-01-09 08:32:43]: Smoke Test Started
+[INFO 2018-01-09 08:32:43]: Special Symbol Test Started
+[INFO 2018-01-09 08:32:43]: Verify Search Test Started
+[INFO 2018-01-09 08:33:04]: Empty Search Test Started
+[INFO 2018-01-09 08:33:06]: Empty Search Test Ended
+[INFO 2018-01-09 08:33:11]: Smoke Test Started
