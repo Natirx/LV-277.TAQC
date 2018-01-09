@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515516262648" stop="1515516265016">
+  <name>open_cart Given array of elements</name>
+  <title>open_cart Given array of elements</title>
+  <test-cases>
+    <test-case start="1515516262649" stop="1515516265016" status="passed">
+      <name>open_cart Given array of elements return good sort by location</name>
+      <title>open_cart Given array of elements return good sort by location</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="17665820"/>
+        <label name="host" value="ubuntu"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="17665820"/>
+    <label name="host" value="ubuntu"/>
+  </labels>
+</ns2:test-suite>

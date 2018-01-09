@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1515516248340" stop="1515516250290">
+  <name>open_cart Given search smoke</name>
+  <title>open_cart Given search smoke</title>
+  <test-cases>
+    <test-case start="1515516248341" stop="1515516250289" status="passed">
+      <name>open_cart Given search smoke return search value</name>
+      <title>open_cart Given search smoke return search value</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="17665820"/>
+        <label name="host" value="ubuntu"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="17665820"/>
+    <label name="host" value="ubuntu"/>
+  </labels>
+</ns2:test-suite>

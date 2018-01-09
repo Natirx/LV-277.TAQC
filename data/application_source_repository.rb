@@ -1,4 +1,4 @@
-
+require_relative 'application_source'
 class ApplicationSourceRepository
 
   private_class_method :new
@@ -9,13 +9,13 @@ class ApplicationSourceRepository
 
 
   def self.firefox_heroku
-    ApplicationSource.new(
-      "firefox",
-      "/home/iryna/Desktop/Demo2/lib/geckodriver",
-      10,
-      "http://server7.pp.ua",
-      # "http://openncart.herokuapp.com/")
-    )
+    ApplicationSource.new("firefox",
+                          "lib/geckodriver", 10,
+                          "http://oppencart.herokuapp.com/",
+                          "http://oppencart.herokuapp.com/index.php?route=account/login",
+                          "http://oppencart.herokuapp.com/index.php?route=account/logout",
+                          "http://oppencart.herokuapp.com/admin/",
+                          "http://oppencart.herokuapp.com/admin/index.php?route=common/logout")
   end
 
 end
