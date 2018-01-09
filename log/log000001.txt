@@ -690,3 +690,31 @@
 [WARN 2018-01-09 12:49:08]: Wait for total price from table 
 [INFO 2018-01-09 12:49:08]: Get total price from table = 1327.2
 [INFO 2018-01-09 12:49:08]: Add product to cart Test Finished
+[INFO 2018-01-09 13:12:13]: Add product to cart and check names Test Started
+[INFO 2018-01-09 13:12:30]: Smoke Test Started
+[INFO 2018-01-09 13:12:32]: Waiting for text
+[INFO 2018-01-09 13:12:32]: Smoke Test Finished
+[INFO 2018-01-09 13:12:38]: Add product to cart Test Started
+[INFO 2018-01-09 13:13:53]: Add product to cart and check names Test Started
+[INFO 2018-01-09 13:14:09]: Smoke Test Started
+[INFO 2018-01-09 13:14:11]: Waiting for text
+[INFO 2018-01-09 13:14:11]: Smoke Test Finished
+[INFO 2018-01-09 13:14:15]: Add product to cart Test Started
+[INFO 2018-01-09 13:16:02]: Add product to cart and check names Test Started
+[INFO 2018-01-09 13:17:34]: Add product to cart and check names Test Started
+[INFO 2018-01-09 13:17:36]: MacBook added to the Cart
+[INFO 2018-01-09 13:17:36]: MacBook added to the Cart
+[INFO 2018-01-09 13:17:37]: iPhone added to the Cart
+[INFO 2018-01-09 13:17:39]: Names got
+[INFO 2018-01-09 13:17:39]: Add product to cart and check names Test Finished
+[INFO 2018-01-09 13:17:45]: Smoke Test Started
+[INFO 2018-01-09 13:17:48]: Waiting for text
+[INFO 2018-01-09 13:17:48]: Smoke Test Finished
+[INFO 2018-01-09 13:17:53]: Add product to cart Test Started
+[INFO 2018-01-09 13:17:55]: MacBook added to the Cart
+[INFO 2018-01-09 13:17:55]: MacBook added to the Cart
+[INFO 2018-01-09 13:17:56]: iPhone added to the Cart
+[INFO 2018-01-09 13:17:57]: Cart button clicked
+[WARN 2018-01-09 13:17:58]: Wait for total price from table 
+[INFO 2018-01-09 13:17:58]: Get total price from table
+[INFO 2018-01-09 13:17:58]: Add product to cart Test Finished

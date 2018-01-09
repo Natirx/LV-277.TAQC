@@ -26,8 +26,6 @@ class HomePageBusiness
       add_product_to_cart(product)
       LoggerWrapper.logger.info "#{product} added to the Cart"
     end
-    # sleep 5
-    #p PriceUtils.get_price
     ShoppingCartBusiness.new(ShoppingCartAtomic.new(@home_page_atomic.home_page.driver))
   end
 

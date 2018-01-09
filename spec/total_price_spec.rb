@@ -7,9 +7,6 @@ require_relative '../pages/application.rb'
 require_relative '../data/product_repository.rb'
 require_relative 'spec_helper.rb'
 
-
-describe "open_cart " do
-
   describe "Products from HOME page" do
     context "should be added to the cart" do
       it "and had right total" do
@@ -19,6 +16,4 @@ describe "open_cart " do
         $log.info "Add product to cart Test Finished"
       end
     end
-
   end
-end

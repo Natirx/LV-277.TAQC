@@ -21,7 +21,7 @@ RSpec.configure do |config|
 
   $data_provider_product = ProductRepository.test_product_data
 
-  $data_provider_total_price=PriceUtils.get_sum_price($data_provider_product)
+  $data_provider_total_price = PriceUtils.get_sum_price($data_provider_product)
 
   $data_provider_empty_cart="Your shopping cart is empty!"
 
@@ -37,8 +37,8 @@ RSpec.configure do |config|
 
   AllureRSpec.configure do |c|
     #c.output_dir = "/whatever/you/like" # default: gen/allure-results
-    c.clean_dir = false # clean the output directory first? (default: true)
-    c.logging_level = Logger::DEBUG # logging level (default: DEBUG)
+    #c.clean_dir = false # clean the output directory first? (default: true)
+    c.logging_level = Logger::WARN # logging level (default: DEBUG)
   end
 
 end
