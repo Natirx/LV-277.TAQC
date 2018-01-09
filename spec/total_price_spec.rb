@@ -15,7 +15,7 @@ describe "open_cart " do
       it "and had right total" do
         $log.info "Add product to cart Test Started"
         expect(Application.get.load_home_page
-                   .add_all_product_to_cart($data_provider_test_1).get_total).to be_truthy
+                   .add_all_product_to_cart($data_provider_product).get_total).to eql($data_provider_total_price)
         $log.info "Add product to cart Test Finished"
       end
     end

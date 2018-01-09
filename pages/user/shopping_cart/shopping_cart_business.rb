@@ -61,7 +61,7 @@ class ShoppingCartBusiness
     @shopping_cart_atomic.shopping_cart.click_shopping_cart_block
     LoggerWrapper.logger.warn "Wait for total price from table "
     total = PriceUtils.price_by_text(@shopping_cart_atomic.cart_total_text)
-    LoggerWrapper.logger.info "Get total price from table = #{total}"
+    LoggerWrapper.logger.info "Get total price from table"
     total
   end
 

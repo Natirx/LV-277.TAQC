@@ -20,9 +20,9 @@ class ProductRepository
                 {CurrencyRepository.currency_euro.name => "472.33",
                  CurrencyRepository.currency_pound_sterling.name => "368.73",
                  CurrencyRepository.currency_dollar.name => "602.00"},
-    {CurrencyRepository.currency_euro.name => "392.30",
-     CurrencyRepository.currency_pound_sterling.name => "306.25",
-     CurrencyRepository.currency_dollar.name => "500.00"})
+                {CurrencyRepository.currency_euro.name => "392.30",
+                 CurrencyRepository.currency_pound_sterling.name => "306.25",
+                 CurrencyRepository.currency_dollar.name => "500.00"})
 
   end
 
@@ -37,11 +37,33 @@ class ProductRepository
                  CurrencyRepository.currency_dollar.name => "101.00"})
   end
 
-  def self.mackbook_data
-    assign_product_data_properties('mackbook_info')
+
+  def self.macbook_price
+    assign_product_data_properties('Macbook')
   end
-  def self.iphone_data
-    assign_product_data_properties('iphone_info')
+
+  def self.iphone_price
+    assign_product_data_properties('iPhone')
+  end
+
+  def self.apple_cinema_price
+
+  end
+
+  def self.cannon_price
+
+  end
+
+  def self.get_price(product)
+    case product
+      when 'MacBook'
+        macbook_price
+      when 'iPhone'
+        iphone_price
+      else
+        puts "Something wrong"
+    end
+
   end
 
   def self.test_product_data
@@ -59,7 +81,6 @@ class ProductRepository
   def self.product_test_data(_yaml_data_id)
     ParseData.parsed_yaml_file_data(TEST_PRODUCTS_DATA_PATH)[_yaml_data_id]
   end
-
 
 
 end

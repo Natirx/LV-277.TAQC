@@ -4,8 +4,8 @@ products_to_be_add:
   product_2: 'MacBook'
   product_3: 'iPhone'
 
-mackbook_info:
+Macbook:
     total: '602.00'
 
-iphone_info:
+iPhone:
     total: '123.20'

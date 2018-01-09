@@ -6,6 +6,8 @@ require_relative '../shopping_cart/shopping_cart_atomic'
 require_relative '../shopping_cart/shopping_cart'
 require_relative '../shopping_cart/shopping_cart_business'
 require_relative '../../../tools/logger_wrapper'
+require_relative '../../../tools/price_utils.rb'
+require_relative '../../../data/product_repository.rb'
 
 class HomePageBusiness
 
@@ -25,6 +27,7 @@ class HomePageBusiness
       LoggerWrapper.logger.info "#{product} added to the Cart"
     end
     # sleep 5
+    #p PriceUtils.get_price
     ShoppingCartBusiness.new(ShoppingCartAtomic.new(@home_page_atomic.home_page.driver))
   end
 

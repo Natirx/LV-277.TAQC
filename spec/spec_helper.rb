@@ -19,22 +19,16 @@ RSpec.configure do |config|
   config.include AllureRSpec::Adaptor
 
 
-  $data_provider_test_1 = ProductRepository.test_product_data
-  $data_provider_total_price=0
+  $data_provider_product = ProductRepository.test_product_data
 
-  $data_provider_product_name = [
-      [ProductRepository.MacBook.name, 4],
-      [ProductRepository.IPhone.name, 5]
-  ]
-  $data_provider_product_currency = [
-      [ProductRepository.MacBook.name, ProductRepository.MacBook.price_no_vat["USD"].to_f],
-      [ProductRepository.IPhone.name, (ProductRepository.MacBook.price_no_vat["USD"].to_f + ProductRepository.IPhone.price_no_vat["USD"].to_f)]
-  ]
-  $data_provider_smoke_test=["Your shopping cart is empty!"]
+  $data_provider_total_price=PriceUtils.get_sum_price($data_provider_product)
+
+  $data_provider_empty_cart="Your shopping cart is empty!"
 
   config.before(:all) do
     Application.get(ApplicationSourceRepository.firefox_heroku())
   end
+
   $log = LoggerWrapper.logger
 
   config.after(:all) do
@@ -43,8 +37,8 @@ RSpec.configure do |config|
 
   AllureRSpec.configure do |c|
     #c.output_dir = "/whatever/you/like" # default: gen/allure-results
-    #c.clean_dir = false # clean the output directory first? (default: true)
-    c.logging_level = Logger::WARN # logging level (default: DEBUG)
+    c.clean_dir = false # clean the output directory first? (default: true)
+    c.logging_level = Logger::DEBUG # logging level (default: DEBUG)
   end
 
 end

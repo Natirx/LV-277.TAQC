@@ -11,10 +11,9 @@ describe "Products from HOME page" do
   context "should be added to the cart and" do
     it " their names should be right" do
       $log.info "Add product to cart and check names Test Started"
-      #puts ProductRepository.mackbook_data
       expect(Application.get.load_home_page
-                 .add_all_product_to_cart($data_provider_test_1)
-                 .get_all_product_names($data_provider_test_1)).to eql($data_provider_test_1)
+                 .add_all_product_to_cart($data_provider_product)
+                 .get_all_product_names($data_provider_product)).to eql($data_provider_product)
       $log.info "Add product to cart and check names Test Finished"
     end
   end
