@@ -1,7 +1,6 @@
 require_relative 'product_info_page.rb'
 require_relative '../../../data/user_data/user_repository.rb'
-#require_relative '../../../data/review.rb'
-#require_relative '../../../data/review_repository.rb'
+
 
 
 class ProductInfoPageAtomic

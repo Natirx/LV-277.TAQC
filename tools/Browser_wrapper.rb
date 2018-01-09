@@ -1,5 +1,5 @@
 require_relative '../data/application_source.rb'
-require 'pry'
+
 
 class BrowserWrapper
   def initialize(application_source)
