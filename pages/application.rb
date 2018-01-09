@@ -1,8 +1,7 @@
-require_relative '../pages/user/header_component.rb'
-require_relative '../pages/user/product_search_page.rb'
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
+require_relative '../pages/user/search_component/search_component_business'
 
 class Application
   # TODO for multithreading
@@ -58,7 +57,7 @@ class Application
 #############################################################
   def load_product_search_page_component
     browser.open_url(application_source.baseUrl)
-    ProductSearchPage.new(browser.driver)
+    SearchComponentBusiness.new()
   end
 
   def load_header_menu_component

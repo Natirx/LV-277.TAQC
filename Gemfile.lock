@@ -20,6 +20,7 @@ GEM
     faker (1.8.4)
       i18n (~> 0.5)
     ffi (1.9.18)
+    ffi (1.9.18-x64-mingw32)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     log4r (1.1.10)
@@ -29,6 +30,8 @@ GEM
     mimemagic (0.3.2)
     mini_portile2 (2.3.0)
     nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.1-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     page-object (2.2.4)
       page_navigation (>= 0.10)
@@ -86,18 +89,22 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
-  gem 'allure-rspec'
-  gem 'log4r'
-  gem 'page-object'
-  gem 'parallel_tests'
-  gem 'pry'
-  gem 'rake'
-  gem 'rspec'
-  gem 'rubocop'
-  gem 'selenium-webdriver'
-  gem 'test-unit'
+  allure-rspec
+  log4r
+  page-object
+  parallel_tests
+  pry
+  rake
+  rspec
+  rubocop
+  selenium-webdriver
+  test-unit
+
+RUBY VERSION
+   ruby 2.4.2p198
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

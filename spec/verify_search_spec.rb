@@ -1,5 +1,5 @@
 describe "open_cart" do
-  context "test_search" do
+  context "Given array of elements" do
     it "return good sort by location" do
       $log.info "Verify Search Test Started"
       expect(Application.get.load_product_search_page_component

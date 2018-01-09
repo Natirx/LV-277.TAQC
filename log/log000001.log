@@ -22,3 +22,335 @@
 [INFO 2018-01-04 16:07:14]: Special Symbol Test Ended
 [INFO 2018-01-04 16:07:16]: Verify Search Test Started
 [INFO 2018-01-04 16:07:20]: Verify Search Test Ended
+[INFO 2018-01-04 16:30:20]: Empty Search Test Started
+[INFO 2018-01-04 16:30:21]: Empty Search Test Ended
+[INFO 2018-01-04 16:30:23]: Smoke Test Started
+[INFO 2018-01-04 16:30:25]: Smoke Test Ended
+[INFO 2018-01-04 16:30:27]: Special Symbol Test Started
+[INFO 2018-01-04 16:30:28]: Special Symbol Test Ended
+[INFO 2018-01-04 16:30:30]: Verify Search Test Started
+[INFO 2018-01-04 16:30:31]: Verify Search Test Ended
+[INFO 2018-01-04 16:42:04]: Empty Search Test Started
+[INFO 2018-01-04 16:42:05]: Empty Search Test Ended
+[INFO 2018-01-04 16:42:07]: Smoke Test Started
+[INFO 2018-01-04 16:42:08]: Smoke Test Ended
+[INFO 2018-01-04 16:42:10]: Special Symbol Test Started
+[INFO 2018-01-04 16:42:11]: Special Symbol Test Ended
+[INFO 2018-01-04 16:42:13]: Verify Search Test Started
+[INFO 2018-01-04 16:42:14]: Verify Search Test Ended
+[INFO 2018-01-05 12:05:19]: Empty Search Test Started
+[INFO 2018-01-05 12:05:20]: Empty Search Test Ended
+[INFO 2018-01-05 12:05:22]: Smoke Test Started
+[INFO 2018-01-05 12:05:24]: Smoke Test Ended
+[INFO 2018-01-05 12:05:26]: Special Symbol Test Started
+[INFO 2018-01-05 12:05:27]: Special Symbol Test Ended
+[INFO 2018-01-05 12:05:29]: Verify Search Test Started
+[INFO 2018-01-05 12:05:31]: Verify Search Test Ended
+[INFO 2018-01-05 12:07:04]: Empty Search Test Started
+[INFO 2018-01-05 12:07:05]: Empty Search Test Ended
+[INFO 2018-01-05 12:07:07]: Smoke Test Started
+[INFO 2018-01-05 12:07:08]: Smoke Test Ended
+[INFO 2018-01-05 12:07:10]: Special Symbol Test Started
+[INFO 2018-01-05 12:07:12]: Special Symbol Test Ended
+[INFO 2018-01-05 12:07:14]: Verify Search Test Started
+[INFO 2018-01-05 12:07:15]: Verify Search Test Ended
+[INFO 2018-01-05 12:13:31]: Empty Search Test Started
+[INFO 2018-01-05 12:13:32]: Empty Search Test Ended
+[INFO 2018-01-05 12:13:34]: Smoke Test Started
+[INFO 2018-01-05 12:13:35]: Smoke Test Ended
+[INFO 2018-01-05 12:13:37]: Special Symbol Test Started
+[INFO 2018-01-05 12:13:39]: Special Symbol Test Ended
+[INFO 2018-01-05 12:13:41]: Verify Search Test Started
+[INFO 2018-01-05 12:13:42]: Verify Search Test Ended
+[INFO 2018-01-05 12:14:23]: Empty Search Test Started
+[INFO 2018-01-05 12:14:26]: Empty Search Test Ended
+[INFO 2018-01-05 12:14:28]: Smoke Test Started
+[INFO 2018-01-05 12:14:32]: Smoke Test Ended
+[INFO 2018-01-05 12:14:34]: Special Symbol Test Started
+[INFO 2018-01-05 12:14:39]: Special Symbol Test Ended
+[INFO 2018-01-05 12:14:41]: Verify Search Test Started
+[INFO 2018-01-05 12:14:46]: Verify Search Test Ended
+[INFO 2018-01-05 12:15:45]: Empty Search Test Started
+[INFO 2018-01-05 12:15:49]: Empty Search Test Ended
+[INFO 2018-01-05 12:15:52]: Smoke Test Started
+[INFO 2018-01-05 12:15:58]: Smoke Test Ended
+[INFO 2018-01-05 12:16:00]: Special Symbol Test Started
+[INFO 2018-01-05 12:16:08]: Special Symbol Test Ended
+[INFO 2018-01-05 12:16:10]: Verify Search Test Started
+[INFO 2018-01-05 12:16:20]: Verify Search Test Ended
+[INFO 2018-01-05 12:16:31]: Empty Search Test Started
+[INFO 2018-01-05 12:16:37]: Empty Search Test Ended
+[INFO 2018-01-05 12:16:39]: Smoke Test Started
+[INFO 2018-01-05 12:16:45]: Smoke Test Ended
+[INFO 2018-01-05 12:16:47]: Special Symbol Test Started
+[INFO 2018-01-05 12:16:53]: Special Symbol Test Ended
+[INFO 2018-01-05 12:16:55]: Verify Search Test Started
+[INFO 2018-01-05 12:17:05]: Verify Search Test Ended
+[INFO 2018-01-05 12:17:16]: Empty Search Test Started
+[INFO 2018-01-05 12:17:24]: Empty Search Test Ended
+[INFO 2018-01-05 12:17:26]: Smoke Test Started
+[INFO 2018-01-05 12:17:33]: Smoke Test Ended
+[INFO 2018-01-05 12:17:35]: Special Symbol Test Started
+[INFO 2018-01-05 12:17:46]: Special Symbol Test Ended
+[INFO 2018-01-05 12:17:48]: Verify Search Test Started
+[INFO 2018-01-05 12:17:55]: Verify Search Test Ended
+[INFO 2018-01-05 12:18:03]: Empty Search Test Started
+[INFO 2018-01-05 12:18:10]: Empty Search Test Ended
+[INFO 2018-01-05 12:18:12]: Smoke Test Started
+[INFO 2018-01-05 12:18:17]: Smoke Test Ended
+[INFO 2018-01-05 12:18:19]: Special Symbol Test Started
+[INFO 2018-01-05 12:18:26]: Special Symbol Test Ended
+[INFO 2018-01-05 12:18:28]: Verify Search Test Started
+[INFO 2018-01-05 12:18:34]: Verify Search Test Ended
+[INFO 2018-01-05 12:18:49]: Empty Search Test Started
+[INFO 2018-01-05 12:18:53]: Empty Search Test Ended
+[INFO 2018-01-05 12:18:56]: Smoke Test Started
+[INFO 2018-01-05 12:19:03]: Smoke Test Ended
+[INFO 2018-01-05 12:19:05]: Special Symbol Test Started
+[INFO 2018-01-05 12:19:11]: Special Symbol Test Ended
+[INFO 2018-01-05 12:19:14]: Verify Search Test Started
+[INFO 2018-01-05 12:19:22]: Verify Search Test Ended
+[INFO 2018-01-05 12:30:26]: Special Symbol Test Started
+[INFO 2018-01-05 12:30:28]: Special Symbol Test Ended
+[INFO 2018-01-05 12:32:13]: Special Symbol Test Started
+[INFO 2018-01-05 12:32:15]: Special Symbol Test Ended
+[INFO 2018-01-05 12:37:44]: Special Symbol Test Started
+[INFO 2018-01-05 12:37:47]: Special Symbol Test Ended
+[INFO 2018-01-05 12:44:27]: Special Symbol Test Started
+[INFO 2018-01-05 12:44:29]: Special Symbol Test Ended
+[INFO 2018-01-05 13:16:30]: Empty Search Test Started
+[INFO 2018-01-05 13:16:31]: Empty Search Test Ended
+[INFO 2018-01-05 13:16:33]: Smoke Test Started
+[INFO 2018-01-05 13:16:35]: Smoke Test Ended
+[INFO 2018-01-05 13:16:36]: Special Symbol Test Started
+[INFO 2018-01-05 13:16:38]: Special Symbol Test Ended
+[INFO 2018-01-05 13:16:40]: Verify Search Test Started
+[INFO 2018-01-05 13:16:41]: Verify Search Test Ended
+[INFO 2018-01-05 13:18:52]: Empty Search Test Started
+[INFO 2018-01-05 13:18:54]: Empty Search Test Ended
+[INFO 2018-01-05 13:18:56]: Smoke Test Started
+[INFO 2018-01-05 13:18:58]: Smoke Test Ended
+[INFO 2018-01-05 13:19:00]: Special Symbol Test Started
+[INFO 2018-01-05 13:19:01]: Special Symbol Test Ended
+[INFO 2018-01-05 13:19:03]: Verify Search Test Started
+[INFO 2018-01-05 13:19:06]: Verify Search Test Ended
+[INFO 2018-01-05 13:19:42]: Empty Search Test Started
+[INFO 2018-01-05 13:19:48]: Empty Search Test Ended
+[INFO 2018-01-05 13:19:51]: Smoke Test Started
+[INFO 2018-01-05 13:19:58]: Smoke Test Ended
+[INFO 2018-01-05 13:20:01]: Special Symbol Test Started
+[INFO 2018-01-05 13:20:07]: Special Symbol Test Ended
+[INFO 2018-01-05 13:20:09]: Verify Search Test Started
+[INFO 2018-01-05 13:20:13]: Verify Search Test Ended
+[INFO 2018-01-05 13:22:31]: Empty Search Test Started
+[INFO 2018-01-05 13:22:32]: Empty Search Test Ended
+[INFO 2018-01-05 13:22:34]: Smoke Test Started
+[INFO 2018-01-05 13:22:36]: Smoke Test Ended
+[INFO 2018-01-05 13:22:38]: Special Symbol Test Started
+[INFO 2018-01-05 13:22:40]: Special Symbol Test Ended
+[INFO 2018-01-05 13:22:42]: Verify Search Test Started
+[INFO 2018-01-05 13:22:43]: Verify Search Test Ended
+[INFO 2018-01-05 13:23:54]: Empty Search Test Started
+[INFO 2018-01-05 13:23:56]: Empty Search Test Ended
+[INFO 2018-01-05 13:23:59]: Smoke Test Started
+[INFO 2018-01-05 13:24:01]: Smoke Test Ended
+[INFO 2018-01-05 13:24:03]: Special Symbol Test Started
+[INFO 2018-01-05 13:24:04]: Special Symbol Test Ended
+[INFO 2018-01-05 13:24:06]: Verify Search Test Started
+[INFO 2018-01-05 13:24:07]: Verify Search Test Ended
+[INFO 2018-01-05 13:54:38]: Empty Search Test Started
+[INFO 2018-01-05 13:54:40]: Empty Search Test Ended
+[INFO 2018-01-05 13:54:42]: Smoke Test Started
+[INFO 2018-01-05 13:54:43]: Smoke Test Ended
+[INFO 2018-01-05 13:54:48]: Special Symbol Test Started
+[INFO 2018-01-05 13:54:52]: Special Symbol Test Ended
+[INFO 2018-01-05 13:54:55]: Verify Search Test Started
+[INFO 2018-01-05 13:55:02]: Verify Search Test Ended
+[INFO 2018-01-05 13:56:03]: Smoke Test Started
+[INFO 2018-01-05 13:56:05]: Smoke Test Ended
+[INFO 2018-01-09 10:16:50]: Empty Search Test Started
+[INFO 2018-01-09 10:16:52]: Empty Search Test Ended
+[INFO 2018-01-09 10:16:54]: Smoke Test Started
+[INFO 2018-01-09 10:16:55]: Smoke Test Ended
+[INFO 2018-01-09 10:16:57]: Special Symbol Test Started
+[INFO 2018-01-09 10:16:59]: Special Symbol Test Ended
+[INFO 2018-01-09 10:17:00]: Verify Search Test Started
+[INFO 2018-01-09 10:17:02]: Verify Search Test Ended
+[INFO 2018-01-09 10:18:45]: Empty Search Test Started
+[INFO 2018-01-09 10:18:47]: Empty Search Test Ended
+[INFO 2018-01-09 10:18:49]: Smoke Test Started
+[INFO 2018-01-09 10:18:50]: Smoke Test Ended
+[INFO 2018-01-09 10:19:32]: Empty Search Test Started
+[INFO 2018-01-09 10:19:33]: Empty Search Test Ended
+[INFO 2018-01-09 10:19:35]: Smoke Test Started
+[INFO 2018-01-09 10:19:36]: Smoke Test Ended
+[INFO 2018-01-09 10:19:38]: Special Symbol Test Started
+[INFO 2018-01-09 10:19:39]: Special Symbol Test Ended
+[INFO 2018-01-09 10:19:41]: Verify Search Test Started
+[INFO 2018-01-09 10:19:43]: Verify Search Test Ended
+[INFO 2018-01-09 10:20:23]: Empty Search Test Started
+[INFO 2018-01-09 10:20:24]: Empty Search Test Ended
+[INFO 2018-01-09 10:20:26]: Smoke Test Started
+[INFO 2018-01-09 10:20:27]: Smoke Test Ended
+[INFO 2018-01-09 10:20:29]: Special Symbol Test Started
+[INFO 2018-01-09 10:20:30]: Special Symbol Test Ended
+[INFO 2018-01-09 10:20:32]: Verify Search Test Started
+[INFO 2018-01-09 10:20:33]: Verify Search Test Ended
+[INFO 2018-01-09 10:26:58]: Empty Search Test Started
+[INFO 2018-01-09 10:27:00]: Empty Search Test Ended
+[INFO 2018-01-09 10:27:02]: Smoke Test Started
+[INFO 2018-01-09 10:27:03]: Smoke Test Ended
+[INFO 2018-01-09 10:27:05]: Special Symbol Test Started
+[INFO 2018-01-09 10:27:06]: Special Symbol Test Ended
+[INFO 2018-01-09 10:27:08]: Verify Search Test Started
+[INFO 2018-01-09 10:27:09]: Verify Search Test Ended
+[INFO 2018-01-09 14:12:56]: Smoke Test Started
+[INFO 2018-01-09 14:14:09]: Smoke Test Started
+[INFO 2018-01-09 14:14:44]: Smoke Test Started
+[INFO 2018-01-09 14:16:26]: Smoke Test Started
+[INFO 2018-01-09 14:18:23]: Smoke Test Started
+[INFO 2018-01-09 14:19:32]: Smoke Test Started
+[INFO 2018-01-09 14:20:04]: Smoke Test Started
+[INFO 2018-01-09 14:21:11]: Smoke Test Started
+[INFO 2018-01-09 14:21:47]: Smoke Test Started
+[INFO 2018-01-09 14:22:37]: Smoke Test Started
+[INFO 2018-01-09 14:24:04]: Smoke Test Started
+[INFO 2018-01-09 14:24:06]: Smoke Test Ended
+[INFO 2018-01-09 14:29:05]: Smoke Test Started
+[INFO 2018-01-09 14:29:06]: Smoke Test Ended
+[INFO 2018-01-09 14:45:08]: Smoke Test Started
+[INFO 2018-01-09 14:45:10]: Smoke Test Ended
+[INFO 2018-01-09 14:47:46]: Smoke Test Started
+[INFO 2018-01-09 14:47:47]: Smoke Test Ended
+[INFO 2018-01-09 14:49:14]: Smoke Test Started
+[INFO 2018-01-09 14:49:47]: Smoke Test Started
+[INFO 2018-01-09 14:50:43]: Smoke Test Started
+[INFO 2018-01-09 14:51:49]: Smoke Test Started
+[INFO 2018-01-09 14:52:18]: Smoke Test Started
+[INFO 2018-01-09 14:54:19]: Smoke Test Started
+[INFO 2018-01-09 14:55:31]: Smoke Test Started
+[INFO 2018-01-09 14:56:54]: Smoke Test Started
+[INFO 2018-01-09 14:57:47]: Smoke Test Started
+[INFO 2018-01-09 14:59:17]: Smoke Test Started
+[INFO 2018-01-09 15:00:34]: Smoke Test Started
+[INFO 2018-01-09 15:01:45]: Smoke Test Started
+[INFO 2018-01-09 15:03:03]: Smoke Test Started
+[INFO 2018-01-09 15:06:44]: Smoke Test Started
+[INFO 2018-01-09 15:10:59]: Smoke Test Started
+[INFO 2018-01-09 15:12:31]: Smoke Test Started
+[INFO 2018-01-09 15:19:59]: Smoke Test Started
+[INFO 2018-01-09 15:23:18]: Smoke Test Started
+[INFO 2018-01-09 15:27:11]: Smoke Test Started
+[INFO 2018-01-09 15:27:37]: Smoke Test Started
+[INFO 2018-01-09 15:29:18]: Smoke Test Started
+[INFO 2018-01-09 15:30:48]: Smoke Test Started
+[INFO 2018-01-09 15:31:27]: Smoke Test Started
+[INFO 2018-01-09 15:32:22]: Smoke Test Started
+[INFO 2018-01-09 15:33:09]: Smoke Test Started
+[INFO 2018-01-09 15:34:27]: Smoke Test Started
+[INFO 2018-01-09 15:37:16]: Smoke Test Started
+[INFO 2018-01-09 15:39:13]: Smoke Test Started
+[INFO 2018-01-09 15:41:12]: Smoke Test Started
+[INFO 2018-01-09 15:42:28]: Smoke Test Started
+[INFO 2018-01-09 15:43:35]: Smoke Test Started
+[INFO 2018-01-09 15:46:53]: Smoke Test Started
+[INFO 2018-01-09 15:48:01]: Smoke Test Started
+[INFO 2018-01-09 15:48:02]: Smoke Test Ended
+[INFO 2018-01-09 15:48:49]: Empty Search Test Started
+[INFO 2018-01-09 15:50:35]: Empty Search Test Started
+[INFO 2018-01-09 15:52:52]: Empty Search Test Started
+[INFO 2018-01-09 15:55:45]: Empty Search Test Started
+[INFO 2018-01-09 15:58:43]: Empty Search Test Started
+[INFO 2018-01-09 15:59:39]: Empty Search Test Started
+[INFO 2018-01-09 16:00:46]: Empty Search Test Started
+[INFO 2018-01-09 16:01:11]: Empty Search Test Started
+[INFO 2018-01-09 16:01:45]: Empty Search Test Started
+[INFO 2018-01-09 16:02:16]: Empty Search Test Started
+[INFO 2018-01-09 16:03:01]: Empty Search Test Started
+[INFO 2018-01-09 16:03:02]: Empty Search Test Ended
+[INFO 2018-01-09 16:04:52]: Special Symbol Test Started
+[INFO 2018-01-09 16:05:32]: Special Symbol Test Started
+[INFO 2018-01-09 16:06:31]: Special Symbol Test Started
+[INFO 2018-01-09 16:07:03]: Special Symbol Test Started
+[INFO 2018-01-09 16:09:56]: Special Symbol Test Started
+[INFO 2018-01-09 16:10:37]: Special Symbol Test Started
+[INFO 2018-01-09 16:11:38]: Empty Search Test Started
+[INFO 2018-01-09 16:12:13]: Empty Search Test Started
+[INFO 2018-01-09 16:12:15]: Empty Search Test Ended
+[INFO 2018-01-09 16:12:28]: Smoke Test Started
+[INFO 2018-01-09 16:12:30]: Smoke Test Ended
+[INFO 2018-01-09 16:13:38]: Special Symbol Test Started
+[INFO 2018-01-09 16:14:50]: Special Symbol Test Started
+[INFO 2018-01-09 16:15:47]: Special Symbol Test Started
+[INFO 2018-01-09 16:18:25]: Special Symbol Test Started
+[INFO 2018-01-09 16:21:15]: Special Symbol Test Started
+[INFO 2018-01-09 16:22:22]: Special Symbol Test Started
+[INFO 2018-01-09 16:23:16]: Special Symbol Test Started
+[INFO 2018-01-09 16:24:53]: Special Symbol Test Started
+[INFO 2018-01-09 16:25:41]: Special Symbol Test Started
+[INFO 2018-01-09 16:26:04]: Special Symbol Test Started
+[INFO 2018-01-09 16:26:30]: Special Symbol Test Started
+[INFO 2018-01-09 16:26:50]: Special Symbol Test Started
+[INFO 2018-01-09 16:28:12]: Special Symbol Test Started
+[INFO 2018-01-09 16:29:00]: Special Symbol Test Started
+[INFO 2018-01-09 16:29:50]: Verify Search Test Started
+[INFO 2018-01-09 16:31:26]: Verify Search Test Started
+[INFO 2018-01-09 16:31:56]: Verify Search Test Started
+[INFO 2018-01-09 16:33:13]: Verify Search Test Started
+[INFO 2018-01-09 16:34:57]: Verify Search Test Started
+[INFO 2018-01-09 16:34:59]: Verify Search Test Ended
+[INFO 2018-01-09 16:35:14]: Verify Search Test Started
+[INFO 2018-01-09 16:35:16]: Verify Search Test Ended
+[INFO 2018-01-09 16:35:38]: Verify Search Test Started
+[INFO 2018-01-09 16:35:40]: Verify Search Test Ended
+[INFO 2018-01-09 16:35:46]: Special Symbol Test Started
+[INFO 2018-01-09 16:38:01]: Special Symbol Test Started
+[INFO 2018-01-09 16:38:10]: Special Symbol Test Started
+[INFO 2018-01-09 16:38:17]: Verify Search Test Started
+[INFO 2018-01-09 16:38:18]: Verify Search Test Ended
+[INFO 2018-01-09 16:38:48]: Special Symbol Test Started
+[INFO 2018-01-09 16:39:18]: Special Symbol Test Started
+[INFO 2018-01-09 16:42:07]: Special Symbol Test Started
+[INFO 2018-01-09 16:42:24]: Special Symbol Test Started
+[INFO 2018-01-09 16:42:52]: Special Symbol Test Started
+[INFO 2018-01-09 16:43:10]: Special Symbol Test Started
+[INFO 2018-01-09 16:44:08]: Special Symbol Test Started
+[INFO 2018-01-09 16:45:54]: Special Symbol Test Started
+[INFO 2018-01-09 16:46:35]: Special Symbol Test Started
+[INFO 2018-01-09 16:47:46]: Verify Search Test Started
+[INFO 2018-01-09 16:47:47]: Verify Search Test Ended
+[INFO 2018-01-09 16:54:43]: Special Symbol Test Started
+[INFO 2018-01-09 16:55:13]: Verify Search Test Started
+[INFO 2018-01-09 16:55:33]: Verify Search Test Started
+[INFO 2018-01-09 16:56:06]: Verify Search Test Started
+[INFO 2018-01-09 16:56:08]: Verify Search Test Ended
+[INFO 2018-01-09 16:56:34]: Special Symbol Test Started
+[INFO 2018-01-09 16:58:26]: Special Symbol Test Started
+[INFO 2018-01-09 16:58:59]: Special Symbol Test Started
+[INFO 2018-01-09 16:59:17]: Special Symbol Test Started
+[INFO 2018-01-09 17:31:54]: Special Symbol Test Started
+[INFO 2018-01-09 17:34:01]: Special Symbol Test Started
+[INFO 2018-01-09 17:38:31]: Special Symbol Test Started
+[INFO 2018-01-09 17:38:32]: Special Symbol Test Ended
+[INFO 2018-01-09 17:39:36]: Special Symbol Test Started
+[INFO 2018-01-09 17:39:38]: Special Symbol Test Ended
+[INFO 2018-01-09 17:40:51]: Empty Search Test Started
+[INFO 2018-01-09 17:40:52]: Empty Search Test Ended
+[INFO 2018-01-09 17:40:55]: Smoke Test Started
+[INFO 2018-01-09 17:40:56]: Smoke Test Ended
+[INFO 2018-01-09 17:40:59]: Special Symbol Test Started
+[INFO 2018-01-09 17:41:01]: Special Symbol Test Ended
+[INFO 2018-01-09 17:41:03]: Verify Search Test Started
+[INFO 2018-01-09 17:41:05]: Verify Search Test Ended
+[INFO 2018-01-09 17:50:03]: Empty Search Test Started
+[INFO 2018-01-09 17:50:04]: Empty Search Test Ended
+[INFO 2018-01-09 17:50:57]: Special Symbol Test Started
+[INFO 2018-01-09 17:50:57]: Verify Search Test Started
+[INFO 2018-01-09 17:51:02]: Empty Search Test Started
+[INFO 2018-01-09 17:51:03]: Empty Search Test Ended
+[INFO 2018-01-09 17:51:05]: Smoke Test Started
+[INFO 2018-01-09 17:51:06]: Smoke Test Ended
+[INFO 2018-01-09 17:51:08]: Special Symbol Test Started
+[INFO 2018-01-09 17:51:09]: Special Symbol Test Ended
+[INFO 2018-01-09 17:51:11]: Verify Search Test Started
+[INFO 2018-01-09 17:51:13]: Verify Search Test Ended

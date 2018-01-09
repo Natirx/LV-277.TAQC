@@ -1,5 +1,5 @@
 describe "open_cart" do
-  context "test_search" do
+  context "Given special symbols" do
     it "return bug" do
       $log.info "Special Symbol Test Started"
       expect(Application.get.load_product_search_page_component
