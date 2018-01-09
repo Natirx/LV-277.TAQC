@@ -1,13 +1,25 @@
-require_relative 'left_bar_selector.rb'
+require_relative '../prod_page/product_page_business.rb'
+require_relative 'left_bar_atomic.rb'
 
 class LeftBarBusiness
 
-  # def product_count
-  #   @count = Array(@driver.find_elements(LeftBarSelector.product_title_path))
-  # end
+  attr_reader :left_bar_atomic
 
-  # def get_number_of_product_count
-  #   @number = product_count.length
-  # end
+  def initialize()
+    super()
+    @left_bar_atomic = LeftBarAtomic.new
+  end
+
+  def left_bar_product_count(item_name)
+    left_bar_atomic.get_left_bar_product_count(item_name)
+  end
+
+  def get_left_bar_product_count(item_name)
+    if left_bar_atomic.left_bar_product_count(item_name)
+      true
+    elsif
+      false
+    end
+  end
 
 end
