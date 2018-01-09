@@ -67,7 +67,7 @@ RSpec.configure do |config|
 
 
   AllureRSpec.configure do |config|
-    config.output_dir = 'reports/allure/gen/allure-results'
+    config.output_dir = 'allure-results'
     config.logging_level = Logger::WARN
   end
 end
