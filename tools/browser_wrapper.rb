@@ -9,6 +9,7 @@ class BrowserWrapper
   private
 
   def init_browser(application_source)
+=begin
     Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
     # TODO Use factory method
     #@driver = Selenium::WebDriver.for :firefox
@@ -17,6 +18,16 @@ class BrowserWrapper
        args: ['--headless']
     )
      options.add_argument('--headless')
+    @driver = Selenium::WebDriver.for :firefox, options: options
+    @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
+=end
+    Selenium::WebDriver::Firefox.driver_path = application_source.driverPath
+    # TODO Use factory method
+    # @driver = Selenium::WebDriver.for :firefox
+    options = Selenium::WebDriver::Firefox::Options.new(
+        args: ['--headless']
+    )
+    options.add_argument('--headless')
     @driver = Selenium::WebDriver.for :firefox, options: options
     @driver.manage.timeouts.implicit_wait = application_source.implicitWaitTimeOut
   end
