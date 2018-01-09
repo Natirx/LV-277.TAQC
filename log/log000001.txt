@@ -45,3 +45,13 @@
 [INFO 2018-01-09 18:15:16]: Go to Mac product description
 [INFO 2018-01-09 18:15:18]: Writing review
 [INFO 2018-01-09 18:15:31]: name field valid tests finished
+[INFO 2018-01-09 18:48:17]: name field valid tests started
+[INFO 2018-01-09 18:48:34]: Mac product chosen
+[INFO 2018-01-09 18:48:46]: Go to Mac product description
+[INFO 2018-01-09 18:48:49]: Writing review
+[INFO 2018-01-09 18:49:01]: name field valid tests finished
+[INFO 2018-01-09 18:50:32]: name field valid tests started
+[INFO 2018-01-09 18:50:45]: Mac product chosen
+[INFO 2018-01-09 18:50:56]: Go to Mac product description
+[INFO 2018-01-09 18:50:58]: Writing review
+[INFO 2018-01-09 18:51:11]: name field valid tests finished
