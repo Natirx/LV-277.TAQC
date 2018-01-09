@@ -1,8 +1,15 @@
 require_relative 'currency_repository.rb'
 require_relative 'product.rb'
+require_relative '../tools/parse_data'
+require 'yaml'
+
 class ProductRepository
 
   private_class_method :new
+
+  TEST_PRODUCTS_DATA_PATH = './data/test_data.yaml'
+
+
   def self.default
     MacBook
   end
@@ -30,19 +37,29 @@ class ProductRepository
                  CurrencyRepository.currency_dollar.name => "101.00"})
   end
 
-  def self.Apple_Cinema_30
-    Product.new("Apple Cinema 30",
-                "The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed sp",
-                {CurrencyRepository.currency_euro.name => "86.31",
-                 CurrencyRepository.currency_pound_sterling.name => "67.38",
-                 CurrencyRepository.currency_dollar.name => "110.00"})
+  def self.mackbook_data
+    assign_product_data_properties('mackbook_info')
+  end
+  def self.iphone_data
+    assign_product_data_properties('iphone_info')
   end
 
-  def self.Canon_EOS_5D
-    Product.new("Canon EOS 5D",
-                "Canon's press material for the EOS 5D states that it 'defines (a) new D-SLR category', while we'r",
-                {CurrencyRepository.currency_euro.name => "76.89",
-                 CurrencyRepository.currency_pound_sterling.name => "60.03",
-                 CurrencyRepository.currency_dollar.name => "98.00"})
+  def self.test_product_data
+    assign_product_data_properties('products_to_be_add')
   end
+
+  def self.assign_product_data_properties(_yaml_data_task)
+    array = Array.new
+    product_test_data(_yaml_data_task).each do |key, value|
+      array<<value
+    end
+    array
+  end
+
+  def self.product_test_data(_yaml_data_id)
+    ParseData.parsed_yaml_file_data(TEST_PRODUCTS_DATA_PATH)[_yaml_data_id]
+  end
+
+
+
 end

@@ -143,6 +143,10 @@ class HeaderComponent
 
   def click_shopping_cart_block
     shopping_cart_block.click
+    LoggerWrapper.logger.info "Cart button clicked"
+    sleep 1
+    #ShoppingCartBusiness.new(ShoppingCartAtomic.new(@home_page_atomic.home_page.driver))
+
   end
 
   def click_currency_dolar

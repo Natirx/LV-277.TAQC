@@ -13,16 +13,32 @@ class ShoppingCartBusiness
   end
 
   def get_cart_body_text
+    sleep 1
     @shopping_cart_atomic.shopping_cart.cart_button.click
     #@cart.cart_button_click
+    LoggerWrapper.logger.info "Waiting for text"
     @shopping_cart_atomic.cart_body_text
+  rescue ArgumentError => e
+    LoggerWrapper.logger.warn "Could not get text: #{e.message}"
   end
+
 
   def get_product_name name
     @shopping_cart_atomic.shopping_cart.cart_button.click
     @shopping_cart_atomic.product_name_text(name)
   end
-
+  def get_all_product_names name
+    sleep 1
+    @shopping_cart_atomic.shopping_cart.cart_button.click
+    sleep 1
+    array = Array.new
+    name.each do |product|
+     array<< @shopping_cart_atomic.product_name_text(product)
+    end
+    LoggerWrapper.logger.info "Names got"
+    array
+    #@shopping_cart_atomic.product_name_text(name)
+  end
   def get_product_count name
     @shopping_cart_atomic.shopping_cart.cart_button.click
     @shopping_cart_atomic.product_count_text(name)
@@ -41,14 +57,16 @@ class ShoppingCartBusiness
   end
 
   def get_total
-    PriceUtils.price_by_text(@shopping_cart_atomic.cart_total_text)
+    sleep 1
+    @shopping_cart_atomic.shopping_cart.click_shopping_cart_block
+    LoggerWrapper.logger.warn "Wait for total price from table "
+    total = PriceUtils.price_by_text(@shopping_cart_atomic.cart_total_text)
+    LoggerWrapper.logger.info "Get total price from table = #{total}"
+    total
   end
 
   def sub_total_of_product
-    sleep 1
-    @shopping_cart_atomic.shopping_cart.cart_button.click
-    #sleep 1
-    PriceUtils.sub_total_price(get_total, get_exo_tax)
+
   end
 
   def delete_product_from_cart name

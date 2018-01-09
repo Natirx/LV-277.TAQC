@@ -13,6 +13,7 @@ require_relative 'user/shopping_cart/shopping_cart_atomic'
 require_relative 'user/shopping_cart/shopping_cart'
 require_relative 'user/shopping_cart/shopping_cart_business'
 
+
 class Application
 
   attr_reader :application_source, :browser
@@ -59,6 +60,12 @@ class Application
     browser.open_url(application_source.baseUrl)
     #HomePage.new(browser.driver)
     HomePageBusiness.new(HomePageAtomic.new(browser.driver))
+
+  end
+  def load_main_page
+    browser.open_url(application_source.baseUrl)
+    #HomePage.new(browser.driver)
+    ShoppingCartBusiness.new(ShoppingCartAtomic.new(browser.driver))
 
   end
 =begin

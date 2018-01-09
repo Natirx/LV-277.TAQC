@@ -64,7 +64,7 @@ class ShoppingCartAtomic
   end
 
   def cart_total_text
-    @shopping_cart.cart_price_info[3].text
+     @shopping_cart.cart_price_info[3].text
   end
 
   # 2 cnopku TODO

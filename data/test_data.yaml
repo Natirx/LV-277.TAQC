@@ -1,0 +1,11 @@
+
+products_to_be_add:
+  product_1: 'MacBook'
+  product_2: 'MacBook'
+  product_3: 'iPhone'
+
+mackbook_info:
+    total: '602.00'
+
+iphone_info:
+    total: '123.20'
