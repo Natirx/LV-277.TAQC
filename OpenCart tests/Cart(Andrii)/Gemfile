@@ -1,6 +1,0 @@
-source 'https://rubygems.org'
-
-group :test do
-  gem 'selenium-webdriver'
-  gem 'rspec', '~> 3.5'
-end

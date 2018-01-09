@@ -1,0 +1,12 @@
+describe "open_cart" do
+  context "Given special symbols" do
+    it "return bug", :story => "OpenCart", :severity => :critical  do
+      $log.info "Special Symbol Test Started"
+      expect(Application.get.load_product_search_page_component
+                 .input_search_text(SearchRepository.search_value_percent.searchvalue)
+                 .search_all_items)
+          .to eql(15)
+      $log.info "Special Symbol Test Ended"
+    end
+  end
+end

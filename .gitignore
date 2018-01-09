@@ -1,0 +1,13 @@
+.idea/
+.ruby-gemset
+.ruby-version
+#allure-report/
+reports/allure/gen/
+run_tests
+rspec-report/
+#fail_screenshots
+reports/
+reports/allure/allure-results/plugins/junit/
+reports/allure/allure-results/plugins/trx/
+reports/allure/allure-results/plugins/xctest/
+reports/allure/allure-results/plugins/xunit-xml/
