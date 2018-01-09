@@ -24,8 +24,8 @@ require_relative '../tools/logger_wrapper'
 RSpec.configure do |config|
 
   config.before(:all) do
-    Application.get(ApplicationSourceRepository.chrome_heroku)
-    #Application.get(ApplicationSourceRepository.firefox_heroku())
+    #Application.get(ApplicationSourceRepository.chrome_heroku)
+    Application.get(ApplicationSourceRepository.firefox_heroku())
   end
 
   $log = LoggerWrapper.logger
