@@ -1,3 +1,5 @@
+require 'rubygems'
+require 'selenium-webdriver'
 require_relative '../data/application_source.rb'
 
 class BrowserWrapper
@@ -29,7 +31,8 @@ class BrowserWrapper
 
   def open_url(url)
     #@driver.get url
-    driver.get "http://oppencart.herokuapp.com/"
+    #driver.get "http://oppencart.herokuapp.com/"
+    driver.get url
   end
 
   def navigate_forward

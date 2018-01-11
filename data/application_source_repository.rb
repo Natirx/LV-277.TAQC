@@ -18,9 +18,22 @@ class ApplicationSourceRepository
   public
 
   def self.default
-    chrome_heroku
+    #chrome_heroku
+    chrome_server7
   end
-  
+
+  def self.chrome_server7
+    init_db_credentials()
+    ApplicationSource.new("chrome",
+    "lib/chromedriver.exe", 10,
+    "http://server7.pp.ua/",
+    "http://server7.pp.ua/index.php?route=account/login",
+    "http://server7.pp.ua/index.php?route=account/logout",
+    "http://server7.pp.ua/admin/",
+    "http://server7.pp.ua/admin/index.php?route=common/logout",
+    @@db_host, @@db_username, @@db_password, @@db_database, @@db_port)
+  end
+
   def self.chrome_heroku
     init_db_credentials()
     ApplicationSource.new("chrome",

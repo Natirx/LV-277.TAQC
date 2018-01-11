@@ -2,6 +2,7 @@ require 'rubygems'
 require 'logging'
 require 'yaml'
 require 'pathname'
+require 'time'
 
 # Dir.chdir(File.dirname(__FILE__))
 puts "from YAML ..."
@@ -46,3 +47,10 @@ logger.level = :debug
 
 logger.debug "this debug message will not be output by the logger"
 logger.warn "this is your last warning"
+
+#time = Time.now.getutc
+time = Time.now.getlocal
+puts "Time: #{time}"
+puts "count of seconds: #{time.to_i}"
+p time.to_i
+#puts "Time2: #{Time.now.utc.iso8601}"

@@ -1,4 +1,5 @@
 #require_relative '../entity/oc_customer_login.rb'
+require_relative 'general_dao.rb'
 require_relative '../../pages/application.rb'
 
 class OcCustomerLoginDao < GeneralDao

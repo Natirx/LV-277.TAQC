@@ -1,4 +1,5 @@
-#require_relative '../entity/oc_customer_login.rb'
+#require_relative '../entity/*.rb'
+require_relative '../entity/oc_customer_login.rb'
 require_relative '../../pages/application.rb'
 
 class GeneralDao
@@ -6,6 +7,7 @@ class GeneralDao
   
   def initialize(entity_name)
     @entity_class = Kernel.const_get(entity_name)
+    #@entity_class = Kernel.const_get("OcCustomerLogin")
     @connection = Application.get.connection_manager.get_connection
   end
 

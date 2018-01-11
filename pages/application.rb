@@ -1,6 +1,8 @@
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
+require_relative '../tools/connection_manager.rb'
+require_relative 'user/main_page.rb'
 
 class Application
   # TODO for multithreading
