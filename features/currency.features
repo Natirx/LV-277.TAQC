@@ -1,0 +1,12 @@
+Feature: Change Currency
+
+  Scenario Outline:
+    Given We navigate to the homepage
+    When We choose <currency>
+    Then The results for new product price will be displayed
+
+    Examples:
+    | currency |
+    | EUR |
+    | GBP |
+    | USD |

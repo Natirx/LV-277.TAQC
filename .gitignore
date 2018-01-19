@@ -55,6 +55,13 @@ build-iPhoneSimulator/
 .rvmrc
 
 ##################################################
+# Adv
+
+*.htm
+*.html
+*.log
+
+##################################################
 # Java
 
 # Compiled class file
