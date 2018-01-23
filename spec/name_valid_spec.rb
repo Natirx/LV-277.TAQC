@@ -17,6 +17,3 @@ describe 'name field valid tests' do
 
   end
 end
-
-
-#.apply_bl(review)

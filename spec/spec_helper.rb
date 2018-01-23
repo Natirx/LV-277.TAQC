@@ -18,8 +18,8 @@ RSpec.configure do |config|
 
   $data_provider_review_name_valid = [
     [ProductRepository.desktop_mac,  UserRepository.all_valid_fields, MessageRepository.success_mssg],
-    #[ProductRepository.desktop_mac, UserRepository.short_valid_name_field, MessageRepository.success_mssg],
-    #[ProductRepository.desktop_mac, UserRepository.long_valid_name_field, MessageRepository.success_mssg]
+    [ProductRepository.desktop_mac, UserRepository.short_valid_name_field, MessageRepository.success_mssg],
+    [ProductRepository.desktop_mac, UserRepository.long_valid_name_field, MessageRepository.success_mssg]
 
   ]
 

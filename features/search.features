@@ -1,0 +1,5 @@
+Feature: Site Search
+  Scenario:
+    Given We navigate to the homepage
+    When We write review on a product
+    Then The results message will be displayed

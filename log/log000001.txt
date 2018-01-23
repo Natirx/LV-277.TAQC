@@ -55,3 +55,75 @@
 [INFO 2018-01-09 18:50:56]: Go to Mac product description
 [INFO 2018-01-09 18:50:58]: Writing review
 [INFO 2018-01-09 18:51:11]: name field valid tests finished
+[INFO 2018-01-09 19:22:16]: name field valid tests started
+[INFO 2018-01-09 19:22:29]: Mac product chosen
+[INFO 2018-01-09 19:22:39]: Go to Mac product description
+[INFO 2018-01-09 19:22:42]: Writing review
+[INFO 2018-01-09 19:22:54]: name field valid tests finished
+[INFO 2018-01-09 19:25:36]: name field valid tests started
+[INFO 2018-01-09 19:26:05]: Mac product chosen
+[INFO 2018-01-09 19:26:17]: Go to Mac product description
+[INFO 2018-01-09 19:26:20]: Writing review
+[INFO 2018-01-09 19:26:32]: name field valid tests finished
+[INFO 2018-01-09 19:28:02]: name field valid tests started
+[INFO 2018-01-09 19:28:14]: Mac product chosen
+[INFO 2018-01-09 19:28:25]: Go to Mac product description
+[INFO 2018-01-09 19:28:28]: Writing review
+[INFO 2018-01-09 19:28:40]: name field valid tests finished
+[INFO 2018-01-09 19:32:45]: name field valid tests started
+[INFO 2018-01-09 19:32:57]: Mac product chosen
+[INFO 2018-01-09 19:33:08]: Go to Mac product description
+[INFO 2018-01-09 19:33:10]: Writing review
+[INFO 2018-01-09 19:33:23]: name field valid tests finished
+[INFO 2018-01-09 19:33:23]: name field valid tests started
+[INFO 2018-01-09 19:33:28]: Mac product chosen
+[INFO 2018-01-09 19:33:30]: Go to Mac product description
+[INFO 2018-01-09 19:33:32]: Writing review
+[INFO 2018-01-09 19:33:45]: name field valid tests finished
+[INFO 2018-01-09 19:33:45]: name field valid tests started
+[INFO 2018-01-09 19:33:51]: Mac product chosen
+[INFO 2018-01-09 19:33:52]: Go to Mac product description
+[INFO 2018-01-09 19:33:55]: Writing review
+[INFO 2018-01-09 19:34:07]: name field valid tests finished
+[INFO 2018-01-10 01:20:25]: name field valid tests started
+[INFO 2018-01-10 01:20:40]: Mac product chosen
+[INFO 2018-01-10 01:20:45]: Go to Mac product description
+[INFO 2018-01-10 01:20:48]: Writing review
+[INFO 2018-01-10 01:21:01]: name field valid tests finished
+[INFO 2018-01-10 01:21:01]: name field valid tests started
+[INFO 2018-01-10 01:21:07]: Mac product chosen
+[INFO 2018-01-10 01:21:08]: Go to Mac product description
+[INFO 2018-01-10 01:21:11]: Writing review
+[INFO 2018-01-10 01:21:23]: name field valid tests finished
+[INFO 2018-01-10 01:21:23]: name field valid tests started
+[INFO 2018-01-10 01:21:30]: Mac product chosen
+[INFO 2018-01-10 01:21:31]: Go to Mac product description
+[INFO 2018-01-10 01:21:33]: Writing review
+[INFO 2018-01-10 01:21:46]: name field valid tests finished
+[INFO 2018-01-23 15:47:47]: name field valid tests started
+[INFO 2018-01-23 15:48:00]: Mac product chosen
+[INFO 2018-01-23 15:48:34]: Go to Mac product description
+[INFO 2018-01-23 15:48:38]: Writing review
+[INFO 2018-01-23 15:48:51]: name field valid tests finished
+[INFO 2018-01-23 15:48:51]: name field valid tests started
+[INFO 2018-01-23 15:48:57]: Mac product chosen
+[INFO 2018-01-23 15:48:59]: Go to Mac product description
+[INFO 2018-01-23 15:49:02]: Writing review
+[INFO 2018-01-23 15:49:14]: name field valid tests finished
+[INFO 2018-01-23 15:49:14]: name field valid tests started
+[INFO 2018-01-23 15:49:20]: Mac product chosen
+[INFO 2018-01-23 15:49:22]: Go to Mac product description
+[INFO 2018-01-23 15:49:24]: Writing review
+[INFO 2018-01-23 15:49:37]: name field valid tests finished
+[INFO 2018-01-23 16:55:17]: Mac product chosen
+[INFO 2018-01-23 16:55:32]: Go to Mac product description
+[INFO 2018-01-23 16:55:35]: Writing review
+[INFO 2018-01-23 16:59:49]: Mac product chosen
+[INFO 2018-01-23 17:00:01]: Go to Mac product description
+[INFO 2018-01-23 17:00:03]: Writing review
+[INFO 2018-01-23 17:03:53]: Mac product chosen
+[INFO 2018-01-23 17:04:03]: Go to Mac product description
+[INFO 2018-01-23 17:04:05]: Writing review
+[INFO 2018-01-23 17:11:32]: Mac product chosen
+[INFO 2018-01-23 17:11:47]: Go to Mac product description
+[INFO 2018-01-23 17:11:49]: Writing review
