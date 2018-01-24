@@ -11,4 +11,4 @@ reports/allure/allure-results/plugins/junit/
 reports/allure/allure-results/plugins/trx/
 reports/allure/allure-results/plugins/xctest/
 reports/allure/allure-results/plugins/xunit-xml/
-debug.log
+debug log

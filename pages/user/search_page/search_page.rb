@@ -1,7 +1,6 @@
 require_relative "../search_component/search_component.rb"
 require_relative "search_page_selectors"
 
-
 class SearchPage < SearchComponent
 
   def initialize()

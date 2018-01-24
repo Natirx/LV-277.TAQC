@@ -1,7 +1,7 @@
 require_relative '../data/application_source.rb'
 require_relative '../data/application_source_repository.rb'
 require_relative '../tools/browser_wrapper.rb'
-require_relative '../pages/user/search_component/search_component_business'
+require_relative '../pages/user/search_component/search_component_business.rb'
 
 class Application
   # TODO for multithreading
@@ -20,19 +20,11 @@ class Application
   public
 
   def self.get(application_source = nil)
-    #print "\t***application_source = "
-    #p application_source
-    #print "\t***application instance = "
-    #p @@instance
-    #puts "\t***application_source = #{application_source}"
-    #if !@@instance
+
     if @@instance.nil?
-      #if !application_source
       if application_source.nil?
         application_source = ApplicationSourceRepository.default
-        #puts "\t***application_source default"
       end
-      #@@instance = Application.new(application_source) # Error for self
       @@instance = new(application_source)
       @@instance.init(application_source)
     end
@@ -54,7 +46,15 @@ class Application
     browser.open_url(application_source.baseUrl)
     MainPage.new(browser.driver)
   end
-#############################################################
+
+  def load_url
+    browser.open_url(application_source.baseUrl)
+  end
+
+  def load_search_page_business
+    SearchComponentBusiness.new()
+  end
+
   def load_product_search_page_component
     browser.open_url(application_source.baseUrl)
     SearchComponentBusiness.new()
@@ -75,7 +75,6 @@ class Application
     LeftBarComponent.new(browser.driver)
   end
 
-#############################################################
   def login_user
     browser.open_url(application_source.userLoginUrl)
     # TODO change page

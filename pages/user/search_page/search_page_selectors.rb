@@ -10,4 +10,5 @@ class SearchPageSelectors
   SEARCH_CRITERIA_BUTTON = {css: "#button-search"}
   SEARCH_VALUE = {css: "#content > h1"}
   EMPTY_SEARCH = {xpath: "//input[@id='button-search']/following-sibling::p"}
+
 end

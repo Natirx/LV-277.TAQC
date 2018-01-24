@@ -10,10 +10,10 @@ class SearchPageBusiness < SearchComponentBusiness
   end
 
   def search_value_text
-    search_page.search_value.text[9..-1]
+    search_page.search_value.text[9..-1] #regex /-(.*)/   /\bt\w+/
   end
 
-  def check_empty_search
+  def check_empty_search?
     search_page.empty_search.displayed?
   end
 
@@ -35,5 +35,6 @@ class SearchPageBusiness < SearchComponentBusiness
     else
       return false
     end
-    end
+  end
+
 end

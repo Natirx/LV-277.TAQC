@@ -1,6 +1,7 @@
-require_relative 'search_component_selectors'
+require_relative 'search_component_selectors.rb'
+require_relative '../path_panel_component.rb'
 
-class SearchComponent
+class SearchComponent < PathPanelComponent
 
   def initialize()
     @driver = Application.get.browser.driver
@@ -25,9 +26,5 @@ class SearchComponent
   def search_button_click
     search_button.click
   end
-
-  # def search_button_empty_click
-  #   search_component.search_button.click
-  # end
 
 end

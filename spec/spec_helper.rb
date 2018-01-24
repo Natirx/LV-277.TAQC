@@ -3,8 +3,6 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'allure-rspec'
 require 'pathname'
-require 'parallel_tests'
-
 require_relative '../data/application_source_repository.rb'
 require_relative '../data/currency.rb'
 require_relative '../data/currency_repository.rb'
@@ -21,7 +19,6 @@ require_relative '../pages/user/search_component/search_component.rb'
 require_relative '../pages/user/search_component/search_component_business.rb'
 require_relative '../pages/user/search_page/search_page.rb'
 require_relative '../pages/user/search_page/search_page_business.rb'
-
 
 
 RSpec.configure do |config|

@@ -12,7 +12,6 @@ module LoggerWrapper
     return @log unless @log.nil?
     YamlConfigurator.load_yaml_file(LOG4R_CONFIGURATION_DATA_PATH)
     @log = Logger['MainLogger']
-    @log
   end
 
 end
