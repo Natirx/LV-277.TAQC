@@ -2,7 +2,7 @@ class HeaderMenu
 
   attr_reader :item_name, :subitem_name
 
-  def initialize(item_name, *subitem_name)
+  def initialize(item_name, subitem_name)
     @item_name = item_name
     @subitem_name = subitem_name
   end

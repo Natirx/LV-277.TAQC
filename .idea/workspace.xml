@@ -3,13 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="78c89e80-dfd7-42d7-9a1e-644d64e10722" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/data/application_source_repository.rb" afterPath="$PROJECT_DIR$/data/application_source_repository.rb" />
+      <change beforePath="$PROJECT_DIR$/data/header_menu/header_menu.rb" afterPath="$PROJECT_DIR$/data/header_menu/header_menu.rb" />
+      <change beforePath="$PROJECT_DIR$/data/header_menu/header_menu_repository.rb" afterPath="$PROJECT_DIR$/data/header_menu/header_menu_repository.rb" />
+      <change beforePath="$PROJECT_DIR$/data/product_repository.rb" afterPath="$PROJECT_DIR$/data/product_repository.rb" />
       <change beforePath="$PROJECT_DIR$/pages/application.rb" afterPath="$PROJECT_DIR$/pages/application.rb" />
-      <change beforePath="$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_atomic.rb" afterPath="$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_atomic.rb" />
       <change beforePath="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_atomic.rb" afterPath="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_atomic.rb" />
-      <change beforePath="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_comp.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_business.rb" afterPath="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_business.rb" />
       <change beforePath="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_selector.rb" afterPath="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_selector.rb" />
       <change beforePath="$PROJECT_DIR$/pages/user/prod_page/product_page_atomic.rb" afterPath="$PROJECT_DIR$/pages/user/prod_page/product_page_atomic.rb" />
+      <change beforePath="$PROJECT_DIR$/pages/user/prod_page/product_page_business.rb" afterPath="$PROJECT_DIR$/pages/user/prod_page/product_page_business.rb" />
       <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/test1_smoke_spec.rb" afterPath="$PROJECT_DIR$/spec/test1_smoke_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/test2_verify_item_spec.rb" afterPath="$PROJECT_DIR$/spec/test2_verify_item_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/test3_compare_product_count_spec.rb" afterPath="$PROJECT_DIR$/spec/test3_compare_product_count_spec.rb" />
       <change beforePath="$PROJECT_DIR$/tools/browser_wrapper.rb" afterPath="$PROJECT_DIR$/tools/browser_wrapper.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,21 +35,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test1_smoke_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/test1_smoke_spec.rb">
+      <file leaf-file-name="search_steps.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/search_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header_menu_repository.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/header_menu/header_menu_repository.rb">
+      <file leaf-file-name="browser_wrapper.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/browser_wrapper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="522">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/search">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2_verify_item_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/test2_verify_item_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -70,11 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/user/path_panel_component.rb" />
-        <option value="$PROJECT_DIR$/tests/testfinditem" />
-        <option value="$PROJECT_DIR$/tests/currencytest.rb" />
-        <option value="$PROJECT_DIR$/data/header_menu/header_menu_source.rb" />
-        <option value="$PROJECT_DIR$/pages/user/main_page.rb" />
         <option value="$PROJECT_DIR$/pages/user/header_menu_proba.rb" />
         <option value="$PROJECT_DIR$/tests/test_verify_item.rb" />
         <option value="$PROJECT_DIR$/data/application_source.rb" />
@@ -89,38 +131,43 @@
         <option value="$PROJECT_DIR$/tests/test_compare_items_number_spec.rb" />
         <option value="$PROJECT_DIR$/tests/testcompareitemsnumber.rb" />
         <option value="$PROJECT_DIR$/spec/test_compare_product_count_spec.rb" />
-        <option value="$PROJECT_DIR$/data/header_menu/header_menu.rb" />
         <option value="$PROJECT_DIR$/log4r.yaml" />
         <option value="$PROJECT_DIR$/tests/log4r_example_xml.rb" />
         <option value="$PROJECT_DIR$/tests/log4r_example_yaml.rb" />
         <option value="$PROJECT_DIR$/pages/user/header_menu_component.rb" />
-        <option value="$PROJECT_DIR$/data/header_menu/header_menu_repository.rb" />
         <option value="$PROJECT_DIR$/log4r.xml" />
-        <option value="$PROJECT_DIR$/data/application_source_repository.rb" />
         <option value="$PROJECT_DIR$/pages/user/product_page.rb" />
         <option value="$PROJECT_DIR$/pages/user/left_bar_component.rb" />
         <option value="$PROJECT_DIR$/tools/logger_wrapper.rb" />
         <option value="$USER_HOME$/Ruby24-x64/lib/ruby/gems/2.4.0/gems/log4r-1.1.10/lib/log4r/yamlconfigurator.rb" />
-        <option value="$PROJECT_DIR$/data/log4r.yaml" />
-        <option value="$PROJECT_DIR$/spec/test1_smoke_spec.rb" />
         <option value="$PROJECT_DIR$/pages/user/prod_page/product_page_page.rb" />
         <option value="$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_comp.rb" />
         <option value="$PROJECT_DIR$/pages/user/header_component.rb" />
-        <option value="$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_business.rb" />
         <option value="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_comp.rb" />
-        <option value="$PROJECT_DIR$/spec/test2_verify_item_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/test3_compare_product_count_spec.rb" />
-        <option value="$PROJECT_DIR$/pages/user/prod_page/product_page_business.rb" />
-        <option value="$PROJECT_DIR$/tools/browser_wrapper.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/pages/application.rb" />
         <option value="$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_selector.rb" />
         <option value="$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_atomic.rb" />
-        <option value="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_selector.rb" />
-        <option value="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_business.rb" />
-        <option value="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_atomic.rb" />
-        <option value="$PROJECT_DIR$/pages/user/prod_page/product_page_atomic.rb" />
         <option value="$PROJECT_DIR$/pages/user/prod_page/product_page_selector.rb" />
+        <option value="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_atomic.rb" />
+        <option value="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_selector.rb" />
+        <option value="$PROJECT_DIR$/pages/user/prod_page/product_page_atomic.rb" />
+        <option value="$PROJECT_DIR$/pages/user/prod_page/product_page_business.rb" />
+        <option value="$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_business.rb" />
+        <option value="$PROJECT_DIR$/data/header_menu/header_menu.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/test3_compare_product_count_spec.rb" />
+        <option value="$PROJECT_DIR$/data/log4r.yaml" />
+        <option value="$PROJECT_DIR$/spec/test2_verify_item_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/test1_smoke_spec.rb" />
+        <option value="$PROJECT_DIR$/features/search" />
+        <option value="$PROJECT_DIR$/features/step_definitions/search_steps" />
+        <option value="$PROJECT_DIR$/features/step_definitions/search_definitions.rb" />
+        <option value="$PROJECT_DIR$/data/application_source_repository.rb" />
+        <option value="$PROJECT_DIR$/data/header_menu/header_menu_repository.rb" />
+        <option value="$PROJECT_DIR$/pages/application.rb" />
+        <option value="$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_business.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/search_steps.rb" />
+        <option value="$PROJECT_DIR$/data/product_repository.rb" />
+        <option value="$PROJECT_DIR$/tools/browser_wrapper.rb" />
       </list>
     </option>
   </component>
@@ -149,7 +196,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Spelling</id>
+            <id>SpellCheckingInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -185,50 +232,7 @@
             <path>
               <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
               <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="header_menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="header_menu_comp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="left_bar_comp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="prod_page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LV-277.TAQC" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LV-277.TAQC" type="b2602c69:ProjectViewProjectNode" />
@@ -243,8 +247,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../forJenkins/LV-277.TAQC" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -386,12 +390,25 @@
       <workItem from="1515489079250" duration="17000" />
       <workItem from="1515489194126" duration="12418000" />
       <workItem from="1515503296151" duration="6569000" />
-      <workItem from="1515511182292" duration="3875000" />
+      <workItem from="1515511182292" duration="4757000" />
+      <workItem from="1515516834620" duration="101000" />
+      <workItem from="1515519617949" duration="846000" />
+      <workItem from="1515529593219" duration="7446000" />
+      <workItem from="1515566239439" duration="4453000" />
+      <workItem from="1515574064770" duration="566000" />
+      <workItem from="1515574703242" duration="3641000" />
+      <workItem from="1515666100422" duration="1428000" />
+      <workItem from="1516645796598" duration="694000" />
+      <workItem from="1516648599229" duration="4156000" />
+      <workItem from="1516699600293" duration="3264000" />
+      <workItem from="1516712190322" duration="8290000" />
+      <workItem from="1516736269627" duration="1331000" />
+      <workItem from="1516785504612" duration="251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261743000" />
+    <option name="totallyTimeSpent" value="299092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,24 +423,24 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.4923077" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.240625" sideWeight="0.4923077" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25823045" sideWeight="0.5072917" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29938272" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25823045" sideWeight="0.49270833" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2345679" sideWeight="0.49270833" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25190258" sideWeight="0.50769234" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29938272" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,21 +451,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_component.rb" />
-    <entry file="file://$PROJECT_DIR$/reports/fdbf5f50-d213-0135-e06a-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/f82267d0-d215-0135-e06e-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/0868c070-d216-0135-e070-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/06400fd0-d217-0135-e072-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/34a4c900-d217-0135-e074-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/50010230-d218-0135-e076-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/a1344930-d21c-0135-e078-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/9a9970b0-d21d-0135-e07a-65c8a4624b2d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/reports/d214a1a0-d21d-0135-e07c-65c8a4624b2d-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/reports/2ae96cf0-d222-0135-e081-65c8a4624b2d-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/reports/ffb49a50-d221-0135-e07f-65c8a4624b2d-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/reports/0e68af91-d282-0135-e082-65c8a4624b2d-testsuite.xml" />
@@ -480,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/application_source.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/user/product_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -494,27 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/log000032.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/log4r.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/logger_wrapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log000032.log" />
     <entry file="file://$PROJECT_DIR$/pages/user/header_menu_component.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -531,152 +511,197 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/user/prod_page/product_page_page.rb" />
-    <entry file="file://$PROJECT_DIR$/data/application_source_repository.rb">
+    <entry file="file://$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_comp.rb" />
+    <entry file="file://$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_selector.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="126">
+          <caret line="7" column="77" lean-forward="false" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/test2_verify_item_spec.rb">
+    <entry file="file://$PROJECT_DIR$/pages/user/prod_page/product_page_atomic.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="183">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/test3_compare_product_count_spec.rb">
+    <entry file="file://$PROJECT_DIR$/pages/user/prod_page/product_page_selector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/product.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/browser_wrapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_business.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/header_menu/header_menu.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="72">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_comp.rb">
+    <entry file="file://$PROJECT_DIR$/log/log000056.log" />
+    <entry file="file://$PROJECT_DIR$/log/log000055.log" />
+    <entry file="file://$PROJECT_DIR$/data/log4r.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="540">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/application.rb">
+    <entry file="file://$PROJECT_DIR$/tools/logger_wrapper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="68" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_atomic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_selector.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_business.rb">
+    <entry file="file://$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_atomic.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_atomic.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_selector.rb">
+    <entry file="file://$PROJECT_DIR$/pages/user/left_bar_comp/left_bar_business.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/test3_compare_product_count_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/search" />
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/search_steps" />
+    <entry file="file://$PROJECT_DIR$/features/search" />
+    <entry file="file://$PROJECT_DIR$/spec/test1_smoke_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="33" />
-          <folding />
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/application_source.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/header_menu_comp/header_menu_business.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/user/prod_page/product_page_business.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="252">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/prod_page/product_page_atomic.rb">
+    <entry file="file://$PROJECT_DIR$/data/application_source_repository.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/prod_page/product_page_selector.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/header_menu/header_menu_repository.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/test2_verify_item_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/test1_smoke_spec.rb">
+    <entry file="file://$PROJECT_DIR$/pages/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="1242">
+          <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/search_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/search">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/product_repository.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/browser_wrapper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>

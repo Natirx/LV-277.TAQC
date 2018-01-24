@@ -5,7 +5,7 @@ class LeftBarSelector
   end
 
   def self.left_bar_product_count(number_of_product_count)
-    {:xpath => "//aside[@id='column-left']/div/a[contains(text(), 'Components  (#{number_of_product_count})')]"}
+    {:xpath => "//aside[@id='column-left']/div/a[contains(text(), 'Components (#{number_of_product_count})')]"}
   end
 
 end

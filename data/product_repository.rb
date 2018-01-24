@@ -23,4 +23,8 @@ class ProductRepository
       CurrencyRepository.currency_dollar.name=>"602.00"})
   end
 
+  def self.apple
+    @product_name = "Apple Cinema 30"
+  end
+
 end

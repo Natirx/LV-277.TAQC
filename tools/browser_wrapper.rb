@@ -6,7 +6,7 @@ class BrowserWrapper
   end
 
   private
-  #
+
   # def init_browser(application_source)
   #   # TODO Use factory method
   #   if application_source.browserName.include?("chrome")

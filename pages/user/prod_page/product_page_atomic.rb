@@ -24,7 +24,7 @@ class ProductPageAtomic
   end
 
   def get_products_title_path
-    @driver.find_element(ProductPageSelector.products_title_path)
+    @driver.find_elements(ProductPageSelector.products_title_path)
   end
 
   def find_product_by_title(product_title_name)

@@ -1,10 +1,11 @@
 require 'rubygems'
 require 'rspec'
-# require 'allure-rspec'
+require 'allure-rspec'
 require 'pathname'
 require 'selenium-webdriver'
 
 require_relative '../data/application_source_repository.rb'
+require_relative '../data/product_repository.rb'
 require_relative '../data/header_menu/header_menu_repository.rb'
 require_relative '../pages/user/header_menu_comp/header_menu_atomic.rb'
 require_relative '../pages/user/header_menu_comp/header_menu_business.rb'
@@ -23,16 +24,16 @@ RSpec.configure do |config|
   end
 
   $log = LoggerWrapper.logger
-  # config.include AllureRSpec::Adaptor
+  config.include AllureRSpec::Adaptor
 
   config.after(:all) do
     Application.remove
   end
 
-  # AllureRSpec.configure do |c|
-  #   c.output_dir = "reports"
-  #   # c.clean_dir = false
-  #   c.logging_level = Logger::DEBUG
-  # end
+  AllureRSpec.configure do |c|
+    c.output_dir = "reports"
+    # c.clean_dir = false
+    c.logging_level = Logger::INFO
+  end
 
 end

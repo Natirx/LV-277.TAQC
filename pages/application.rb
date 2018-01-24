@@ -59,14 +59,16 @@ class Application
 #############################################################
   def load_header_menu_component
     browser.open_url(application_source.baseUrl)
-    # HeaderMenuBusiness.new(browser.driver)
     HeaderMenuBusiness.new()
   end
 
-  # def load_header_menu_atomic
-  #   browser.open_url(application_source.baseUrl)
-  #   HeaderMenuAtomic.new(browser.driver)
-  # end
+  def load_url
+    browser.open_url(application_source.baseUrl)
+  end
+
+  def load_header_menu_business
+    HeaderMenuBusiness.new()
+  end
 
   def load_product_page
     browser.open_url(application_source.productPageUrl)
